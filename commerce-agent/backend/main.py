@@ -1,4 +1,4 @@
-﻿"""Commerce Agent - FastAPI Backend"""
+"""Commerce Agent - FastAPI Backend"""
 import traceback
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
@@ -10,15 +10,19 @@ from rag.vector_store import vector_store
 from rag.retriever import hybrid_retriever
 from payment.webhook import router as webhook_router
 from admin import router as admin_router
+from auth import init_db, create_user, verify_user
 
 app = FastAPI(title="Commerce Agent API", version="1.0.0")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 app.include_router(webhook_router, prefix="/api/payment")
 app.include_router(admin_router)
 
+init_db()
+
 STATIC_DIR = Path(__file__).parent / "static"
 INDEX_HTML = (STATIC_DIR / "index.html").read_text(encoding="utf-8")
 ADMIN_HTML = (STATIC_DIR / "admin.html").read_text(encoding="utf-8")
+LOGIN_HTML = (STATIC_DIR / "login.html").read_text(encoding="utf-8")
 
 NO_CACHE = {"Cache-Control": "no-cache, no-store, must-revalidate", "Pragma": "no-cache", "Expires": "0"}
 
@@ -29,7 +33,12 @@ class ChatRequest(BaseModel):
 
 
 @app.get("/", response_class=HTMLResponse)
-async def index():
+async def login_page():
+    return Response(content=LOGIN_HTML, media_type="text/html", headers=NO_CACHE)
+
+
+@app.get("/chat", response_class=HTMLResponse)
+async def chat_page():
     return Response(content=INDEX_HTML, media_type="text/html", headers=NO_CACHE)
 
 
@@ -67,6 +76,35 @@ async def get_product(product_id: str):
     if not product:
         raise HTTPException(status_code=404, detail="Product not found")
     return product
+
+
+# ===== 用户认证 =====
+class RegisterRequest(BaseModel):
+    username: str
+    password: str
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str
+
+@app.post("/api/register")
+async def register(req: RegisterRequest):
+    if len(req.username.strip()) < 2:
+        raise HTTPException(400, "用户名至少2个字符")
+    if len(req.password) < 4:
+        raise HTTPException(400, "密码至少4个字符")
+    try:
+        user = create_user(req.username.strip(), req.password)
+        return {"success": True, "user": user}
+    except ValueError as e:
+        raise HTTPException(409, str(e))
+
+@app.post("/api/login")
+async def api_login(req: LoginRequest):
+    user = verify_user(req.username.strip(), req.password)
+    if not user:
+        raise HTTPException(401, "用户名或密码错误")
+    return {"success": True, "user": user}
 
 
 if __name__ == "__main__":

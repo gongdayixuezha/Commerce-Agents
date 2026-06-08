@@ -1,4 +1,4 @@
-﻿"""管理员 API：登录、统计、商品管理"""
+"""管理员 API：登录、统计、商品管理"""
 import json, time, os
 from pathlib import Path
 from fastapi import APIRouter, HTTPException
@@ -120,25 +120,20 @@ async def observe_data():
     try:
         resp = langfuse.api.trace.list(page=1, limit=20)
         traces = []
-        total_tokens = 0
         total_latency = 0
         for t in resp.data:
+            d = t.model_dump() if hasattr(t, 'model_dump') else {}
             traces.append({
-                'id': t.id[:8],
+                'id': t.id[:12] if t.id else '',
                 'name': t.name or 'chat',
-                'timestamp': str(t.timestamp)[:19] if t.timestamp else '',
+                'timestamp': str(d.get('timestamp', ''))[:19],
                 'latency': round(t.latency or 0, 2),
-                'input_tokens': t.usage.input if t.usage else 0,
-                'output_tokens': t.usage.output if t.usage else 0,
-                'total_tokens': t.usage.total if t.usage else 0,
             })
-            total_tokens += t.usage.total if t.usage else 0
             total_latency += t.latency or 0
 
         return {
             'available': True,
             'trace_count': len(resp.data),
-            'total_tokens': total_tokens,
             'avg_latency': round(total_latency / max(len(resp.data), 1), 2),
             'traces': traces,
         }

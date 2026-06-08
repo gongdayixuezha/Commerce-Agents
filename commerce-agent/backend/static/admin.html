@@ -2,7 +2,7 @@
 <html lang="zh-CN" data-theme="light">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Commerce Agent - Admin</title>
+<title>电商智能助手 · 管理后台</title>
 <style>
 :root{--bg:#f0f2f5;--surface:#fff;--text:#1f2937;--sub:#6b7280;--border:#e5e7eb;--primary:#2563eb;--danger:#ef4444;--success:#22c55e}
 [data-theme="dark"]{--bg:#0f172a;--surface:#1e293b;--text:#e2e8f0;--sub:#94a3b8;--border:#334155}
@@ -36,57 +36,57 @@ input,select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;f
 <body>
 <div id="loginPage">
   <div class="login-box">
-    <h2>Admin Panel</h2>
-    <input id="pwd" type="password" placeholder="Password" onkeydown="if(event.key==='Enter')login()">
-    <button class="btn btn-primary" onclick="login()">Login</button>
-    <p style="margin-top:12px;font-size:12px;color:var(--sub)">Default: admin123</p>
+    <h2>管理后台登录</h2>
+    <input id="pwd" type="password" placeholder="请输入密码" onkeydown="if(event.key==='Enter')login()">
+    <button class="btn btn-primary" onclick="login()">登录</button>
+    <p style="margin-top:12px;font-size:12px;color:var(--sub)">默认密码: admin123</p>
   </div>
 </div>
 
 <div id="adminPage" style="display:none">
   <div class="header">
-    <h1>Commerce Agent Admin</h1>
-    <div><a href="/">Back</a> <a href="#" onclick="logout()">Logout</a></div>
+    <h1>电商智能助手 · 管理后台</h1>
+    <div><a href="#" onclick="logout()">退出登录</a></div>
   </div>
   <div class="tabs">
-    <div class="tab active" onclick="switchTab('overview')">Overview</div>
-    <div class="tab" onclick="switchTab('observe')">Observability</div>
-    <div class="tab" onclick="switchTab('eval')">Evaluation</div>
-    <div class="tab" onclick="switchTab('products')">Products</div>
+    <div class="tab active" onclick="switchTab('overview')">系统总览</div>
+    <div class="tab" onclick="switchTab('observe')">可观测性</div>
+    <div class="tab" onclick="switchTab('eval')">效果评估</div>
+    <div class="tab" onclick="switchTab('products')">商品管理</div>
   </div>
   <div class="content">
-    <div class="panel active" id="panel-overview"><div id="statsArea">Loading...</div></div>
+    <div class="panel active" id="panel-overview"><div id="statsArea">加载中...</div></div>
     <div class="panel" id="panel-observe">
-      <div class="card"><h3>Langfuse Live Trace Data</h3>
-        <div class="stats-grid" id="observeMetrics"><p>Loading...</p></div>
+      <div class="card"><h3>Langfuse 实时追踪</h3>
+        <div class="stats-grid" id="observeMetrics"><p>加载中...</p></div>
       </div>
-      <div class="card"><h3>Recent Traces</h3>
-        <div style="overflow-x:auto"><table><thead><tr><th>ID</th><th>Name</th><th>Time</th><th>Latency(s)</th><th>Input Tokens</th><th>Output Tokens</th></tr></thead>
+      <div class="card"><h3>最近追踪记录</h3>
+        <div style="overflow-x:auto"><table><thead><tr><th>追踪ID</th><th>名称</th><th>时间</th><th>延迟(秒)</th></tr></thead>
         <tbody id="traceTable"></tbody></table></div>
       </div>
-      <div class="card"><p style="font-size:12px;color:var(--sub)">Full details: <a href="https://cloud.langfuse.com" target="_blank">Langfuse Console</a></p></div>
+      <div class="card"><p style="font-size:12px;color:var(--sub)">完整数据: <a href="https://cloud.langfuse.com" target="_blank">Langfuse 控制台</a></p></div>
     </div>
     <div class="panel" id="panel-eval">
-      <div class="card"><h3>Evaluation Metrics</h3>
+      <div class="card"><h3>评估指标</h3>
         <div class="stats-grid" id="evalMetrics"></div>
       </div>
-      <div class="card"><h3>Explanation</h3>
+      <div class="card"><h3>指标说明</h3>
         <p style="color:var(--sub);font-size:13px;line-height:1.8">
-          <b>Recall@4</b> - relevance in top 4 results (K=4)<br>
-          <b>MRR</b> - Mean Reciprocal Rank<br>
-          <b>Answer Relevancy</b> - Ragas metric<br>
-          <b>Faithfulness</b> - hallucination detection<br>
-          <b>Completion Rate</b> - search-compare-buy success
+          <b>Recall@4</b> — 前4个检索结果中的命中率 (K=4)<br>
+          <b>MRR</b> — 平均倒数排名 (Mean Reciprocal Rank)<br>
+          <b>回答相关性</b> — Ragas 指标，衡量回答与问题的语义一致性<br>
+          <b>忠实度</b> — 幻觉检测，衡量回答是否基于检索内容而非编造<br>
+          <b>完成率</b> - 搜索→对比→下单全流程成功率
         </p>
       </div>
     </div>
     <div class="panel" id="panel-products">
       <div class="search-bar">
-        <input id="prodSearch" placeholder="Search products..." oninput="loadProducts()">
-        <button class="btn btn-primary" onclick="loadProducts()">Search</button>
+        <input id="prodSearch" placeholder="搜索商品..." oninput="loadProducts()">
+        <button class="btn btn-primary" onclick="loadProducts()">搜索</button>
       </div>
       <div class="card" style="overflow-x:auto">
-        <table><thead><tr><th>ID</th><th>Name</th><th>Category</th><th>Price</th><th>Rating</th><th>Stock</th><th>Status</th><th>Actions</th></tr></thead>
+        <table><thead><tr><th>商品ID</th><th>名称</th><th>品类</th><th>价格</th><th>评分</th><th>库存</th><th>状态</th><th>操作</th></tr></thead>
         <tbody id="prodTable"></tbody></table>
         <div style="margin-top:12px;display:flex;gap:8px" id="pagination"></div>
       </div>
@@ -95,17 +95,17 @@ input,select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;f
 </div>
 
 <script>
-var token=localStorage.getItem('ca_admin_token'),page=1;
+var token=localStorage.getItem('ca_admin_token'),page=1
 if(token){document.getElementById('loginPage').style.display='none';document.getElementById('adminPage').style.display='block';loadStats();loadEval()}
 
 async function login(){
   var pwd=document.getElementById('pwd').value;
   try{var r=await fetch('/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({password:pwd})});var d=await r.json();
     if(d.success){localStorage.setItem('ca_admin_token',d.token);document.getElementById('loginPage').style.display='none';document.getElementById('adminPage').style.display='block';loadStats();loadEval()}
-    else{alert('Wrong password')}
-  }catch(e){alert('Login failed')}
+    else{alert('密码错误')}
+  }catch(e){alert('登录失败，请检查后端是否运行')}
 }
-function logout(){localStorage.removeItem('ca_admin_token');location.reload()}
+function logout(){localStorage.removeItem('ca_admin_token');localStorage.removeItem('ca_user_role');window.location.href='/'}
 function switchTab(t){
   document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active')});
   document.querySelectorAll('.panel').forEach(function(x){x.classList.remove('active')});
@@ -119,14 +119,14 @@ async function loadStats(){
   try{var r=await fetch('/api/admin/stats',{headers:{Authorization:'Bearer '+token}});var d=await r.json();
     document.getElementById('statsArea').innerHTML=
       '<div class="stats-grid">'+
-      '<div class="stat-card"><div class="label">Products</div><div class="value">'+d.product_count+'</div></div>'+
-      '<div class="stat-card"><div class="label">Vector DB</div><div class="value">'+d.vector_count+'</div></div>'+
-      '<div class="stat-card"><div class="label">Total Sales</div><div class="value">'+(d.total_sales/10000).toFixed(1)+'w</div></div>'+
-      '<div class="stat-card"><div class="label">Revenue</div><div class="value">'+(d.total_value/10000).toFixed(1)+'w</div></div>'+
-      '<div class="stat-card"><div class="label">Avg Price</div><div class="value">'+d.avg_price.toFixed(0)+'</div></div>'+
-      '<div class="stat-card"><div class="label">Avg Rating</div><div class="value">'+d.avg_rating.toFixed(1)+'</div></div>'+
+      '<div class="stat-card"><div class="label">商品总数</div><div class="value">'+d.product_count+'</div></div>'+
+      '<div class="stat-card"><div class="label">向量库条目</div><div class="value">'+d.vector_count+'</div></div>'+
+      '<div class="stat-card"><div class="label">总销量</div><div class="value">'+(d.total_sales/10000).toFixed(1)+'万</div></div>'+
+      '<div class="stat-card"><div class="label">总营收</div><div class="value">'+(d.total_value/10000).toFixed(1)+'万</div></div>'+
+      '<div class="stat-card"><div class="label">均价</div><div class="value">'+d.avg_price.toFixed(0)+'元</div></div>'+
+      '<div class="stat-card"><div class="label">平均评分</div><div class="value">'+d.avg_rating.toFixed(1)+'</div></div>'+
       '</div>'+
-      '<div class="card"><h3>Categories</h3><div style="display:flex;gap:8px;flex-wrap:wrap">'+
+      '<div class="card"><h3>品类分布</h3><div style="display:flex;gap:8px;flex-wrap:wrap">'+
       Object.entries(d.categories).map(function(e){return '<span style="background:var(--bg);padding:4px 12px;border-radius:12px;font-size:12px">'+e[0]+': '+e[1]+'</span>'}).join('')+
       '</div></div>';
   }catch(e){}
@@ -135,23 +135,23 @@ async function loadStats(){
 async function loadObserve(){
   var el=document.getElementById('observeMetrics');
   try{var r=await fetch('/api/admin/observe',{headers:{Authorization:'Bearer '+token}});var d=await r.json();
-    if(!d.available){el.innerHTML='<p>Langfuse not configured. Set keys in .env</p>';return}
+    if(!d.available){el.innerHTML='<p>Langfuse 未配置，请在 .env 中设置密钥</p>';return}
     el.innerHTML=
-      '<div class="stat-card"><div class="label">Traces</div><div class="value">'+d.trace_count+'</div></div>'+
-      '<div class="stat-card"><div class="label">Total Tokens</div><div class="value">'+d.total_tokens+'</div></div>'+
-      '<div class="stat-card"><div class="label">Avg Latency</div><div class="value">'+d.avg_latency+'s</div></div>';
+      '<div class="stat-card"><div class="label">追踪次数</div><div class="value">'+d.trace_count+'</div></div>'+
+      
+      '<div class="stat-card"><div class="label">平均延迟</div><div class="value">'+d.avg_latency+'秒</div></div>';
     document.getElementById('traceTable').innerHTML=d.traces.map(function(t){
-      return '<tr><td>'+t.id+'</td><td>'+t.name+'</td><td>'+t.timestamp+'</td><td>'+(t.latency||0)+'</td><td>'+t.input_tokens+'</td><td>'+t.output_tokens+'</td></tr>'
+      return '<tr><td>'+t.id+'</td><td>'+t.name+'</td><td>'+t.timestamp+'</td><td>'+(t.latency||0)+'</td></tr>'
     }).join('');
-  }catch(e){el.innerHTML='Failed to load'}
+  }catch(e){el.innerHTML='加载失败'}
 }
 
 function loadEval(){
   document.getElementById('evalMetrics').innerHTML=
     '<div class="stat-card"><div class="label">Recall@4</div><div class="value">0.73</div></div>'+
     '<div class="stat-card"><div class="label">MRR</div><div class="value">0.58</div></div>'+
-    '<div class="stat-card"><div class="label">Relevancy</div><div class="value">0.81</div></div>'+
-    '<div class="stat-card"><div class="label">Faithfulness</div><div class="value">0.89</div></div>';
+    '<div class="stat-card"><div class="label">回答相关性</div><div class="value">0.81</div></div>'+
+    '<div class="stat-card"><div class="label">忠实度</div><div class="value">0.89</div></div>';
 }
 
 async function loadProducts(p){
@@ -161,13 +161,13 @@ async function loadProducts(p){
     var d=await r.json();
     document.getElementById('prodTable').innerHTML=d.items.map(function(p){
       return '<tr><td>'+p.id+'</td><td>'+esc(p.name)+'</td><td>'+p.category+'</td><td>'+p.price.toFixed(2)+'</td><td>'+p.rating+'</td><td>'+p.stock+'</td>'+
-      '<td><span class="badge '+(p.active!==false?'badge-on':'badge-off')+'">'+(p.active!==false?'On':'Off')+'</span></td>'+
-      '<td><button class="btn '+(p.active!==false?'btn-danger':'btn-success')+'" onclick="toggleProd(\''+p.id+'\')">'+(p.active!==false?'Off':'On')+'</button> '+
-      '<button class="btn btn-danger" onclick="delProd(\''+p.id+'\')">Del</button></td></tr>'
+      '<td><span class="badge '+(p.active!==false?'badge-on':'badge-off')+'">'+(p.active!==false?'上架':'下架')+'</span></td>'+
+      '<td><button class="btn '+(p.active!==false?'btn-danger':'btn-success')+'" onclick="toggleProd(\''+p.id+'\')">'+(p.active!==false?'下架':'上架')+'</button> '+
+      '<button class="btn btn-danger" onclick="delProd(\''+p.id+'\')">删除</button></td></tr>'
     }).join('');
     var totalPages=Math.ceil(d.total/20),pg='';
     for(var i=1;i<=totalPages;i++)pg+='<button class="btn '+(i===page?'btn-primary':'')+'" onclick="loadProducts('+i+')" style="margin:0 2px">'+i+'</button>';
-    document.getElementById('pagination').innerHTML='Total: '+d.total+' '+pg;
+    document.getElementById('pagination').innerHTML='共 '+d.total+' 条 '+pg;
   }catch(e){}
 }
 
@@ -175,7 +175,7 @@ async function toggleProd(id){
   try{await fetch('/api/admin/products/'+id+'/toggle',{method:'POST',headers:{Authorization:'Bearer '+token}});loadProducts(page)}catch(e){}
 }
 async function delProd(id){
-  if(!confirm('Delete '+id+'?'))return;
+  if(!confirm('确认删除商品 '+id+' ?'))return;
   try{await fetch('/api/admin/products/'+id,{method:'DELETE',headers:{Authorization:'Bearer '+token}});loadProducts(page)}catch(e){}
 }
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
