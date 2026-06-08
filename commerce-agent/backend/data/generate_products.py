@@ -45,7 +45,7 @@ def generate_batch(category, count, min_p, max_p):
     for attempt in range(3):
         try:
             r = client.chat.completions.create(
-                model="deepseek-v4-flash",
+                model="deepseek-chat",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.9,
                 max_tokens=2048,
@@ -118,3 +118,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -1,10 +1,9 @@
 ﻿"""Agent Tools: 搜索、对比、支付"""
 from langchain_core.tools import tool
 from rag.retriever import hybrid_retriever
-from langfuse.decorators import observe
+
 
 @tool
-@observe(name="search_products")
 def search_products(query: str, category: str = "", min_price: float = 0, max_price: float = 0) -> str:
     """搜索商品。根据用户需求检索最相关的商品，每次返回4个。
     
@@ -29,20 +28,18 @@ def search_products(query: str, category: str = "", min_price: float = 0, max_pr
 
     lines = []
     for i, p in enumerate(results, 1):
-        name = p.get("name", "未知商品")
+        name = p.get("name", "未知")
         pid = p.get("id", "")
         price = p.get("price", 0)
-        brand = p.get("brand", "未知品牌")
+        brand = p.get("brand", "未知")
         rating = p.get("rating", 0)
         sales = p.get("sales_count", 0)
         stock = p.get("stock", 0)
         desc = p.get("description", "")[:80]
         attrs = p.get("attributes", {})
         color = attrs.get("颜色", [])
-        specs = attrs.get("规格", "")
-
-        line = f"{i}. [{pid}] **{name}**\n"
-        line += f"   价格: ¥{price:.2f} | 品牌: {brand} | 评分: {rating}⭐\n"
+        line = f"{i}. [{pid}] {name}\n"
+        line += f"   价格: Yuan{price:.2f} | 品牌: {brand} | 评分: {rating}star\n"
         line += f"   销量: {sales} | 库存: {stock}"
         if color:
             line += f" | 颜色: {', '.join(color[:3])}"
@@ -53,10 +50,9 @@ def search_products(query: str, category: str = "", min_price: float = 0, max_pr
 
 
 @tool
-@observe(name="compare_products")
 def compare_products(product_ids: str) -> str:
     """对比多个商品，展示详细属性对比表格。
-
+    
     Args:
         product_ids: 逗号分隔的商品 ID（如 "prod_0001,prod_0002,prod_0003"）
     """
@@ -67,7 +63,6 @@ def compare_products(product_ids: str) -> str:
     if not valid:
         return "未找到指定商品，请检查商品 ID 是否正确。"
 
-    # Markdown 对比表格
     header = "| 属性 |"
     sep = "|------|"
     for p in valid:
@@ -75,30 +70,20 @@ def compare_products(product_ids: str) -> str:
         sep += "------|"
 
     lines = [header, sep]
-    attrs = [
-        ("price", "价格", lambda v: f"¥{v:.2f}"),
-        ("brand", "品牌", str),
-        ("subcategory", "子类", str),
-        ("rating", "评分", lambda v: f"{v}⭐"),
-        ("sales_count", "销量", str),
-        ("stock", "库存", str),
-        ("description", "描述", lambda v: v[:50] + "..."),
-    ]
-    for key, label, fmt in attrs:
+    for key, label in [("price","价格"),("brand","品牌"),("subcategory","子类"),("rating","评分"),("sales_count","销量"),("stock","库存")]:
         row = f"| {label} |"
         for p in valid:
             val = p.get(key, "")
-            row += f" {fmt(val)} |"
+            row += f" {val} |"
         lines.append(row)
 
     return "\n".join(lines)
 
 
 @tool
-@observe(name="create_payment")
 def create_payment(product_id: str, quantity: int = 1) -> str:
     """为指定商品创建 Stripe 支付链接。
-
+    
     Args:
         product_id: 商品 ID（如 prod_0001）
         quantity: 购买数量，默认 1
@@ -107,17 +92,19 @@ def create_payment(product_id: str, quantity: int = 1) -> str:
     if not product:
         return "未找到该商品，请确认商品 ID。"
 
-    from payment.stripe_service import create_checkout_session
-    url = create_checkout_session(product, quantity)
-
-    return (
-        f"已为 **{product['name']}** 创建支付链接（Stripe 测试模式）：\n\n"
-        f"[点击支付]({url})\n\n"
-        f"测试卡号: `4242 4242 4242 4242`\n"
-        f"有效期: 任意未来日期（如 12/28）\n"
-        f"CVC: 任意3位数字（如 123）\n\n"
-        f"数量: {quantity} | 金额: ¥{product['price'] * quantity:.2f}"
-    )
+    from payment.stripe_service import create_checkout_session as create_session
+    try:
+        url = create_session(product, quantity)
+        return (
+            f"已为 {product['name']} 创建支付链接（测试模式）：\n\n"
+            f"{url}\n\n"
+            f"测试卡号: 4242 4242 4242 4242\n"
+            f"有效期: 任意未来日期\n"
+            f"CVC: 任意3位\n"
+            f"数量: {quantity} | 金额: Yuan{product['price'] * quantity:.2f}"
+        )
+    except Exception as e:
+        return f"Stripe 支付创建失败：{str(e)}。请确保已配置 STRIPE_SECRET_KEY。"
 
 
 ALL_TOOLS = [search_products, compare_products, create_payment]

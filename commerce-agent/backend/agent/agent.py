@@ -1,7 +1,7 @@
-﻿"""LangChain Agent 编排"""
+﻿"""LangChain Agent 编排（LangChain 1.3+ API）"""
 from langchain_openai import ChatOpenAI
-from langchain.agents import AgentExecutor, create_tool_calling_agent
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain.agents import create_agent
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, LLM_MODEL
 from agent.tools import ALL_TOOLS
 from observability.langfuse_trace import get_langfuse_handler
@@ -29,42 +29,37 @@ llm = ChatOpenAI(
     max_tokens=2048,
 )
 
-prompt = ChatPromptTemplate.from_messages([
-    ("system", SYSTEM_PROMPT),
-    MessagesPlaceholder(variable_name="chat_history", optional=True),
-    ("human", "{input}"),
-    MessagesPlaceholder(variable_name="agent_scratchpad"),
-])
-
-agent = create_tool_calling_agent(llm, ALL_TOOLS, prompt)
-
-agent_executor = AgentExecutor(
-    agent=agent,
+agent = create_agent(
+    model=llm,
     tools=ALL_TOOLS,
-    verbose=False,
-    handle_parsing_errors=True,
-    max_iterations=5,
+    system_prompt=SYSTEM_PROMPT,
 )
 
 
 async def chat(message: str, chat_history: list = None) -> str:
     """执行 Agent 对话"""
-    langfuse_handler = get_langfuse_handler()
-    config = {}
-    if langfuse_handler:
-        config["callbacks"] = [langfuse_handler]
+    messages = []
+    if chat_history:
+        for h in chat_history[-10:]:
+            role = h.get("role", "user")
+            content = h.get("content", "")
+            if role == "user":
+                messages.append(HumanMessage(content=content))
+            elif role == "assistant":
+                messages.append(AIMessage(content=content))
+
+    messages.append(HumanMessage(content=message))
 
     try:
-        result = await agent_executor.ainvoke(
-            {
-                "input": message,
-                "chat_history": chat_history or [],
-            },
-            config=config,
-        )
-        return result["output"]
+        result = await agent.ainvoke({"messages": messages})
+        # Extract final AI response
+        output_messages = result.get("messages", [])
+        for msg in reversed(output_messages):
+            if isinstance(msg, AIMessage) and msg.content and not msg.tool_calls:
+                return msg.content
+        return "抱歉，未能生成有效回复。"
     except Exception as e:
         error_msg = str(e)
         print(f"Agent error: {error_msg}")
-        return f"抱歉，处理您的请求时遇到了问题：{error_msg}。请稍后重试。"
+        return f"抱歉，处理您的请求时遇到了问题。请稍后重试。"
 

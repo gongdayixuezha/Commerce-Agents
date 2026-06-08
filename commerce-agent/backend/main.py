@@ -1,4 +1,5 @@
 ﻿"""Commerce Agent - FastAPI Backend"""
+import traceback
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -33,32 +34,25 @@ class ChatResponse(BaseModel):
     reply: str
 
 
-class ProductResponse(BaseModel):
-    id: str
-    name: str
-    price: float
-    # ... other fields returned as-is
-
-
-@app.post("/api/chat", response_model=ChatResponse)
+@app.post("/api/chat")
 async def chat_endpoint(req: ChatRequest):
-    """聊天端点：接收用户消息，返回 Agent 回复"""
-    reply = await chat(req.message, req.history)
-    return ChatResponse(reply=reply)
+    """聊天端点"""
+    try:
+        print(f"[Chat] Received: {req.message[:80]}...")
+        reply = await chat(req.message, req.history)
+        return {"reply": reply}
+    except Exception as e:
+        traceback.print_exc()
+        return {"reply": f"抱歉，处理您的请求时遇到了问题：{str(e)[:200]}"}
 
 
 @app.get("/api/health")
 async def health():
-    """健康检查"""
-    return {
-        "status": "ok",
-        "products": vector_store.count(),
-    }
+    return {"status": "ok", "products": vector_store.count()}
 
 
 @app.get("/api/products/{product_id}")
 async def get_product(product_id: str):
-    """查询单个商品详情"""
     product = hybrid_retriever.get_by_id(product_id)
     if not product:
         raise HTTPException(status_code=404, detail="Product not found")
@@ -67,14 +61,11 @@ async def get_product(product_id: str):
 
 @app.get("/api/products")
 async def list_products(category: str = "", limit: int = 20):
-    """列出商品"""
     if category:
         results = hybrid_retriever.retrieve("", {"category": category})
-    else:
-        # 返回前 N 个商品
-        products = list(hybrid_retriever.products.values())[:limit]
-        return products
-    return results
+        return results
+    products = list(hybrid_retriever.products.values())[:limit]
+    return products
 
 
 if __name__ == "__main__":

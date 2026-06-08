@@ -1,22 +1,15 @@
-﻿"""Langfuse 可观测性集成"""
-from langfuse import Langfuse
-from langfuse.callback import CallbackHandler
+﻿"""Langfuse 可观测性集成 (v3.x API)"""
 from config import LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_HOST
 
 _langfuse = None
-_langfuse_handler = None
 
 
 def _init():
-    global _langfuse, _langfuse_handler
+    global _langfuse
     if LANGFUSE_PUBLIC_KEY and LANGFUSE_SECRET_KEY:
         try:
+            from langfuse import Langfuse
             _langfuse = Langfuse(
-                public_key=LANGFUSE_PUBLIC_KEY,
-                secret_key=LANGFUSE_SECRET_KEY,
-                host=LANGFUSE_HOST,
-            )
-            _langfuse_handler = CallbackHandler(
                 public_key=LANGFUSE_PUBLIC_KEY,
                 secret_key=LANGFUSE_SECRET_KEY,
                 host=LANGFUSE_HOST,
@@ -29,7 +22,14 @@ def _init():
 
 
 def get_langfuse_handler():
-    return _langfuse_handler
+    """Return Langfuse callback handler. Returns None if not configured."""
+    if _langfuse:
+        try:
+            from langfuse.langchain import CallbackHandler
+            return CallbackHandler()
+        except ImportError:
+            pass
+    return None
 
 
 def get_langfuse():
