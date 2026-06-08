@@ -9,6 +9,7 @@ from agent.agent import chat
 from rag.vector_store import vector_store
 from rag.retriever import hybrid_retriever
 from payment.webhook import router as webhook_router
+from admin import router as admin_router
 
 app = FastAPI(title="Commerce Agent API", version="1.0.0")
 
@@ -19,10 +20,23 @@ app.add_middleware(
 )
 
 app.include_router(webhook_router, prefix="/api/payment")
+app.include_router(admin_router)
+
+
+@app.get("/admin", response_class=HTMLResponse)
+async def admin():
+    return Response(content=ADMIN_HTML, media_type="text/html", headers={"Cache-Control": "no-cache, no-store, must-revalidate"})
+app.include_router(admin_router)
+
+
+@app.get("/admin", response_class=HTMLResponse)
+async def admin():
+    return Response(content=ADMIN_HTML, media_type="text/html", headers={"Cache-Control": "no-cache, no-store, must-revalidate"})
 
 # 读取前端 HTML
 STATIC_DIR = Path(__file__).parent / "static"
 INDEX_HTML = (STATIC_DIR / "index.html").read_text(encoding="utf-8")
+ADMIN_HTML = (STATIC_DIR / "admin.html").read_text(encoding="utf-8")
 
 
 class ChatRequest(BaseModel):

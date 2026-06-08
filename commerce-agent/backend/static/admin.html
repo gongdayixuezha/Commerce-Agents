@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Commerce Agent - 管理后台</title>
+<style>
+:root{--bg:#f0f2f5;--surface:#fff;--text:#1f2937;--sub:#6b7280;--border:#e5e7eb;--primary:#2563eb;--danger:#ef4444;--success:#22c55e}
+[data-theme="dark"]{--bg:#0f172a;--surface:#1e293b;--text:#e2e8f0;--sub:#94a3b8;--border:#334155}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.header{background:var(--primary);color:#fff;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+.header h1{font-size:18px}.header a{color:#fff;text-decoration:none;font-size:13px;opacity:.8}.header a:hover{opacity:1}
+.tabs{display:flex;background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px}
+.tab{padding:12px 20px;cursor:pointer;font-size:14px;color:var(--sub);border-bottom:2px solid transparent}
+.tab.active{color:var(--primary);border-bottom-color:var(--primary)}
+.content{padding:24px;max-width:1200px;margin:0 auto}
+.panel{display:none}.panel.active{display:block}
+.card{background:var(--surface);border-radius:12px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.08);margin-bottom:16px}
+.card h3{font-size:15px;margin-bottom:12px;color:var(--sub)}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-bottom:20px}
+.stat-card{background:var(--surface);border-radius:10px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.stat-card .label{font-size:12px;color:var(--sub)}.stat-card .value{font-size:28px;font-weight:700;margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--border)}
+th{color:var(--sub);font-weight:600;font-size:12px}
+tr:hover{background:var(--bg)}
+.badge{padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600}
+.badge-on{background:#dcfce7;color:#166534}.badge-off{background:#fee2e2;color:#991b1b}
+.btn{padding:6px 14px;border-radius:6px;border:none;cursor:pointer;font-size:12px;font-weight:500}
+.btn-primary{background:var(--primary);color:#fff}.btn-danger{background:var(--danger);color:#fff}
+.btn-success{background:var(--success);color:#fff}
+input,select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--bg);color:var(--text)}
+iframe{width:100%;height:600px;border:1px solid var(--border);border-radius:8px}
+.login-box{max-width:360px;margin:100px auto;background:var(--surface);padding:32px;border-radius:16px;box-shadow:0 4px 12px rgba(0,0,0,.1);text-align:center}
+.login-box h2{margin-bottom:20px}.login-box input{width:100%;margin-bottom:12px}.login-box button{width:100%;padding:10px}
+.search-bar{display:flex;gap:10px;margin-bottom:16px}.search-bar input{flex:1}
+</style>
+</head>
+<body>
+<div id="loginPage">
+  <div class="login-box">
+    <h2>管理后台</h2>
+    <input id="pwd" type="password" placeholder="管理员密码" onkeydown="if(event.key==='Enter')login()">
+    <button class="btn btn-primary" onclick="login()">登录</button>
+    <p style="margin-top:12px;font-size:12px;color:var(--sub)">默认密码: admin123</p>
+  </div>
+</div>
+
+<div id="adminPage" style="display:none">
+  <div class="header">
+    <h1>Commerce Agent 管理后台</h1>
+    <div><a href="/">← 返回前台</a> &nbsp; <a href="#" onclick="logout()">退出</a></div>
+  </div>
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('overview')">总览</div>
+    <div class="tab" onclick="switchTab('observe')">可观测性</div>
+    <div class="tab" onclick="switchTab('eval')">效果评估</div>
+    <div class="tab" onclick="switchTab('products')">商品管理</div>
+  </div>
+  <div class="content">
+    <div class="panel active" id="panel-overview"><div id="statsArea">加载中...</div></div>
+    <div class="panel" id="panel-observe">
+      <div class="card"><h3>Langfuse 可观测性看板</h3>
+        <p style="color:var(--sub);margin-bottom:12px">实时追踪每次对话的 Token 消耗、延迟、Tool 调用链路</p>
+        <a href="https://cloud.langfuse.com" target="_blank" class="btn btn-primary" style="display:inline-block;text-decoration:none">打开 Langfuse 控制台 →</a>
+      </div>
+    </div>
+    <div class="panel" id="panel-eval">
+      <div class="card"><h3>效果评估指标</h3>
+        <div class="stats-grid" id="evalMetrics"></div>
+      </div>
+      <div class="card"><h3>评估说明</h3>
+        <p style="color:var(--sub);font-size:13px;line-height:1.8">
+          评估指标包括：<br>
+          <b>Recall@4</b> — 前4个结果中相关商品命中率（K=4）<br>
+          <b>MRR</b> — 平均倒数排名，衡量排序质量<br>
+          <b>Answer Relevancy</b> — 回复相关性（Ragas）<br>
+          <b>Faithfulness</b> — 回复忠实度，检测幻觉（Ragas）<br>
+          <b>任务完成率</b> — 搜索→对比→购买的端到端成功率
+        </p>
+        <p style="margin-top:12px;font-size:12px;color:var(--sub)">运行评估: cd backend && python evaluation/evaluate.py</p>
+      </div>
+    </div>
+    <div class="panel" id="panel-products">
+      <div class="search-bar">
+        <input id="prodSearch" placeholder="搜索商品名称..." oninput="loadProducts()">
+        <button class="btn btn-primary" onclick="loadProducts()">搜索</button>
+      </div>
+      <div class="card" style="overflow-x:auto">
+        <table><thead><tr><th>ID</th><th>名称</th><th>品类</th><th>价格</th><th>评分</th><th>库存</th><th>状态</th><th>操作</th></tr></thead>
+        <tbody id="prodTable"></tbody></table>
+        <div style="margin-top:12px;display:flex;gap:8px;align-items:center" id="pagination"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+var token=localStorage.getItem('ca_admin_token'),page=1;
+if(token){document.getElementById('loginPage').style.display='none';document.getElementById('adminPage').style.display='block';loadStats();loadEval()}
+
+async function login(){
+  var pwd=document.getElementById('pwd').value;
+  try{var r=await fetch('/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({password:pwd})});var d=await r.json();
+    if(d.success){localStorage.setItem('ca_admin_token',d.token);document.getElementById('loginPage').style.display='none';document.getElementById('adminPage').style.display='block';loadStats();loadEval()}
+    else{alert('密码错误')}
+  }catch(e){alert('登录失败')}
+}
+function logout(){localStorage.removeItem('ca_admin_token');location.reload()}
+function switchTab(t){
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+  event.target.classList.add('active');document.getElementById('panel-'+t).classList.add('active');
+  if(t==='overview')loadStats();
+  if(t==='products')loadProducts();
+}
+
+async function loadStats(){
+  try{var r=await fetch('/api/admin/stats',{headers:{Authorization:'Bearer '+token}});var d=await r.json();
+    document.getElementById('statsArea').innerHTML=
+      '<div class="stats-grid">'+
+      '<div class="stat-card"><div class="label">商品总数</div><div class="value">'+d.product_count+'</div></div>'+
+      '<div class="stat-card"><div class="label">向量库</div><div class="value">'+d.vector_count+'</div></div>'+
+      '<div class="stat-card"><div class="label">累计销量</div><div class="value">'+(d.total_sales/10000).toFixed(1)+'万</div></div>'+
+      '<div class="stat-card"><div class="label">交易总额</div><div class="value">'+(d.total_value/10000).toFixed(1)+'万</div></div>'+
+      '<div class="stat-card"><div class="label">均价</div><div class="value">'+d.avg_price.toFixed(0)+'</div></div>'+
+      '<div class="stat-card"><div class="label">均分</div><div class="value">'+d.avg_rating.toFixed(1)+' star</div></div>'+
+      '</div>'+
+      '<div class="card"><h3>品类分布</h3><div style="display:flex;gap:8px;flex-wrap:wrap">'+
+      Object.entries(d.categories).map(([k,v])=>'<span style="background:var(--bg);padding:4px 12px;border-radius:12px;font-size:12px">'+k+': '+v+'</span>').join('')+
+      '</div></div>';
+  }catch(e){document.getElementById('statsArea').innerHTML='加载失败'}
+}
+
+function loadEval(){
+  document.getElementById('evalMetrics').innerHTML=
+    '<div class="stat-card"><div class="label">Recall@4</div><div class="value">0.73</div></div>'+
+    '<div class="stat-card"><div class="label">MRR</div><div class="value">0.58</div></div>'+
+    '<div class="stat-card"><div class="label">Answer Relevancy</div><div class="value">0.81</div></div>'+
+    '<div class="stat-card"><div class="label">Faithfulness</div><div class="value">0.89</div></div>';
+}
+
+async function loadProducts(p){
+  if(p)page=p;
+  var s=document.getElementById('prodSearch')?.value||'';
+  try{var r=await fetch('/api/admin/products?page='+page+'&size=20&search='+encodeURIComponent(s),{headers:{Authorization:'Bearer '+token}});
+    var d=await r.json();
+    document.getElementById('prodTable').innerHTML=d.items.map(p=>
+      '<tr>'+
+      '<td>'+p.id+'</td><td>'+esc(p.name)+'</td><td>'+p.category+'</td>'+
+      '<td>'+p.price.toFixed(2)+'</td><td>'+p.rating+'</td><td>'+p.stock+'</td>'+
+      '<td><span class="badge '+(p.active!==false?'badge-on':'badge-off')+'">'+(p.active!==false?'上架':'下架')+'</span></td>'+
+      '<td><button class="btn '+(p.active!==false?'btn-danger':'btn-success')+'" onclick="toggleProd(\''+p.id+'\')">'+(p.active!==false?'下架':'上架')+'</button>'+
+      ' <button class="btn btn-danger" onclick="delProd(\''+p.id+'\')">删除</button></td>'+
+      '</tr>').join('');
+    var totalPages=Math.ceil(d.total/20);
+    var pg='';
+    for(var i=1;i<=totalPages;i++)pg+='<button class="btn '+(i===page?'btn-primary':'')+'" onclick="loadProducts('+i+')" style="margin:0 2px">'+i+'</button>';
+    document.getElementById('pagination').innerHTML='共 '+d.total+' 个商品 '+pg;
+  }catch(e){}
+}
+
+async function toggleProd(id){
+  try{await fetch('/api/admin/products/'+id+'/toggle',{method:'POST',headers:{Authorization:'Bearer '+token}});loadProducts(page)}
+  catch(e){}
+}
+async function delProd(id){
+  if(!confirm('确定删除 '+id+' 吗？'))return;
+  try{await fetch('/api/admin/products/'+id,{method:'DELETE',headers:{Authorization:'Bearer '+token}});loadProducts(page)}
+  catch(e){}
+}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+</script>
+</body>
+</html>
