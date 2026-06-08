@@ -107,3 +107,40 @@ async def delete_product(product_id: str):
         json.dump(new_data, f, ensure_ascii=False, indent=2)
     hybrid_retriever.reload()
     return {"success": True}
+
+
+# ===== Langfuse Observability =====
+@router.get('/observe')
+async def observe_data():
+    from observability.langfuse_trace import get_langfuse
+    langfuse = get_langfuse()
+    if not langfuse:
+        return {'available': False, 'message': 'Langfuse not configured'}
+
+    try:
+        resp = langfuse.api.trace.list(page=1, limit=20)
+        traces = []
+        total_tokens = 0
+        total_latency = 0
+        for t in resp.data:
+            traces.append({
+                'id': t.id[:8],
+                'name': t.name or 'chat',
+                'timestamp': str(t.timestamp)[:19] if t.timestamp else '',
+                'latency': round(t.latency or 0, 2),
+                'input_tokens': t.usage.input if t.usage else 0,
+                'output_tokens': t.usage.output if t.usage else 0,
+                'total_tokens': t.usage.total if t.usage else 0,
+            })
+            total_tokens += t.usage.total if t.usage else 0
+            total_latency += t.latency or 0
+
+        return {
+            'available': True,
+            'trace_count': len(resp.data),
+            'total_tokens': total_tokens,
+            'avg_latency': round(total_latency / max(len(resp.data), 1), 2),
+            'traces': traces,
+        }
+    except Exception as e:
+        return {'available': False, 'message': str(e)[:200]}
