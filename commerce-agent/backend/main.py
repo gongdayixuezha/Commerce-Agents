@@ -33,7 +33,16 @@ class ChatRequest(BaseModel):
 @app.get("/", response_class=HTMLResponse)
 async def index():
     """前端聊天页面"""
-    return INDEX_HTML
+    from fastapi.responses import Response
+    return Response(
+        content=INDEX_HTML,
+        media_type="text/html",
+        headers={
+            "Cache-Control": "no-cache, no-store, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "0",
+        }
+    )
 
 
 @app.post("/api/chat")
