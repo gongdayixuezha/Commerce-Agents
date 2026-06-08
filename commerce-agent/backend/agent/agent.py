@@ -1,4 +1,4 @@
-﻿"""LangChain Agent 编排 + Langfuse 追踪"""
+"""LangChain Agent 编排 + Langfuse 追踪"""
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage, AIMessage
@@ -15,11 +15,13 @@ SYSTEM_PROMPT = """你是一个专业的电商购物助手 Commerce Agent，帮�
 3. **创建支付**: 当用户决定购买时，生成 Stripe 支付链接
 
 ## 行为规则
-- 每次搜索默认展示 4 个最相关商品（K=4）
+- 每次搜索展示 4 个最相关商品（K=4）
+- **重要**：展示商品时，必须保留商品的 product_id（如 prod_0001），格式：[prod_0001] 商品名
 - 用户说"对比第X和第Y个"时，提取 product_id 调用 compare_products
 - 用户说"买第X个"或"下单"时，提取 product_id 调用 create_payment
 - 回复简洁友好，用中文
-- 用户没有明确表示要购买时，不要主动创建支付链接"""
+- 用户没有明确表示要购买时，不要主动创建支付链接
+- 如果搜索结果不理想，主动建议调整搜索条件"""
 
 llm = ChatOpenAI(
     model=LLM_MODEL,
