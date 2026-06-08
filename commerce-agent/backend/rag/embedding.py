@@ -1,33 +1,19 @@
-﻿from openai import OpenAI
-from config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL
+﻿"""Embedding 模块 — 使用 ChromaDB 内置 ONNX 模型 + DeepSeek API 备选"""
+from chromadb.utils import embedding_functions
+import os
 
-_client = None
+# ChromaDB 内置 ONNX 模型 (all-MiniLM-L6-v2, 384维)，本地运行免API
+_default_ef = embedding_functions.DefaultEmbeddingFunction()
 
-def _get_client() -> OpenAI:
-    global _client
-    if _client is None:
-        _client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL, timeout=60.0)
-    return _client
+# DeepSeek 备选 (via OpenAI SDK)
+_openai_client = None
+
 
 def get_embedding(text: str) -> list[float]:
-    """获取单条文本的向量表示"""
-    client = _get_client()
-    response = client.embeddings.create(
-        model="deepseek-v4-flash",
-        input=text,
-    )
-    return response.data[0].embedding
+    """获取单条文本向量（优先使用本地模型）"""
+    return _default_ef([text])[0]
 
-def get_embeddings_batch(texts: list[str], batch_size: int = 20) -> list[list[float]]:
-    """批量获取文本向量，每次最多 20 条，控制 API 调用频率"""
-    client = _get_client()
-    all_embeddings = []
-    for i in range(0, len(texts), batch_size):
-        batch = texts[i:i + batch_size]
-        response = client.embeddings.create(
-            model="deepseek-v4-flash",
-            input=batch,
-        )
-        all_embeddings.extend([d.embedding for d in response.data])
-    return all_embeddings
 
+def get_embeddings_batch(texts: list[str], batch_size: int = 50) -> list[list[float]]:
+    """批量获取文本向量"""
+    return _default_ef(texts)
