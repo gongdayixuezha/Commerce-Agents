@@ -25,3 +25,6 @@ chroma_data/
 # OS
 .DS_Store
 Thumbs.db
+
+# Environment (contains secrets)
+.env
