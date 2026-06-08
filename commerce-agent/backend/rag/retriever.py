@@ -96,7 +96,7 @@ class HybridRetriever:
             if category and category in query_lower:
                 boost += 0.1
             # 商品名关键词命中
-            keywords = re.split(r'', query_lower)
+            keywords = re.split(r'[\s,，]+', query_lower)
             for kw in keywords:
                 kw = kw.strip()
                 if len(kw) >= 2 and kw in name:
@@ -114,3 +114,4 @@ class HybridRetriever:
 
 
 hybrid_retriever = HybridRetriever(k=4)
+
