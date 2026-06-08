@@ -19,9 +19,10 @@ LANGFUSE_PUBLIC_KEY = os.getenv("LANGFUSE_PUBLIC_KEY", "")
 LANGFUSE_SECRET_KEY = os.getenv("LANGFUSE_SECRET_KEY", "")
 LANGFUSE_HOST = os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com")
 
-LLM_MODEL = "deepseek-chat"
-EMBEDDING_MODEL = "deepseek-chat"
+LLM_MODEL = "deepseek-v4-flash"
+EMBEDDING_MODEL = "deepseek-v4-flash"
 
 # Stripe checkout URLs
 STRIPE_SUCCESS_URL = os.getenv("STRIPE_SUCCESS_URL", "http://localhost:3000?payment=success")
 STRIPE_CANCEL_URL = os.getenv("STRIPE_CANCEL_URL", "http://localhost:3000?payment=cancelled")
+

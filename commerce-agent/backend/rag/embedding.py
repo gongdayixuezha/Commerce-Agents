@@ -13,7 +13,7 @@ def get_embedding(text: str) -> list[float]:
     """获取单条文本的向量表示"""
     client = _get_client()
     response = client.embeddings.create(
-        model="deepseek-chat",
+        model="deepseek-v4-flash",
         input=text,
     )
     return response.data[0].embedding
@@ -25,8 +25,9 @@ def get_embeddings_batch(texts: list[str], batch_size: int = 20) -> list[list[fl
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
         response = client.embeddings.create(
-            model="deepseek-chat",
+            model="deepseek-v4-flash",
             input=batch,
         )
         all_embeddings.extend([d.embedding for d in response.data])
     return all_embeddings
+

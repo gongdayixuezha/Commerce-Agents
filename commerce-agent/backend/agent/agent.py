@@ -67,3 +67,4 @@ async def chat(message: str, chat_history: list = None) -> str:
         error_msg = str(e)
         print(f"Agent error: {error_msg}")
         return f"抱歉，处理您的请求时遇到了问题：{error_msg}。请稍后重试。"
+

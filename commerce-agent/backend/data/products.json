@@ -1,0 +1,7176 @@
+[
+  {
+    "name": "iPhone 15 Pro Max",
+    "category": "电子产品",
+    "subcategory": "智能手机",
+    "price": 7999.0,
+    "brand": "Apple",
+    "attributes": {
+      "颜色": [
+        "深空黑",
+        "银色",
+        "金色"
+      ],
+      "规格": "6.7英寸OLED显示屏，A17 Pro芯片，256GB存储",
+      "特点": "钛金属设计，4800万像素主摄，支持USB-C接口"
+    },
+    "description": "搭载A17 Pro芯片，性能强劲。钛金属机身轻盈坚固，4800万像素主摄支持ProRAW格式。超视网膜XDR显示屏，配合iOS生态系统，带来流畅体验。",
+    "id": "prod_0001",
+    "image_url": "https://picsum.photos/seed/prod_0001/400/400",
+    "rating": 4.3,
+    "stock": 22,
+    "sales_count": 4506
+  },
+  {
+    "name": "联想小新Pro 16",
+    "category": "电子产品",
+    "subcategory": "笔记本",
+    "price": 6299.0,
+    "brand": "Lenovo",
+    "attributes": {
+      "颜色": [
+        "灰色"
+      ],
+      "规格": "16英寸2.5K屏，i5-13500H，16GB+512GB",
+      "特点": "高性能轻薄本，120Hz高刷屏，全金属机身"
+    },
+    "description": "16英寸2.5K分辨率120Hz高刷屏，i5标压处理器配合16GB内存，轻松应对办公与轻度创作。全金属机身仅1.9kg，适合移动办公人群。",
+    "id": "prod_0002",
+    "image_url": "https://picsum.photos/seed/prod_0002/400/400",
+    "rating": 3.5,
+    "stock": 81,
+    "sales_count": 1679
+  },
+  {
+    "name": "华为MatePad Air",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 2999.0,
+    "brand": "Huawei",
+    "attributes": {
+      "颜色": [
+        "星河蓝",
+        "云锦白",
+        "曜石黑"
+      ],
+      "规格": "11.5英寸2.8K屏，8GB+128GB，8300mAh电池",
+      "特点": "144Hz高刷全面屏，鸿蒙系统，支持手写笔"
+    },
+    "description": "11.5英寸2.8K分辨率144Hz高刷全面屏，配合鸿蒙系统多设备协同。8300mAh大电池续航持久，支持M-Pencil手写笔，适合学习与办公。",
+    "id": "prod_0003",
+    "image_url": "https://picsum.photos/seed/prod_0003/400/400",
+    "rating": 4.4,
+    "stock": 466,
+    "sales_count": 8935
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 2499.0,
+    "brand": "Sony",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "铂金银",
+        "午夜蓝"
+      ],
+      "规格": "头戴式无线降噪，30小时续航，快充3分钟听3小时",
+      "特点": "行业领先降噪，自适应声音控制，LDAC高清传输"
+    },
+    "description": "索尼旗舰降噪耳机，双芯片降噪技术精准消除环境噪音。30小时超长续航，轻量化设计佩戴舒适。支持LDAC高解析音频，音质出色。",
+    "id": "prod_0004",
+    "image_url": "https://picsum.photos/seed/prod_0004/400/400",
+    "rating": 3.2,
+    "stock": 226,
+    "sales_count": 520
+  },
+  {
+    "name": "小米Watch S3",
+    "category": "电子产品",
+    "subcategory": "智能手表",
+    "price": 799.0,
+    "brand": "Xiaomi",
+    "attributes": {
+      "颜色": [
+        "典雅黑",
+        "银色"
+      ],
+      "规格": "1.43英寸AMOLED屏，心率血氧监测，14天续航",
+      "特点": "百变表圈设计，支持150+运动模式，独立GNSS"
+    },
+    "description": "1.43英寸AMOLED大屏，支持心率、血氧、睡眠监测。百变表圈可拆卸更换，150+运动模式覆盖日常与专业训练。14天续航满足长期使用。",
+    "id": "prod_0005",
+    "image_url": "https://picsum.photos/seed/prod_0005/400/400",
+    "rating": 3.1,
+    "stock": 121,
+    "sales_count": 3811
+  },
+  {
+    "name": "Canon EOS R50",
+    "category": "电子产品",
+    "subcategory": "相机",
+    "price": 4599.0,
+    "brand": "Canon",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "APS-C画幅，2420万像素，4K 30fps视频",
+      "特点": "轻巧微单，眼部追踪对焦，旋转触摸屏"
+    },
+    "description": "佳能入门级微单相机，2420万像素APS-C传感器，支持人眼/动物眼部追踪对焦。机身仅328克，搭配旋转触摸屏，适合Vlog与日常记录。",
+    "id": "prod_0006",
+    "image_url": "https://picsum.photos/seed/prod_0006/400/400",
+    "rating": 4.0,
+    "stock": 23,
+    "sales_count": 9195
+  },
+  {
+    "name": "JBL Charge 5",
+    "category": "电子产品",
+    "subcategory": "音箱",
+    "price": 1299.0,
+    "brand": "JBL",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "蓝色",
+        "红色",
+        "绿色"
+      ],
+      "规格": "IP67防水，20小时续航，30W功率",
+      "特点": "低音强劲，蓝牙5.1，可作为充电宝"
+    },
+    "description": "JBL经典户外音箱，IP67防水防尘，无惧风雨。20小时续航，30W功率带来震撼低音。支持蓝牙5.1稳定连接，还可反向充电为手机应急供电。",
+    "id": "prod_0007",
+    "image_url": "https://picsum.photos/seed/prod_0007/400/400",
+    "rating": 3.4,
+    "stock": 342,
+    "sales_count": 8928
+  },
+  {
+    "name": "Anker MagSafe移动电源 5000mAh",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 199.0,
+    "brand": "Anker",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "5000mAh，15W无线充电，USB-C双向快充",
+      "特点": "MagSafe磁吸，小巧便携，智能温控"
+    },
+    "description": "Anker磁吸无线充电宝，5000mAh容量兼容iPhone MagSafe，一贴即充。15W无线快充+20W有线输出，智能温控技术保障安全，轻薄便携。",
+    "id": "prod_0008",
+    "image_url": "https://picsum.photos/seed/prod_0008/400/400",
+    "rating": 3.8,
+    "stock": 239,
+    "sales_count": 9654
+  },
+  {
+    "name": "罗技G Pro X Superlight 2",
+    "category": "电子产品",
+    "subcategory": "键盘鼠标",
+    "price": 1099.0,
+    "brand": "Logitech",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色",
+        "粉色"
+      ],
+      "规格": "无线鼠标，60克，HERO 2传感器，8000Hz回报率",
+      "特点": "超轻设计，LIGHTSPEED无线，长续航"
+    },
+    "description": "职业级无线游戏鼠标，仅60克超轻量化设计。HERO 2传感器最高32000DPI，LIGHTSPEED无线技术低延迟，长达95小时续航，适合竞技玩家。",
+    "id": "prod_0009",
+    "image_url": "https://picsum.photos/seed/prod_0009/400/400",
+    "rating": 3.6,
+    "stock": 455,
+    "sales_count": 106
+  },
+  {
+    "name": "三星Galaxy S24 Ultra",
+    "category": "电子产品",
+    "subcategory": "智能手机",
+    "price": 7999.0,
+    "brand": "Samsung",
+    "attributes": {
+      "颜色": [
+        "钛灰",
+        "钛紫",
+        "钛黄",
+        "钛黑"
+      ],
+      "规格": "6.8英寸Dynamic AMOLED 2X，骁龙8 Gen 3，512GB",
+      "特点": "钛金属框架，S Pen手写笔，AI智能功能"
+    },
+    "description": "三星年度旗舰，钛金属机身坚固耐用。内置S Pen手写笔，支持Galaxy AI多项智能功能。2亿像素主摄配合长焦镜头，影像能力顶级。",
+    "id": "prod_0010",
+    "image_url": "https://picsum.photos/seed/prod_0010/400/400",
+    "rating": 4.5,
+    "stock": 91,
+    "sales_count": 6924
+  },
+  {
+    "name": "华为Mate 60 Pro",
+    "category": "电子产品",
+    "subcategory": "智能手机",
+    "price": 5999.0,
+    "brand": "华为",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白",
+        "紫"
+      ],
+      "规格": "256GB存储，8GB内存",
+      "特点": "卫星通话、昆仑玻璃、鸿蒙系统"
+    },
+    "description": "华为旗舰手机，搭载自研麒麟芯片，支持卫星通信。6.82英寸OLED曲面屏，5000万像素超感知影像系统，内置4750mAh电池，支持88W快充。适合商务与摄影爱好者。",
+    "id": "prod_0011",
+    "image_url": "https://picsum.photos/seed/prod_0011/400/400",
+    "rating": 3.7,
+    "stock": 89,
+    "sales_count": 3527
+  },
+  {
+    "name": "联想ThinkPad X1 Carbon Gen 11",
+    "category": "电子产品",
+    "subcategory": "笔记本",
+    "price": 6999.0,
+    "brand": "联想",
+    "attributes": {
+      "颜色": [
+        "黑"
+      ],
+      "规格": "i7-1360P，16GB内存，512GB SSD",
+      "特点": "轻薄碳纤维机身、长续航、商务安全"
+    },
+    "description": "高端商务笔记本，14英寸2.8K OLED屏，重量仅1.12kg。通过MIL-STD-810H军标测试，配备红外摄像头和指纹识别，适合移动办公人士。",
+    "id": "prod_0012",
+    "image_url": "https://picsum.photos/seed/prod_0012/400/400",
+    "rating": 4.9,
+    "stock": 182,
+    "sales_count": 1674
+  },
+  {
+    "name": "Apple iPad Air 5",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 3499.0,
+    "brand": "苹果",
+    "attributes": {
+      "颜色": [
+        "深空灰",
+        "星光色",
+        "粉"
+      ],
+      "规格": "64GB，Wi-Fi版",
+      "特点": "M1芯片、全面屏、支持Apple Pencil"
+    },
+    "description": "Apple M1芯片加持的轻薄平板，10.9英寸Liquid Retina显示屏，支持第二代Apple Pencil和妙控键盘。适合学习、创作和娱乐。",
+    "id": "prod_0013",
+    "image_url": "https://picsum.photos/seed/prod_0013/400/400",
+    "rating": 3.2,
+    "stock": 59,
+    "sales_count": 5881
+  },
+  {
+    "name": "索尼WH-1000XM5",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 1999.0,
+    "brand": "索尼",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "银"
+      ],
+      "规格": "头戴式蓝牙降噪",
+      "特点": "自适应降噪、30小时续航、高解析音频"
+    },
+    "description": "旗舰级头戴降噪耳机，搭载集成处理器V1，支持LDAC高清传输。全新设计更轻便，佩戴舒适，降噪效果业界领先，适合通勤与专注场景。",
+    "id": "prod_0014",
+    "image_url": "https://picsum.photos/seed/prod_0014/400/400",
+    "rating": 4.7,
+    "stock": 319,
+    "sales_count": 4333
+  },
+  {
+    "name": "三星Galaxy Watch6 Classic",
+    "category": "电子产品",
+    "subcategory": "智能手表",
+    "price": 2999.0,
+    "brand": "三星",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "银"
+      ],
+      "规格": "47mm，蓝牙版",
+      "特点": "旋转表圈、体脂检测、Wear OS"
+    },
+    "description": "经典旋转表圈设计，47mm大表盘搭载Super AMOLED屏幕。支持心电图、血压监测和体脂分析，内置GPS，续航长达40小时，适合健康运动用户。",
+    "id": "prod_0015",
+    "image_url": "https://picsum.photos/seed/prod_0015/400/400",
+    "rating": 4.6,
+    "stock": 383,
+    "sales_count": 7527
+  },
+  {
+    "name": "佳能EOS R50",
+    "category": "电子产品",
+    "subcategory": "相机",
+    "price": 4999.0,
+    "brand": "佳能",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白"
+      ],
+      "规格": "套机（18-45mm镜头）",
+      "特点": "2420万像素、4K视频、轻巧机身"
+    },
+    "description": "入门级微单相机，2420万像素APS-C传感器，支持眼部追踪自动对焦和4K 30fps视频。机身仅375g，翻转触摸屏便于自拍，适合旅行和vlog创作。",
+    "id": "prod_0016",
+    "image_url": "https://picsum.photos/seed/prod_0016/400/400",
+    "rating": 4.1,
+    "stock": 482,
+    "sales_count": 6201
+  },
+  {
+    "name": "小米移动电源3 20000mAh",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 199.0,
+    "brand": "小米",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白"
+      ],
+      "规格": "20000mAh，双向快充",
+      "特点": "18W快充、三口输出、USB-C输入"
+    },
+    "description": "大容量移动电源，20000mAh可满足多次充电需求。支持18W双向快充，配备两个USB-A和一个USB-C接口，可同时为三台设备充电，出差旅行必备。",
+    "id": "prod_0017",
+    "image_url": "https://picsum.photos/seed/prod_0017/400/400",
+    "rating": 3.2,
+    "stock": 160,
+    "sales_count": 5925
+  },
+  {
+    "name": "罗技G Pro X Superlight",
+    "category": "电子产品",
+    "subcategory": "键盘鼠标",
+    "price": 549.0,
+    "brand": "罗技",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白",
+        "粉"
+      ],
+      "规格": "无线游戏鼠标",
+      "特点": "63g超轻、HERO传感器、无线低延迟"
+    },
+    "description": "专业电竞鼠标，仅重63克，采用HERO 25K传感器，支持无线低延迟技术。内置可充电电池续航70小时，适合FPS类游戏玩家追求极致操控。",
+    "id": "prod_0018",
+    "image_url": "https://picsum.photos/seed/prod_0018/400/400",
+    "rating": 4.2,
+    "stock": 370,
+    "sales_count": 1139
+  },
+  {
+    "name": "Bose QuietComfort Earbuds II",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 2599.0,
+    "brand": "Bose",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白",
+        "蓝"
+      ],
+      "规格": "真无线降噪耳机",
+      "特点": "CustomTune降噪、IPX4防水、6小时续航"
+    },
+    "description": "顶级真无线降噪耳机，采用CustomTune技术自动优化降噪效果。支持Bose沉浸式音频，音质自然均衡，IPX4防水，单次续航6小时，适合通勤与运动。",
+    "id": "prod_0019",
+    "image_url": "https://picsum.photos/seed/prod_0019/400/400",
+    "rating": 3.1,
+    "stock": 126,
+    "sales_count": 4741
+  },
+  {
+    "name": "iPad Air M2",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 5499.0,
+    "brand": "Apple",
+    "attributes": {
+      "颜色": [
+        "蓝色",
+        "紫色",
+        "星光色"
+      ],
+      "规格": "11英寸Liquid Retina显示屏，M2芯片，128GB存储",
+      "特点": "支持Apple Pencil Pro和妙控键盘，轻薄便携"
+    },
+    "description": "搭载M2芯片的iPad Air，性能堪比笔记本。11英寸全面屏设计，支持悬停和触控笔。无论是创意绘图还是办公学习，都能流畅胜任。续航长达10小时。",
+    "id": "prod_0020",
+    "image_url": "https://picsum.photos/seed/prod_0020/400/400",
+    "rating": 5.0,
+    "stock": 447,
+    "sales_count": 3814
+  },
+  {
+    "name": "Sony WH-1000XM5 降噪耳机",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 2999.0,
+    "brand": "Sony",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "铂金银"
+      ],
+      "规格": "头戴式无线降噪，30小时续航，蓝牙5.2",
+      "特点": "双芯片降噪系统，自适应声音控制，佩戴舒适"
+    },
+    "description": "行业顶级降噪耳机，双芯片配合8个麦克风精准消除环境噪音。佩戴轻若无物，支持LDAC高清音频。30小时续航满足长途旅行需求，语音通话清晰。",
+    "id": "prod_0021",
+    "image_url": "https://picsum.photos/seed/prod_0021/400/400",
+    "rating": 4.7,
+    "stock": 204,
+    "sales_count": 4554
+  },
+  {
+    "name": "华为WATCH GT 4 46mm",
+    "category": "电子产品",
+    "subcategory": "智能手表",
+    "price": 1788.0,
+    "brand": "Huawei",
+    "attributes": {
+      "颜色": [
+        "曜石黑",
+        "云杉绿"
+      ],
+      "规格": "1.43英寸AMOLED屏，典型使用14天续航",
+      "特点": "八通道心率监测，100+运动模式，智能跑步计划"
+    },
+    "description": "华为智能手表经典款，圆形表盘时尚大气。支持心率、血氧、睡眠监测，专业运动算法指导训练。两周超长续航无需频繁充电，是健康生活好伴侣。",
+    "id": "prod_0022",
+    "image_url": "https://picsum.photos/seed/prod_0022/400/400",
+    "rating": 3.9,
+    "stock": 437,
+    "sales_count": 5977
+  },
+  {
+    "name": "Canon EOS R6 Mark II",
+    "category": "电子产品",
+    "subcategory": "相机",
+    "price": 8000,
+    "brand": "Canon",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "全画幅2420万像素，4K 60p视频，机身防抖",
+      "特点": "最高40张/秒连拍，第二代全像素双核CMOS AF，动物检测"
+    },
+    "description": "佳能全画幅微单相机，2420万像素传感器配合DIGIC X处理器。支持无裁切4K 60p视频录制，机身5轴防抖。高速连拍和精准对焦适合体育、野生动物摄影。",
+    "id": "prod_0023",
+    "image_url": "https://picsum.photos/seed/prod_0023/400/400",
+    "rating": 3.3,
+    "stock": 191,
+    "sales_count": 3432
+  },
+  {
+    "name": "Marshall Kilburn II 便携蓝牙音箱",
+    "category": "电子产品",
+    "subcategory": "音箱",
+    "price": 2499.0,
+    "brand": "Marshall",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "复古白"
+      ],
+      "规格": "20小时续航，IPX2防水，蓝牙5.0",
+      "特点": "标志性摇滚外观，多方向声场，内置均衡器"
+    },
+    "description": "复古摇滚风格便携音箱，经典Marshall外观。多方向立体声场带来沉浸式听感，内置均衡器可调节音色。20小时续航，IPX2防溅水，户外聚会必备。",
+    "id": "prod_0024",
+    "image_url": "https://picsum.photos/seed/prod_0024/400/400",
+    "rating": 4.3,
+    "stock": 369,
+    "sales_count": 1169
+  },
+  {
+    "name": "Anker Prime 20000mAh 移动电源",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 599.0,
+    "brand": "Anker",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "20000mAh容量，双USB-C + USB-A，65W输出",
+      "特点": "智能功率分配，支持iPhone和笔记本快充，LED数显"
+    },
+    "description": "20000mAh大容量移动电源，65W PD快充可为笔记本、手机及时补电。双USB-C口支持同时输出，智能分配功率。LED数显实时显示剩余电量，安全可靠。",
+    "id": "prod_0025",
+    "image_url": "https://picsum.photos/seed/prod_0025/400/400",
+    "rating": 4.2,
+    "stock": 97,
+    "sales_count": 8751
+  },
+  {
+    "name": "罗技MX Keys Mini 无线键盘",
+    "category": "电子产品",
+    "subcategory": "键盘鼠标",
+    "price": 799.0,
+    "brand": "Logitech",
+    "attributes": {
+      "颜色": [
+        "石墨黑",
+        "月牙白"
+      ],
+      "规格": "紧凑78键，蓝牙+优联双模，背光键盘",
+      "特点": "智能背光感应，支持多设备切换，完美手感"
+    },
+    "description": "罗技旗舰紧凑无线键盘，78键布局节省桌面空间。采用Perfect Stroke按键技术，打字舒适。智能背光自动调节亮度，可同时连接三台设备一键切换。",
+    "id": "prod_0026",
+    "image_url": "https://picsum.photos/seed/prod_0026/400/400",
+    "rating": 4.5,
+    "stock": 93,
+    "sales_count": 7573
+  },
+  {
+    "name": "小米14 Ultra",
+    "category": "电子产品",
+    "subcategory": "智能手机",
+    "price": 5999.0,
+    "brand": "Xiaomi",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "6.73英寸2K AMOLED屏，骁龙8 Gen3，16GB+512GB",
+      "特点": "徕卡光学Summilux镜头，四摄系统，双向卫星通信"
+    },
+    "description": "小米影像旗舰，与徕卡联合研发的四摄系统覆盖全焦段。骁龙8 Gen3处理器性能顶级，2K LTPO屏幕细腻护眼。支持双向卫星通信，户外无信号也能联系。",
+    "id": "prod_0027",
+    "image_url": "https://picsum.photos/seed/prod_0027/400/400",
+    "rating": 3.8,
+    "stock": 483,
+    "sales_count": 9125
+  },
+  {
+    "name": "联想ThinkPad X1 Carbon",
+    "category": "电子产品",
+    "subcategory": "笔记本",
+    "price": 7999.0,
+    "brand": "联想",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "16GB+512GB",
+      "特点": "14英寸2.8K OLED屏，英特尔酷睿i7，超轻薄机身"
+    },
+    "description": "商务旗舰笔记本，碳纤维机身重量仅1.12kg。搭载第13代酷睿i7处理器，16GB内存和512GB固态硬盘，配合高色域OLED屏幕，适合移动办公。",
+    "id": "prod_0028",
+    "image_url": "https://picsum.photos/seed/prod_0028/400/400",
+    "rating": 3.4,
+    "stock": 176,
+    "sales_count": 916
+  },
+  {
+    "name": "华为MatePad Pro 13.2",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 4999.0,
+    "brand": "华为",
+    "attributes": {
+      "颜色": [
+        "曜金黑",
+        "晶钻白"
+      ],
+      "规格": "12GB+256GB",
+      "特点": "13.2英寸OLED柔性屏，天生会画，星闪连接"
+    },
+    "description": "13.2英寸超大OLED柔性屏，94%超高屏占比。搭载麒麟9000S芯片，支持星闪手写笔和键盘，配合鸿蒙系统，创作与办公效率倍增。",
+    "id": "prod_0029",
+    "image_url": "https://picsum.photos/seed/prod_0029/400/400",
+    "rating": 3.5,
+    "stock": 26,
+    "sales_count": 5168
+  },
+  {
+    "name": "Apple Watch Ultra 2",
+    "category": "电子产品",
+    "subcategory": "智能手表",
+    "price": 5999.0,
+    "brand": "苹果",
+    "attributes": {
+      "颜色": [
+        "钛金属原色"
+      ],
+      "规格": "49mm表盘，GPS+蜂窝版",
+      "特点": "2000尼特亮度，双频GPS，潜水深度40米"
+    },
+    "description": "专为极限运动打造，49mm钛合金表壳，超亮Retina屏幕。内置双频GPS、深度计和水温传感器，支持40米潜水，续航长达36小时。",
+    "id": "prod_0030",
+    "image_url": "https://picsum.photos/seed/prod_0030/400/400",
+    "rating": 3.8,
+    "stock": 43,
+    "sales_count": 3456
+  },
+  {
+    "name": "佳能EOS R10",
+    "category": "电子产品",
+    "subcategory": "相机",
+    "price": 4999.0,
+    "brand": "佳能",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "机身+18-45mm套机",
+      "特点": "2420万像素，电子快门15fps，4K视频"
+    },
+    "description": "轻量级微单相机，约2420万有效像素，电子快门连拍高达15张/秒。支持4K 60p视频录制，配备智能追踪对焦，适合旅行和日常拍摄。",
+    "id": "prod_0031",
+    "image_url": "https://picsum.photos/seed/prod_0031/400/400",
+    "rating": 4.8,
+    "stock": 300,
+    "sales_count": 5155
+  },
+  {
+    "name": "品胜快充移动电源20000mAh",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 129.0,
+    "brand": "品胜",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "黑色"
+      ],
+      "规格": "20000mAh，22.5W快充",
+      "特点": "双口输入三输出，兼容PD/QC快充协议"
+    },
+    "description": "大容量20000mAh聚合物电芯，支持22.5W双向快充。双USB-A+Type-C三接口，可同时为三台设备充电，LED数字电量显示。",
+    "id": "prod_0032",
+    "image_url": "https://picsum.photos/seed/prod_0032/400/400",
+    "rating": 3.4,
+    "stock": 265,
+    "sales_count": 6482
+  },
+  {
+    "name": "罗技MX Keys Mini",
+    "category": "电子产品",
+    "subcategory": "键盘鼠标",
+    "price": 749.0,
+    "brand": "罗技",
+    "attributes": {
+      "颜色": [
+        "石墨黑",
+        "冰川白"
+      ],
+      "规格": "无线蓝牙键盘",
+      "特点": "智能背光，多设备切换，紧凑设计"
+    },
+    "description": "紧凑型无线键盘，支持蓝牙和Logi Bolt连接，可同时配对三台设备。智能背光自动调节亮度，按键手感舒适，10天续航且USB-C充电。",
+    "id": "prod_0033",
+    "image_url": "https://picsum.photos/seed/prod_0033/400/400",
+    "rating": 4.8,
+    "stock": 339,
+    "sales_count": 7517
+  },
+  {
+    "name": "三星Galaxy Buds2 Pro",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 899.0,
+    "brand": "三星",
+    "attributes": {
+      "颜色": [
+        "幻境黑",
+        "幽紫",
+        "白"
+      ],
+      "规格": "真无线降噪耳机",
+      "特点": "智能降噪，360音效，5.3蓝牙"
+    },
+    "description": "真无线降噪耳机，支持自适应环境降噪和360音效。蓝牙5.3低延迟，搭配AKG调音，5小时降噪续航搭配充电盒共29小时。",
+    "id": "prod_0034",
+    "image_url": "https://picsum.photos/seed/prod_0034/400/400",
+    "rating": 3.3,
+    "stock": 81,
+    "sales_count": 4040
+  },
+  {
+    "name": "iPad Air 第5代",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 4799.0,
+    "brand": "苹果",
+    "attributes": {
+      "颜色": [
+        "星光色",
+        "深空灰",
+        "紫色"
+      ],
+      "规格": "10.9英寸，64GB存储",
+      "特点": "M1芯片，全面屏设计，支持Apple Pencil"
+    },
+    "description": "搭载Apple M1芯片，10.9英寸Liquid Retina全面屏，支持P3广色域与原彩显示。兼容第二代Apple Pencil与妙控键盘，后置1200万像素摄像头，适合绘画、笔记与轻度办公。",
+    "id": "prod_0035",
+    "image_url": "https://picsum.photos/seed/prod_0035/400/400",
+    "rating": 4.5,
+    "stock": 285,
+    "sales_count": 4304
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "category": "电子产品",
+    "subcategory": "智能手表",
+    "price": 3199.0,
+    "brand": "苹果",
+    "attributes": {
+      "颜色": [
+        "午夜色",
+        "星光色",
+        "红色"
+      ],
+      "规格": "45mm，GPS版",
+      "特点": "S9芯片，血氧监测，全天候视网膜屏"
+    },
+    "description": "配备S9 SiP芯片，全天候视网膜显示屏亮度提升至2000尼特。支持血氧、心率、睡眠监测与 ECG 心电图功能。新增双指捏合手势操作，无需触屏即可接听电话、控制音乐，运动健康好搭档。",
+    "id": "prod_0036",
+    "image_url": "https://picsum.photos/seed/prod_0036/400/400",
+    "rating": 4.5,
+    "stock": 229,
+    "sales_count": 9560
+  },
+  {
+    "name": "JBL Flip 6",
+    "category": "电子产品",
+    "subcategory": "音箱",
+    "price": 799.0,
+    "brand": "JBL",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "蓝色",
+        "红色"
+      ],
+      "规格": "便携蓝牙音箱，IP67防水",
+      "特点": "30W功率，12小时续航，低音增强"
+    },
+    "description": "JBL经典便携蓝牙音箱，配备赛道型扬声器与双低音单元，输出功率30W，音质饱满有力。IP67级防尘防水，可浮于水面。12小时续航，支持PartyBoost串联多台音箱，户外聚会好伴侣。",
+    "id": "prod_0037",
+    "image_url": "https://picsum.photos/seed/prod_0037/400/400",
+    "rating": 3.8,
+    "stock": 122,
+    "sales_count": 2266
+  },
+  {
+    "name": "罗马仕SENSE6+",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 129.0,
+    "brand": "罗马仕",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "20000mAh，22.5W快充",
+      "特点": "大容量，三口输出，双向快充"
+    },
+    "description": "20000mAh大容量聚合物电芯，支持22.5W华为超级快充与20W PD快充，兼容苹果安卓。双USB-A与Type-C三口同时输出，可为笔记本应急充电。智能数显电量，出差旅行续航无忧。",
+    "id": "prod_0038",
+    "image_url": "https://picsum.photos/seed/prod_0038/400/400",
+    "rating": 4.0,
+    "stock": 56,
+    "sales_count": 771
+  },
+  {
+    "name": "小米13 Ultra",
+    "category": "电子产品",
+    "subcategory": "智能手机",
+    "price": 5999.0,
+    "brand": "小米",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "橄榄绿"
+      ],
+      "规格": "512GB存储，16GB内存",
+      "特点": "一英寸IMX989徕卡四摄，骁龙8 Gen2"
+    },
+    "description": "搭载第二代骁龙8处理器，后置徕卡光学四摄，主摄为一英寸索尼IMX989传感器，支持可变光圈。6.73英寸2K AMOLED LTPO屏，5000mAh电池与90W有线快充，影像旗舰配置拉满。",
+    "id": "prod_0039",
+    "image_url": "https://picsum.photos/seed/prod_0039/400/400",
+    "rating": 4.7,
+    "stock": 88,
+    "sales_count": 2621
+  },
+  {
+    "name": "华为MateBook X Pro 2024",
+    "category": "电子产品",
+    "subcategory": "笔记本",
+    "price": 6899.0,
+    "brand": "华为",
+    "attributes": {
+      "颜色": [
+        "深空灰",
+        "皓月银"
+      ],
+      "规格": "16GB+1TB",
+      "特点": "3.1K OLED触控屏，超级终端，14.2英寸"
+    },
+    "description": "3.1K OLED原色屏，色彩精准；超级终端多设备协同；14.2英寸轻薄机身仅1.26kg，适合商务办公和创意设计，续航长达12小时。",
+    "id": "prod_0040",
+    "image_url": "https://picsum.photos/seed/prod_0040/400/400",
+    "rating": 4.6,
+    "stock": 226,
+    "sales_count": 9771
+  },
+  {
+    "name": "iPad Air 6",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 4799.0,
+    "brand": "Apple",
+    "attributes": {
+      "颜色": [
+        "星光色",
+        "紫色",
+        "蓝色"
+      ],
+      "规格": "128GB",
+      "特点": "M2芯片，10.9英寸Liquid Retina屏"
+    },
+    "description": "M2芯片提供强劲性能，10.9英寸全面屏支持P3广色域；轻薄便携，搭配Apple Pencil和妙控键盘可秒变生产力工具，适合学习、绘画和轻度办公。",
+    "id": "prod_0041",
+    "image_url": "https://picsum.photos/seed/prod_0041/400/400",
+    "rating": 3.1,
+    "stock": 205,
+    "sales_count": 9763
+  },
+  {
+    "name": "华为FreeBuds Pro 3",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 1099.0,
+    "brand": "华为",
+    "attributes": {
+      "颜色": [
+        "陶瓷白",
+        "冰霜银"
+      ],
+      "规格": "入耳式",
+      "特点": "超感知降噪，星闪连接，Hi-Res认证"
+    },
+    "description": "超感知降噪系统可自适应环境，通话降噪清晰；支持星闪（NearLink）连接，延迟低至25ms；音质获Hi-Res认证，搭配华为生态使用更佳。",
+    "id": "prod_0042",
+    "image_url": "https://picsum.photos/seed/prod_0042/400/400",
+    "rating": 5.0,
+    "stock": 280,
+    "sales_count": 4119
+  },
+  {
+    "name": "Bose SoundLink Max",
+    "category": "电子产品",
+    "subcategory": "音箱",
+    "price": 3499.0,
+    "brand": "Bose",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "烟灰色"
+      ],
+      "规格": "便携式蓝牙音箱",
+      "特点": "Bose原创声场，20小时续航，IP67防水"
+    },
+    "description": "Bose原创声场技术，低音澎湃且声音开阔；20小时续航满足全天户外使用；IP67防水防尘，坚固耐用，适合露营、派对等各种场景。",
+    "id": "prod_0043",
+    "image_url": "https://picsum.photos/seed/prod_0043/400/400",
+    "rating": 4.9,
+    "stock": 450,
+    "sales_count": 188
+  },
+  {
+    "name": "Anker MagSafe 移动电源 5000mAh",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 299.0,
+    "brand": "Anker",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "黑色"
+      ],
+      "规格": "5000mAh",
+      "特点": "MagSafe磁吸，20W快充，轻薄"
+    },
+    "description": "专为iPhone磁吸设计，自动吸附无线充电，最大15W；自带20W有线快充，可同时充两台设备；仅约140g，随身携带无负担，出差应急首选。",
+    "id": "prod_0044",
+    "image_url": "https://picsum.photos/seed/prod_0044/400/400",
+    "rating": 4.4,
+    "stock": 68,
+    "sales_count": 8797
+  },
+  {
+    "name": "iPad Air 5 (M1芯片)",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 4799.0,
+    "brand": "苹果",
+    "attributes": {
+      "颜色": [
+        "深空灰",
+        "星光色"
+      ],
+      "规格": "64GB/WiFi版/10.9英寸",
+      "特点": "M1芯片、支持Apple Pencil二代、USB-C接口"
+    },
+    "description": "搭载桌面级M1芯片，性能强劲可流畅剪辑4K视频。10.9英寸Liquid Retina显示屏，支持第二代Apple Pencil和妙控键盘，USB-C接口扩展性强，学习创作好帮手。",
+    "id": "prod_0045",
+    "image_url": "https://picsum.photos/seed/prod_0045/400/400",
+    "rating": 4.5,
+    "stock": 403,
+    "sales_count": 5573
+  },
+  {
+    "name": "Sony WH-1000XM5 头戴式降噪耳机",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 2499.0,
+    "brand": "索尼",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "铂金银"
+      ],
+      "规格": "无线蓝牙5.2",
+      "特点": "双芯片降噪、30小时续航、佩戴舒适"
+    },
+    "description": "行业标杆降噪耳机，采用集成处理器V1和HD降噪芯片，配合8个麦克风实现极致静音。轻量化设计佩戴无压力，支持LDAC高音质传输，30小时续航满足长途出行。",
+    "id": "prod_0046",
+    "image_url": "https://picsum.photos/seed/prod_0046/400/400",
+    "rating": 3.2,
+    "stock": 232,
+    "sales_count": 2591
+  },
+  {
+    "name": "小米 Watch S3",
+    "category": "电子产品",
+    "subcategory": "智能手表",
+    "price": 999.0,
+    "brand": "小米",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "银色"
+      ],
+      "规格": "47mm表盘",
+      "特点": "eSIM独立通话、14天续航、150+运动模式"
+    },
+    "description": "支持eSIM一号双终端，可独立接打电话和上网。1.43英寸AMOLED屏幕，内置双频GPS精准定位，支持心率、血氧、睡眠监测，典型续航14天，运动健康全能助手。",
+    "id": "prod_0047",
+    "image_url": "https://picsum.photos/seed/prod_0047/400/400",
+    "rating": 3.9,
+    "stock": 498,
+    "sales_count": 4315
+  },
+  {
+    "name": "佳能EOS R10 微单相机",
+    "category": "电子产品",
+    "subcategory": "相机",
+    "price": 6499.0,
+    "brand": "佳能",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "套机RF-S 18-45mm F4.5-6.3 IS STM",
+      "特点": "2420万像素、15张/秒连拍、4K 60p视频"
+    },
+    "description": "入门级全画幅微单，搭载2420万像素APS-C传感器，电子快门最高15张/秒连拍。支持4K 60p无裁切视频录制，配备第二代全像素双核CMOS AF，快速精准追焦。",
+    "id": "prod_0048",
+    "image_url": "https://picsum.photos/seed/prod_0048/400/400",
+    "rating": 4.9,
+    "stock": 400,
+    "sales_count": 2927
+  },
+  {
+    "name": "JBL Flip 6 蓝牙音箱",
+    "category": "电子产品",
+    "subcategory": "音箱",
+    "price": 799.0,
+    "brand": "JBL",
+    "attributes": {
+      "颜色": [
+        "蓝色",
+        "黑色",
+        "红色"
+      ],
+      "规格": "IP67防水",
+      "特点": "低音增强、12小时续航、PartyBoost串联"
+    },
+    "description": "便携式蓝牙音箱，采用优化后的赛道扬声器带来强劲低音。IP67级防水防尘，沙滩泳池无惧水溅。12小时续航支持Type-C充电，多台设备可无线串联打造立体声。",
+    "id": "prod_0049",
+    "image_url": "https://picsum.photos/seed/prod_0049/400/400",
+    "rating": 4.0,
+    "stock": 64,
+    "sales_count": 4889
+  },
+  {
+    "name": "Anker PowerCore Essential 20000mAh",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 199.0,
+    "brand": "安克Anker",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "20000mAh/18W快充",
+      "特点": "双USB输出、12重安全保护、可带上飞机"
+    },
+    "description": "超大容量20000mAh，可为手机充电约5次。18W快充支持iPhone和安卓设备，双USB口可同时充两台设备。内置12重电路保护，符合航空携带标准，出差旅行必备。",
+    "id": "prod_0050",
+    "image_url": "https://picsum.photos/seed/prod_0050/400/400",
+    "rating": 4.7,
+    "stock": 269,
+    "sales_count": 9977
+  },
+  {
+    "name": "罗技G Pro X Superlight 无线鼠标",
+    "category": "电子产品",
+    "subcategory": "键盘鼠标",
+    "price": 899.0,
+    "brand": "罗技",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "无线/轻量化63g",
+      "特点": "HERO 25K传感器、8000万次点击寿命、LIGHTSPEED无线"
+    },
+    "description": "职业电竞鼠标，仅重63克超轻设计，搭载HERO 25K传感器精准追踪。LIGHTSPEED无线技术延迟低至1ms，续航长达70小时。大尺寸PTFE脚垫滑动顺滑，适合FPS和MOBA游戏。",
+    "id": "prod_0051",
+    "image_url": "https://picsum.photos/seed/prod_0051/400/400",
+    "rating": 3.4,
+    "stock": 201,
+    "sales_count": 2646
+  },
+  {
+    "name": "雷蛇黑寡妇蜘蛛V3 机械键盘",
+    "category": "电子产品",
+    "subcategory": "键盘鼠标",
+    "price": 699.0,
+    "brand": "雷蛇",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "104键/绿轴/RGB",
+      "特点": "RAZER绿轴、ABS双色注塑键帽、腕托"
+    },
+    "description": "经典游戏机械键盘，采用雷蛇绿轴手感清脆带段落感，适合打字与游戏。支持Razer Chroma RGB幻彩背光，附赠磁吸腕托缓解疲劳。104键全键无冲，铝合金面板坚固耐用。",
+    "id": "prod_0052",
+    "image_url": "https://picsum.photos/seed/prod_0052/400/400",
+    "rating": 4.1,
+    "stock": 408,
+    "sales_count": 8689
+  },
+  {
+    "name": "MacBook Air M3",
+    "category": "电子产品",
+    "subcategory": "笔记本",
+    "price": 7999.0,
+    "brand": "苹果",
+    "attributes": {
+      "颜色": [
+        "深空灰",
+        "星光色"
+      ],
+      "规格": "8核CPU+10核GPU/16GB+512GB",
+      "特点": "M3芯片、MagSafe充电、Liquid Retina显示屏"
+    },
+    "description": "搭载Apple M3芯片，性能与能效大幅提升。13.6英寸Liquid Retina显示屏，支持P3广色域。无风扇设计安静运行，续航长达18小时。配备MagSafe磁吸充电和1080p高清摄像头。",
+    "id": "prod_0053",
+    "image_url": "https://picsum.photos/seed/prod_0053/400/400",
+    "rating": 4.8,
+    "stock": 316,
+    "sales_count": 5310
+  },
+  {
+    "name": "小米Pad 6 Pro",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 2999.0,
+    "brand": "小米",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "远山蓝"
+      ],
+      "规格": "12GB+256GB",
+      "特点": "144Hz高刷屏、骁龙8+处理器"
+    },
+    "description": "11英寸2.8K分辨率144Hz LCD屏，骁龙8+ Gen1处理器性能强劲。支持杜比视界和杜比全景声，配备8600mAh大电池和67W快充。适合影音娱乐与轻办公，搭配触控笔使用更高效。",
+    "id": "prod_0054",
+    "image_url": "https://picsum.photos/seed/prod_0054/400/400",
+    "rating": 4.0,
+    "stock": 67,
+    "sales_count": 5947
+  },
+  {
+    "name": "索尼ZVE-10 II",
+    "category": "电子产品",
+    "subcategory": "相机",
+    "price": 6999.0,
+    "brand": "索尼",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "机身+16-50mm套机",
+      "特点": "4K 60p视频、AI追踪对焦、侧翻屏"
+    },
+    "description": "专为Vlog和视频创作设计的APS-C微单。2420万像素传感器，AI智能追踪对焦，支持4K 60p超采样视频。侧翻式触摸屏+机身防抖，内置产品展示模式和防抖增强模式，轻巧便携。",
+    "id": "prod_0055",
+    "image_url": "https://picsum.photos/seed/prod_0055/400/400",
+    "rating": 4.8,
+    "stock": 435,
+    "sales_count": 5038
+  },
+  {
+    "name": "Anker PowerCore 20000",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 199.0,
+    "brand": "Anker",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "20000mAh",
+      "特点": "30W快充、多协议兼容、双向充电"
+    },
+    "description": "20000mAh大容量移动电源，30W USB-C双向快充，支持PD 3.0、QC 3.0等主流快充协议。可同时为两台设备充电，兼容笔记本、手机、平板等。多重安全保护，轻薄便携。",
+    "id": "prod_0056",
+    "image_url": "https://picsum.photos/seed/prod_0056/400/400",
+    "rating": 3.5,
+    "stock": 133,
+    "sales_count": 9295
+  },
+  {
+    "name": "戴森V15 Detect",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 4990.0,
+    "brand": "戴森",
+    "attributes": {
+      "颜色": [
+        "金色",
+        "蓝色"
+      ],
+      "规格": "头戴式降噪",
+      "特点": "降噪通话、3D音频、舒适佩戴"
+    },
+    "description": "这不是吸尘器——戴森首款音频耳机。内置降噪技术，支持自适应噪声过滤。3D空间音频通过头追踪营造沉浸感。专利硅胶耳罩贴合舒适，38小时续航。附带专用便携盒。",
+    "id": "prod_0057",
+    "image_url": "https://picsum.photos/seed/prod_0057/400/400",
+    "rating": 4.9,
+    "stock": 53,
+    "sales_count": 7962
+  },
+  {
+    "name": "iPad Air 5",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 4799.0,
+    "brand": "苹果",
+    "attributes": {
+      "颜色": [
+        "星光色",
+        "深空灰",
+        "粉色"
+      ],
+      "规格": "64GB",
+      "特点": "M1芯片、全面屏设计"
+    },
+    "description": "搭载苹果M1芯片，性能堪比笔记本电脑。10.9英寸Liquid Retina显示屏，支持P3广色域和原彩显示。前置1200万像素超广角摄像头，支持人物居中功能。兼容第二代Apple Pencil和妙控键盘。",
+    "id": "prod_0058",
+    "image_url": "https://picsum.photos/seed/prod_0058/400/400",
+    "rating": 4.6,
+    "stock": 399,
+    "sales_count": 8727
+  },
+  {
+    "name": "哈曼卡顿琉璃3",
+    "category": "电子产品",
+    "subcategory": "音箱",
+    "price": 1799.0,
+    "brand": "哈曼卡顿",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "蓝牙5.2",
+      "特点": "360°环绕声、涟漪灯光"
+    },
+    "description": "经典水母造型透明外壳，内置LED呼吸灯带，可随音乐律动。搭载1个4.75英寸低音单元和3个1.5英寸全频单元，输出功率130W，低频震撼。蓝牙5.2连接，支持多台串联。",
+    "id": "prod_0059",
+    "image_url": "https://picsum.photos/seed/prod_0059/400/400",
+    "rating": 4.5,
+    "stock": 75,
+    "sales_count": 7787
+  },
+  {
+    "name": "Anker 20000mAh移动电源",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 299.0,
+    "brand": "Anker",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "20000mAh",
+      "特点": "20W双向快充、数字显示电量"
+    },
+    "description": "能量密度提升，20000mAh大容量可为手机充电约4次。20W USB-C双向快充，兼容PD、QC等协议；额外USB-A口支持12W输出。智能数显屏幕实时显示剩余电量，飞机可携带。",
+    "id": "prod_0060",
+    "image_url": "https://picsum.photos/seed/prod_0060/400/400",
+    "rating": 4.9,
+    "stock": 94,
+    "sales_count": 4342
+  },
+  {
+    "name": "极速疾风X12 5G手机",
+    "category": "电子产品",
+    "subcategory": "智能手机",
+    "price": 3299.0,
+    "brand": "华耀",
+    "attributes": {
+      "颜色": [
+        "曜石黑",
+        "冰川蓝"
+      ],
+      "规格": "8GB+128GB",
+      "特点": "120Hz高刷屏，5000mAh大电池，66W超级快充"
+    },
+    "description": "搭载骁龙8+芯片，6.7英寸AMOLED直屏，后置一亿像素三摄，支持OIS光学防抖。内置5000mAh电池配合66W快充，续航无忧。多功能NFC、红外遥控一应俱全，适合日常与游戏场景。",
+    "id": "prod_0061",
+    "image_url": "https://picsum.photos/seed/prod_0061/400/400",
+    "rating": 4.1,
+    "stock": 320,
+    "sales_count": 6932
+  },
+  {
+    "name": "灵悦Pro 14英寸轻薄本",
+    "category": "电子产品",
+    "subcategory": "笔记本",
+    "price": 5799.0,
+    "brand": "创想",
+    "attributes": {
+      "颜色": [
+        "银色",
+        "灰色"
+      ],
+      "规格": "16GB+512GB",
+      "特点": "13代i5处理器，2.5K分辨率，1.2kg超轻机身"
+    },
+    "description": "采用13代酷睿i5-13500H处理器，16GB LPDDR5内存与512GB固态硬盘。14英寸2.5K高清屏，100%sRGB色域，通过莱茵低蓝光认证。全金属机身仅重1.2kg，续航长达12小时，移动办公优选。",
+    "id": "prod_0062",
+    "image_url": "https://picsum.photos/seed/prod_0062/400/400",
+    "rating": 4.9,
+    "stock": 485,
+    "sales_count": 8835
+  },
+  {
+    "name": "智享Pad Air 10.4英寸",
+    "category": "电子产品",
+    "subcategory": "平板",
+    "price": 1899.0,
+    "brand": "悦途",
+    "attributes": {
+      "颜色": [
+        "深空灰",
+        "薄荷绿"
+      ],
+      "规格": "6GB+128GB",
+      "特点": "2K全面屏，四扬声器，支持手写笔"
+    },
+    "description": "10.4英寸2K全面屏，屏占比87%，支持4096级压感手写笔。搭载八核处理器，6GB运行内存，128GB存储空间。四扬声器立体声，内置7700mAh电池，影音学习两相宜。",
+    "id": "prod_0063",
+    "image_url": "https://picsum.photos/seed/prod_0063/400/400",
+    "rating": 4.5,
+    "stock": 363,
+    "sales_count": 3295
+  },
+  {
+    "name": "静享降噪Pro 真无线耳机",
+    "category": "电子产品",
+    "subcategory": "耳机",
+    "price": 499.0,
+    "brand": "声韵",
+    "attributes": {
+      "颜色": [
+        "珍珠白",
+        "午夜黑"
+      ],
+      "规格": "入耳式/蓝牙5.3",
+      "特点": "主动降噪35dB，透明模式，IPX5防水"
+    },
+    "description": "支持混合主动降噪，降噪深度达35dB，同时具备通透模式便于沟通。蓝牙5.3连接稳定低延迟，单次续航8小时，配合充电盒可达32小时。IPX5级防水，舒适贴合耳道，适合通勤运动。",
+    "id": "prod_0064",
+    "image_url": "https://picsum.photos/seed/prod_0064/400/400",
+    "rating": 4.4,
+    "stock": 214,
+    "sales_count": 6118
+  },
+  {
+    "name": "酷跑S3 智能运动手表",
+    "category": "电子产品",
+    "subcategory": "智能手表",
+    "price": 899.0,
+    "brand": "极客",
+    "attributes": {
+      "颜色": [
+        "陨石黑",
+        "松石绿"
+      ],
+      "规格": "1.43英寸AMOLED/46mm",
+      "特点": "双频GPS，血氧心率监测，100+运动模式"
+    },
+    "description": "1.43英寸AMOLED圆形表盘，分辨率466×466。内置双频GPS定位精准，支持心率、血氧、压力监测及睡眠分析。100多种运动模式，5ATM防水等级，14天超长续航，专业运动伴侣。",
+    "id": "prod_0065",
+    "image_url": "https://picsum.photos/seed/prod_0065/400/400",
+    "rating": 3.9,
+    "stock": 274,
+    "sales_count": 7397
+  },
+  {
+    "name": "光影V1 数码相机",
+    "category": "电子产品",
+    "subcategory": "相机",
+    "price": 2999.0,
+    "brand": "影石",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "银色"
+      ],
+      "规格": "24MP/4K视频",
+      "特点": "1英寸传感器，翻转屏，五轴防抖"
+    },
+    "description": "搭载1英寸CMOS传感器，有效像素2400万，支持4K 30fps视频录制。配备3英寸可翻转触摸屏，内置五轴防抖系统，f/1.8-2.8大光圈镜头，适合旅行记录与日常创作。",
+    "id": "prod_0066",
+    "image_url": "https://picsum.photos/seed/prod_0066/400/400",
+    "rating": 3.2,
+    "stock": 125,
+    "sales_count": 1049
+  },
+  {
+    "name": "雷鸣R1 便携蓝牙音箱",
+    "category": "电子产品",
+    "subcategory": "音箱",
+    "price": 249.0,
+    "brand": "声浪",
+    "attributes": {
+      "颜色": [
+        "烈焰红",
+        "深海蓝"
+      ],
+      "规格": "蓝牙5.0/10W",
+      "特点": "IPX7防水，TWS串联，12小时续航"
+    },
+    "description": "小巧机身内置10W全频扬声器及被动低音振膜，低音澎湃。IPX7级深度防水，户外淋雨无惧。支持TWS真无线串联左右声道，蓝牙5.0稳定连接，续航12小时，户外聚会好帮手。",
+    "id": "prod_0067",
+    "image_url": "https://picsum.photos/seed/prod_0067/400/400",
+    "rating": 3.7,
+    "stock": 311,
+    "sales_count": 9075
+  },
+  {
+    "name": "闪充宝 20000mAh移动电源",
+    "category": "电子产品",
+    "subcategory": "移动电源",
+    "price": 129.0,
+    "brand": "电盾",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "灰色"
+      ],
+      "规格": "20000mAh/22.5W",
+      "特点": "双向快充，数显电量，三口输出"
+    },
+    "description": "20000mAh大容量，支持22.5W双向快充，兼容PD、QC等协议。配备USB-A、USB-C双输出及Micro输入，数显屏幕实时显示剩余电量。内置智能芯片，多重安全保护，出行应急必备。",
+    "id": "prod_0068",
+    "image_url": "https://picsum.photos/seed/prod_0068/400/400",
+    "rating": 3.5,
+    "stock": 122,
+    "sales_count": 117
+  },
+  {
+    "name": "指尖电竞 机械键盘套装",
+    "category": "电子产品",
+    "subcategory": "键盘鼠标",
+    "price": 399.0,
+    "brand": "雷擎",
+    "attributes": {
+      "颜色": [
+        "暗夜黑",
+        "机甲白"
+      ],
+      "规格": "87键/青轴/有线",
+      "特点": "RGB背光，铝合金面板，可编程宏键"
+    },
+    "description": "87键紧凑布局，采用高特青轴，段落感强、声音清脆。航空级铝合金面板，坚固耐用。支持全键RGB幻彩背光，内置板载存储，可自定义宏编程。随附轻量化游戏鼠标，DPI可调至6400。",
+    "id": "prod_0069",
+    "image_url": "https://picsum.photos/seed/prod_0069/400/400",
+    "rating": 3.1,
+    "stock": 333,
+    "sales_count": 964
+  },
+  {
+    "name": "极速锐龙 游戏鼠标",
+    "category": "电子产品",
+    "subcategory": "键盘鼠标",
+    "price": 199.0,
+    "brand": "闪电",
+    "attributes": {
+      "颜色": [
+        "曜石黑",
+        "幻影白"
+      ],
+      "规格": "有线/无线双模/16000DPI",
+      "特点": "PAW3395传感器，轻量化约58g，RGB灯效"
+    },
+    "description": "搭载原相PAW3395旗舰传感器，最高16000DPI，650IPS追踪速度。无线+有线双模连接，内置400mAh电池续航80小时。机身仅重58g，打孔减重设计，六键可编程，尾部RGB灯带，电竞级操控体验。",
+    "id": "prod_0070",
+    "image_url": "https://picsum.photos/seed/prod_0070/400/400",
+    "rating": 3.5,
+    "stock": 473,
+    "sales_count": 514
+  },
+  {
+    "name": "纯棉四件套",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": 299.0,
+    "brand": "梦洁家纺",
+    "attributes": {
+      "颜色": [
+        "浅灰",
+        "蓝灰",
+        "豆沙粉"
+      ],
+      "规格": "1.5米床/1.8米床",
+      "特点": "60支长绒棉，亲肤透气，活性印染不褪色"
+    },
+    "description": "精选新疆长绒棉，60支高密织造，触感细腻柔软。简约纯色设计，适配多种卧室风格。被套四角带绑带固定，换洗方便。适合春秋季使用，舒适睡眠首选。",
+    "id": "prod_0071",
+    "image_url": "https://picsum.photos/seed/prod_0071/400/400",
+    "rating": 4.7,
+    "stock": 46,
+    "sales_count": 8423
+  },
+  {
+    "name": "不锈钢蜂窝不粘炒锅",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 199.0,
+    "brand": "苏泊尔",
+    "attributes": {
+      "颜色": [
+        "银灰"
+      ],
+      "规格": "32cm",
+      "特点": "蜂窝纹理物理不粘，少油烟，电磁炉通用"
+    },
+    "description": "316L不锈钢材质，蜂窝点焊技术实现物理不粘，减少用油量。加厚锅底导热均匀，兼容燃气灶、电磁炉。手柄防烫设计，翻炒顺手，适合中式爆炒。",
+    "id": "prod_0072",
+    "image_url": "https://picsum.photos/seed/prod_0072/400/400",
+    "rating": 3.5,
+    "stock": 352,
+    "sales_count": 7953
+  },
+  {
+    "name": "牛津布折叠收纳箱",
+    "category": "家居用品",
+    "subcategory": "收纳",
+    "price": 49.0,
+    "brand": "禧天龙",
+    "attributes": {
+      "颜色": [
+        "米白",
+        "薄荷绿",
+        "浅灰"
+      ],
+      "规格": "50L",
+      "特点": "可折叠，带盖防尘，加厚钢架支撑"
+    },
+    "description": "加厚牛津布面料，内置钢架结构承重强，不塌陷。可折叠收纳不占空间，带拉链密封防尘防潮。大容量适合存放衣物、玩具、杂物，侧面提手方便搬运。",
+    "id": "prod_0073",
+    "image_url": "https://picsum.photos/seed/prod_0073/400/400",
+    "rating": 3.4,
+    "stock": 77,
+    "sales_count": 9355
+  },
+  {
+    "name": "LED护眼台灯",
+    "category": "家居用品",
+    "subcategory": "灯具",
+    "price": 159.0,
+    "brand": "欧普照明",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "45cm灯头",
+      "特点": "无频闪，三档色温，可折叠调角度"
+    },
+    "description": "国AA级照度，无蓝光危害，减蓝光技术呵护眼睛。三色温调节（暖光/自然光/白光），亮度无级调。灯臂多角度折叠，轻松应对阅读、办公、绘画场景。",
+    "id": "prod_0074",
+    "image_url": "https://picsum.photos/seed/prod_0074/400/400",
+    "rating": 4.2,
+    "stock": 134,
+    "sales_count": 7749
+  },
+  {
+    "name": "实木小方凳",
+    "category": "家居用品",
+    "subcategory": "家具",
+    "price": 89.0,
+    "brand": "源氏木语",
+    "attributes": {
+      "颜色": [
+        "原木色",
+        "胡桃色"
+      ],
+      "规格": "30*30*25cm",
+      "特点": "北美白橡木，卯榫结构，承重200斤"
+    },
+    "description": "采用北美FAS级白橡木，纹理清晰美观。传统卯榫工艺加固，结构稳定不摇晃。圆角打磨处理，安全防磕碰。矮凳设计适合换鞋、沙发边几、儿童使用。",
+    "id": "prod_0075",
+    "image_url": "https://picsum.photos/seed/prod_0075/400/400",
+    "rating": 4.6,
+    "stock": 107,
+    "sales_count": 1545
+  },
+  {
+    "name": "可伸缩静电除尘掸",
+    "category": "家居用品",
+    "subcategory": "清洁工具",
+    "price": 35.0,
+    "brand": "妙洁",
+    "attributes": {
+      "颜色": [
+        "蓝色"
+      ],
+      "规格": "伸缩杆60-120cm",
+      "特点": "静电吸附，可水洗重复使用，360°旋转头"
+    },
+    "description": "超细纤维尘头静电吸附灰尘，无需清洁剂。杆子可伸缩，轻松清理高处窗帘、空调、吊顶。可水洗晾干后重复使用，环保省钱。刷头灵活转动，无死角除尘。",
+    "id": "prod_0076",
+    "image_url": "https://picsum.photos/seed/prod_0076/400/400",
+    "rating": 3.2,
+    "stock": 230,
+    "sales_count": 5804
+  },
+  {
+    "name": "太空铝毛巾架",
+    "category": "家居用品",
+    "subcategory": "浴室用品",
+    "price": 68.0,
+    "brand": "九牧",
+    "attributes": {
+      "颜色": [
+        "银色",
+        "黑色"
+      ],
+      "规格": "60cm双层",
+      "特点": "免打孔安装，太空铝防水防锈，承重5kg"
+    },
+    "description": "加厚太空铝材质，表面阳极氧化处理，浴室常用不生锈。免钉胶安装，无需打孔不伤墙面，可牢固粘贴瓷砖。双层设计可挂毛巾、浴球，底部带挂钩挂小物件。",
+    "id": "prod_0077",
+    "image_url": "https://picsum.photos/seed/prod_0077/400/400",
+    "rating": 3.8,
+    "stock": 249,
+    "sales_count": 887
+  },
+  {
+    "name": "ins风干花束组合",
+    "category": "家居用品",
+    "subcategory": "装饰",
+    "price": 39.0,
+    "brand": "宜家",
+    "attributes": {
+      "颜色": [
+        "混色",
+        "白灰色",
+        "莫兰迪色"
+      ],
+      "规格": "30cm高，约15枝",
+      "特点": "仿真干花，无需浇水，搭配玻璃瓶"
+    },
+    "description": "精选尤加利叶、棉花、芦苇等仿真干花，色泽自然持久。搭配简约透明玻璃花瓶，摆放在餐桌、玄关、办公桌皆可提升氛围。无香不过敏，打理方便。",
+    "id": "prod_0078",
+    "image_url": "https://picsum.photos/seed/prod_0078/400/400",
+    "rating": 4.3,
+    "stock": 340,
+    "sales_count": 1612
+  },
+  {
+    "name": "全自动胶囊咖啡机",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 799.0,
+    "brand": "雀巢多趣酷思",
+    "attributes": {
+      "颜色": [
+        "红色",
+        "黑色"
+      ],
+      "规格": "15Bar泵压，0.8L水箱",
+      "特点": "一键萃取，兼容多种胶囊，奶泡一体"
+    },
+    "description": "15巴萃取压力，快速制作浓缩、美式、拿铁。智能识别胶囊型号，自动调节水量温度。可拆卸奶泡杯打发绵密奶泡，清洗方便。小巧机身适合家庭或办公室使用。",
+    "id": "prod_0079",
+    "image_url": "https://picsum.photos/seed/prod_0079/400/400",
+    "rating": 3.1,
+    "stock": 382,
+    "sales_count": 5559
+  },
+  {
+    "name": "智能人体感应夜灯",
+    "category": "家居用品",
+    "subcategory": "灯具",
+    "price": 29.0,
+    "brand": "小米",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "直径8cm，磁吸式",
+      "特点": "红外感应，光敏感应，续航90天"
+    },
+    "description": "内置红外传感器，人靠近自动亮灯，离开后30秒熄灭。光敏设计，白天不亮节约电量。磁吸底座可贴于走廊、衣柜、床头。USB充电，一次充电可用3个月。",
+    "id": "prod_0080",
+    "image_url": "https://picsum.photos/seed/prod_0080/400/400",
+    "rating": 4.6,
+    "stock": 65,
+    "sales_count": 4073
+  },
+  {
+    "name": "麦饭石不粘炒锅",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 199.0,
+    "brand": "苏泊尔",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "32cm",
+      "特点": "麦饭石涂层、少油烟"
+    },
+    "description": "优质铝合金锅体，麦饭石不粘涂层，耐磨且易清洗。电磁炉燃气灶通用，手柄防烫设计，适合中式爆炒，烹饪健康少油烟。",
+    "id": "prod_0081",
+    "image_url": "https://picsum.photos/seed/prod_0081/400/400",
+    "rating": 3.4,
+    "stock": 284,
+    "sales_count": 7350
+  },
+  {
+    "name": "可折叠收纳箱",
+    "category": "家居用品",
+    "subcategory": "收纳",
+    "price": 89.0,
+    "brand": "无印良品",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "米色"
+      ],
+      "规格": "60L",
+      "特点": "可折叠、带盖防尘"
+    },
+    "description": "采用加厚聚丙烯材质，承重力强。不用时可折叠节省空间，顶部透明翻盖方便取物，两侧提手设计，适合存放衣物、玩具、杂物。",
+    "id": "prod_0082",
+    "image_url": "https://picsum.photos/seed/prod_0082/400/400",
+    "rating": 3.3,
+    "stock": 103,
+    "sales_count": 4563
+  },
+  {
+    "name": "实木简约书桌",
+    "category": "家居用品",
+    "subcategory": "家具",
+    "price": 899.0,
+    "brand": "宜家",
+    "attributes": {
+      "颜色": [
+        "原木色"
+      ],
+      "规格": "120×60×75cm",
+      "特点": "环保实木、双抽屉"
+    },
+    "description": "主材为北美白橡木，表面涂环保木蜡油，纹理自然。双抽屉设计可收纳文具，桌面宽敞承重强，底部防滑脚垫，适合书房或卧室使用。",
+    "id": "prod_0083",
+    "image_url": "https://picsum.photos/seed/prod_0083/400/400",
+    "rating": 3.9,
+    "stock": 457,
+    "sales_count": 1235
+  },
+  {
+    "name": "无线手持吸尘器",
+    "category": "家居用品",
+    "subcategory": "清洁工具",
+    "price": 1299.0,
+    "brand": "京东京造",
+    "attributes": {
+      "颜色": [
+        "深灰色"
+      ],
+      "规格": "手持式/配地刷",
+      "特点": "大吸力、长续航"
+    },
+    "description": "无刷电机提供20000Pa强劲吸力，内置5000mAh锂电池续航45分钟。一键倒尘，配备缝隙吸头和地板刷，轻松清洁沙发、地毯、车内缝隙。",
+    "id": "prod_0084",
+    "image_url": "https://picsum.photos/seed/prod_0084/400/400",
+    "rating": 3.9,
+    "stock": 451,
+    "sales_count": 9016
+  },
+  {
+    "name": "即热式智能马桶盖",
+    "category": "家居用品",
+    "subcategory": "浴室用品",
+    "price": 1999.0,
+    "brand": "海尔",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "适配标准马桶",
+      "特点": "即热恒温、臀洗妇洗"
+    },
+    "description": "采用即热式陶瓷加热，活水瞬间加热更卫生。具备喷嘴自洁、座圈加热、暖风烘干功能，带遥控器和夜灯，提升如厕舒适度。",
+    "id": "prod_0085",
+    "image_url": "https://picsum.photos/seed/prod_0085/400/400",
+    "rating": 3.2,
+    "stock": 343,
+    "sales_count": 8856
+  },
+  {
+    "name": "抽象装饰画",
+    "category": "家居用品",
+    "subcategory": "装饰",
+    "price": 159.0,
+    "brand": "网易严选",
+    "attributes": {
+      "颜色": [
+        "多色混色"
+      ],
+      "规格": "60×80cm",
+      "特点": "防水画布、铝合金框"
+    },
+    "description": "高清微喷工艺，色彩持久不褪色。画布防水防潮，配铝合金外框，背面已装挂钩，开箱即可悬挂。适合客厅、卧室、餐厅墙面装饰。",
+    "id": "prod_0086",
+    "image_url": "https://picsum.photos/seed/prod_0086/400/400",
+    "rating": 4.7,
+    "stock": 57,
+    "sales_count": 3872
+  },
+  {
+    "name": "人体工学乳胶枕",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": 399.0,
+    "brand": "泰普尔",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "高低枕（60×40cm）",
+      "特点": "天然乳胶、波浪形"
+    },
+    "description": "天然乳胶含量93%，蜂窝孔设计透气排湿。波浪曲线贴合颈椎，高低侧设计满足不同睡姿习惯，有效缓解颈部压力，抑菌防螨。",
+    "id": "prod_0087",
+    "image_url": "https://picsum.photos/seed/prod_0087/400/400",
+    "rating": 3.3,
+    "stock": 258,
+    "sales_count": 7886
+  },
+  {
+    "name": "真空不锈钢保温壶",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 269.0,
+    "brand": "膳魔师",
+    "attributes": {
+      "颜色": [
+        "不锈钢色",
+        "红色"
+      ],
+      "规格": "1.5L",
+      "特点": "真空隔热、12小时保温"
+    },
+    "description": "双层304不锈钢真空断热技术，保温可达12小时（≥60℃），保冷24小时。一键按压出水，防滑底部，大容量适合家庭或办公室使用。",
+    "id": "prod_0088",
+    "image_url": "https://picsum.photos/seed/prod_0088/400/400",
+    "rating": 3.4,
+    "stock": 215,
+    "sales_count": 960
+  },
+  {
+    "name": "纯棉印花四件套",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": 299.0,
+    "brand": "水星家纺",
+    "attributes": {
+      "颜色": [
+        "蓝色",
+        "灰色"
+      ],
+      "规格": "1.5m床/被套200x230cm",
+      "特点": "全棉面料，亲肤透气，活性印染不易褪色"
+    },
+    "description": "采用100%新疆长绒棉，60支高支高密工艺，触感柔软细腻。简约北欧风格印花，多色可选，适合四季使用。精致绗缝工艺，不易跑棉，机洗不变形。",
+    "id": "prod_0089",
+    "image_url": "https://picsum.photos/seed/prod_0089/400/400",
+    "rating": 3.3,
+    "stock": 11,
+    "sales_count": 6396
+  },
+  {
+    "name": "加厚折叠收纳箱",
+    "category": "家居用品",
+    "subcategory": "收纳",
+    "price": 49.0,
+    "brand": "茶花",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "粉色",
+        "绿色"
+      ],
+      "规格": "55L / 45x35x30cm",
+      "特点": "可折叠，带盖，承重强"
+    },
+    "description": "PP环保材质，无异味，加厚箱壁坚固耐用。可折叠设计，闲置时节省空间。顶部凹槽可叠放，带卡扣盖子防尘，衣物、杂物均可收纳。",
+    "id": "prod_0090",
+    "image_url": "https://picsum.photos/seed/prod_0090/400/400",
+    "rating": 3.5,
+    "stock": 411,
+    "sales_count": 7454
+  },
+  {
+    "name": "LED护眼学习台灯",
+    "category": "家居用品",
+    "subcategory": "灯具",
+    "price": 189.0,
+    "brand": "欧普照明",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "灯臂长40cm，功率12W",
+      "特点": "无频闪，三档调色，Ra≥95"
+    },
+    "description": "国AA级照度，专业护眼，双色温LED灯珠，可自由切换冷白、暖白、自然光。无蓝光危害，无频闪，长寿命设计，适合学生和办公人群。",
+    "id": "prod_0091",
+    "image_url": "https://picsum.photos/seed/prod_0091/400/400",
+    "rating": 3.6,
+    "stock": 366,
+    "sales_count": 9105
+  },
+  {
+    "name": "实木小边几茶几",
+    "category": "家居用品",
+    "subcategory": "家具",
+    "price": 599.0,
+    "brand": "林氏木业",
+    "attributes": {
+      "颜色": [
+        "原木色",
+        "胡桃色"
+      ],
+      "规格": "50x50x45cm",
+      "特点": "北美白橡木，纯实木，圆角打磨"
+    },
+    "description": "精选北美FAS级白橡木，纹理清晰自然，无贴皮无密度板。圆角打磨处理，安全防撞。双层置物空间，可放书籍茶杯，客厅卧室百搭小家具。",
+    "id": "prod_0092",
+    "image_url": "https://picsum.photos/seed/prod_0092/400/400",
+    "rating": 4.3,
+    "stock": 259,
+    "sales_count": 2536
+  },
+  {
+    "name": "智能扫地机器人",
+    "category": "家居用品",
+    "subcategory": "清洁工具",
+    "price": 1999.0,
+    "brand": "科沃斯",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色"
+      ],
+      "规格": "直径34cm，高9.5cm",
+      "特点": "LDS激光导航，扫拖一体，自动回充"
+    },
+    "description": "采用LDS激光导航系统，精准建图规划路径，清扫覆盖率高。扫拖一体设计，2500Pa大吸力，电控水箱精准控水。支持APP远程控制，自动回充。",
+    "id": "prod_0093",
+    "image_url": "https://picsum.photos/seed/prod_0093/400/400",
+    "rating": 3.4,
+    "stock": 121,
+    "sales_count": 958
+  },
+  {
+    "name": "精梳棉浴巾三件套",
+    "category": "家居用品",
+    "subcategory": "浴室用品",
+    "price": 89.0,
+    "brand": "洁丽雅",
+    "attributes": {
+      "颜色": [
+        "浅灰",
+        "浅蓝",
+        "米白"
+      ],
+      "规格": "70x140cm+40x65cm+30x30cm",
+      "特点": "精梳棉，蓬松柔软，快速吸水"
+    },
+    "description": "100%精梳长绒棉，去掉杂质与短纤维，毛圈蓬松细腻，吸水性好。缎边工艺不易散线，色牢度高，柔软亲肤，适合日常沐浴使用。",
+    "id": "prod_0094",
+    "image_url": "https://picsum.photos/seed/prod_0094/400/400",
+    "rating": 4.2,
+    "stock": 287,
+    "sales_count": 998
+  },
+  {
+    "name": "北欧风格装饰画",
+    "category": "家居用品",
+    "subcategory": "装饰",
+    "price": 129.0,
+    "brand": "宜家",
+    "attributes": {
+      "颜色": [
+        "金色框+莫兰迪色调"
+      ],
+      "规格": "50x40cm，画芯裱装",
+      "特点": "微喷油画布，实木外框，立体效果"
+    },
+    "description": "采用高清微喷技术，画面细腻色彩持久。实木外框手工打磨，哑光金属质感。莫兰迪色系抽象图案，适合客厅、卧室、餐厅墙面装饰，提升家居格调。",
+    "id": "prod_0095",
+    "image_url": "https://picsum.photos/seed/prod_0095/400/400",
+    "rating": 4.5,
+    "stock": 39,
+    "sales_count": 821
+  },
+  {
+    "name": "不锈钢刀具套装",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 299.0,
+    "brand": "双立人",
+    "attributes": {
+      "颜色": [
+        "银色"
+      ],
+      "规格": "7件套（主厨刀、切片刀、多用刀等）",
+      "特点": "德国工艺，防锈耐磨，人体工学手柄"
+    },
+    "description": "德国进口特种不锈钢，冰锻工艺处理，刀刃锋利持久耐腐蚀。弧线手柄防滑防疲劳，每把刀平衡感好。含刀座，收纳方便，满足日常烹饪切配需求。",
+    "id": "prod_0096",
+    "image_url": "https://picsum.photos/seed/prod_0096/400/400",
+    "rating": 4.2,
+    "stock": 267,
+    "sales_count": 8701
+  },
+  {
+    "name": "天然乳胶枕",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": 189.0,
+    "brand": "邓禄普",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "60x40x10/12cm（高低款）",
+      "特点": "93%天然乳胶，按摩颗粒，蜂窝透气"
+    },
+    "description": "采用邓禄普工艺，天然乳胶含量93%，抑菌防螨。波浪形设计贴合颈椎曲线，高低枕可选。表面按摩颗粒舒缓压力，蜂窝式气孔循环透气，柔软回弹。",
+    "id": "prod_0097",
+    "image_url": "https://picsum.photos/seed/prod_0097/400/400",
+    "rating": 3.3,
+    "stock": 270,
+    "sales_count": 1312
+  },
+  {
+    "name": "麦饭石不粘锅",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 199.0,
+    "brand": "苏泊尔",
+    "attributes": {
+      "颜色": [
+        "黑"
+      ],
+      "规格": "30cm",
+      "特点": "麦饭石涂层，少油烟"
+    },
+    "description": "加厚合金锅体，麦饭石纹理不粘涂层，煎炒不糊底。轻量化设计，女生也能单手颠锅。导磁复合底，兼容燃气灶和电磁炉，清洗一擦即净。",
+    "id": "prod_0098",
+    "image_url": "https://picsum.photos/seed/prod_0098/400/400",
+    "rating": 4.7,
+    "stock": 45,
+    "sales_count": 9749
+  },
+  {
+    "name": "加厚收纳箱",
+    "category": "家居用品",
+    "subcategory": "收纳",
+    "price": 49.0,
+    "brand": "禧天龙",
+    "attributes": {
+      "颜色": [
+        "透明",
+        "蓝"
+      ],
+      "规格": "60L",
+      "特点": "加厚PP材质，可叠放"
+    },
+    "description": "采用食品级PP原料，加厚箱壁承重强，摔不裂。透明箱体一目了然，翻盖设计拿取方便。两侧提手和底部卡扣，可稳固叠放，节省空间，居家收纳好帮手。",
+    "id": "prod_0099",
+    "image_url": "https://picsum.photos/seed/prod_0099/400/400",
+    "rating": 3.1,
+    "stock": 451,
+    "sales_count": 3853
+  },
+  {
+    "name": "护眼LED台灯",
+    "category": "家居用品",
+    "subcategory": "灯具",
+    "price": 129.0,
+    "brand": "欧普",
+    "attributes": {
+      "颜色": [
+        "白"
+      ],
+      "规格": "可调色温3000K-5000K",
+      "特点": "无频闪，国AA级护眼"
+    },
+    "description": "国AA级照度，均匀明亮无暗区。Ra>95高显色，还原物体真实色彩。三档色温无极调光，适合阅读、书写、休闲。灯臂可多角度旋转，灵活照亮每个角落。",
+    "id": "prod_0100",
+    "image_url": "https://picsum.photos/seed/prod_0100/400/400",
+    "rating": 3.8,
+    "stock": 492,
+    "sales_count": 9333
+  },
+  {
+    "name": "实木书桌",
+    "category": "家居用品",
+    "subcategory": "家具",
+    "price": 1200.0,
+    "brand": "源氏木语",
+    "attributes": {
+      "颜色": [
+        "橡木色"
+      ],
+      "规格": "120cm×60cm×75cm",
+      "特点": "北美FAS级橡木，环保清漆"
+    },
+    "description": "主材选用北美进口FAS级橡木，纹理清晰美观。表面涂抹环保清漆，安全无异味。桌腿加粗设计，承重稳固不摇晃。简约北欧风，适配书房或卧室，实用与颜值兼具。",
+    "id": "prod_0101",
+    "image_url": "https://picsum.photos/seed/prod_0101/400/400",
+    "rating": 3.5,
+    "stock": 314,
+    "sales_count": 651
+  },
+  {
+    "name": "增压花洒套装",
+    "category": "家居用品",
+    "subcategory": "浴室用品",
+    "price": 399.0,
+    "brand": "九牧",
+    "attributes": {
+      "颜色": [
+        "银色"
+      ],
+      "规格": "三出水",
+      "特点": "空气能增压，节水"
+    },
+    "description": "采用空气能增压技术，出水绵密有力，冲洗更畅快。三功能手持花洒，可切换按摩、雨淋、混合模式。精铜主体加电镀工艺，耐腐蚀易清洁。一键止水按钮，省水省心。",
+    "id": "prod_0102",
+    "image_url": "https://picsum.photos/seed/prod_0102/400/400",
+    "rating": 4.2,
+    "stock": 224,
+    "sales_count": 9562
+  },
+  {
+    "name": "304不锈钢电热水壶",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 89.0,
+    "brand": "美的",
+    "attributes": {
+      "颜色": [
+        "白"
+      ],
+      "规格": "1.7L",
+      "特点": "双层防烫，快速沸腾"
+    },
+    "description": "内胆采用食品级304不锈钢，无异味耐腐蚀。1800W大功率，快速烧开。双层壶身隔热防烫，安全不伤手。自动断电防干烧，使用更安心。经典简约外观，适用于家庭和办公室。",
+    "id": "prod_0103",
+    "image_url": "https://picsum.photos/seed/prod_0103/400/400",
+    "rating": 4.1,
+    "stock": 171,
+    "sales_count": 4272
+  },
+  {
+    "name": "高弹力羽绒枕",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": 299.0,
+    "brand": "Downia",
+    "attributes": {
+      "颜色": [
+        "白"
+      ],
+      "规格": "48cm×74cm",
+      "特点": "95%白鹅绒，高蓬松"
+    },
+    "description": "精选欧洲进口白鹅绒，绒子含量95%，蓬松度达到800+。三层防钻绒面料，保证长时间使用不漏绒。人体工学设计，提供柔软支撑，缓解颈部压力。适合追求高品质睡眠的人群。",
+    "id": "prod_0104",
+    "image_url": "https://picsum.photos/seed/prod_0104/400/400",
+    "rating": 3.4,
+    "stock": 376,
+    "sales_count": 5147
+  },
+  {
+    "name": "北欧风纯棉四件套",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": 299.0,
+    "brand": "梦洁家纺",
+    "attributes": {
+      "颜色": [
+        "灰蓝",
+        "米白",
+        "雾粉"
+      ],
+      "规格": "1.8m床",
+      "特点": "60支长绒棉，活性印染，亲肤透气"
+    },
+    "description": "采用新疆长绒棉60支高密织造，手感细腻柔软，活性印染工艺色牢度高不易褪色。简约北欧几何图案设计，为卧室增添清新格调，四季通用，适合1.8米双人床。",
+    "id": "prod_0105",
+    "image_url": "https://picsum.photos/seed/prod_0105/400/400",
+    "rating": 3.5,
+    "stock": 212,
+    "sales_count": 2144
+  },
+  {
+    "name": "可折叠塑料收纳箱",
+    "category": "家居用品",
+    "subcategory": "收纳",
+    "price": 45.0,
+    "brand": "爱丽思",
+    "attributes": {
+      "颜色": [
+        "蓝色",
+        "粉色",
+        "白色"
+      ],
+      "规格": "45L",
+      "特点": "可折叠，带盖防尘"
+    },
+    "description": "PP材质加厚箱体，承重强且耐用，不用时可折叠收纳节省空间。透明翻盖一目了然，两侧提手搬运方便，适合存放衣物、玩具、杂物等多场景使用。",
+    "id": "prod_0106",
+    "image_url": "https://picsum.photos/seed/prod_0106/400/400",
+    "rating": 4.3,
+    "stock": 163,
+    "sales_count": 7491
+  },
+  {
+    "name": "现代简约LED台灯",
+    "category": "家居用品",
+    "subcategory": "灯具",
+    "price": 89.0,
+    "brand": "欧普照明",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "45cm高",
+      "特点": "三档调光，无频闪"
+    },
+    "description": "环形灯头设计光线均匀柔和，三档色温亮度可调适合阅读、工作、夜灯。底座触控开关操作灵敏，无蓝光危害无频闪，呵护双眼，USB接口供电方便。",
+    "id": "prod_0107",
+    "image_url": "https://picsum.photos/seed/prod_0107/400/400",
+    "rating": 3.6,
+    "stock": 394,
+    "sales_count": 1188
+  },
+  {
+    "name": "实木书架置物架",
+    "category": "家居用品",
+    "subcategory": "家具",
+    "price": 580.0,
+    "brand": "原始原素",
+    "attributes": {
+      "颜色": [
+        "胡桃色",
+        "樱桃木色"
+      ],
+      "规格": "80x30x180cm",
+      "特点": "全实木，环保清漆"
+    },
+    "description": "进口北美白橡木打造，天然木纹清晰美观，环保水性漆无刺鼻气味。五层开放格设计，书籍、摆件分类收纳，底部加高防潮，承重稳固，客厅书房皆宜。",
+    "id": "prod_0108",
+    "image_url": "https://picsum.photos/seed/prod_0108/400/400",
+    "rating": 3.0,
+    "stock": 328,
+    "sales_count": 9224
+  },
+  {
+    "name": "强力去油污清洁剂",
+    "category": "家居用品",
+    "subcategory": "清洁工具",
+    "price": 29.0,
+    "brand": "威猛先生",
+    "attributes": {
+      "颜色": [
+        "无色"
+      ],
+      "规格": "500ml",
+      "特点": "泡沫挂壁，快速分解油污"
+    },
+    "description": "强效泡沫配方能牢牢附着在垂直表面，迅速分解厨房重油污、油烟机积垢。无需大力擦拭，静置片刻后水冲即净，气味清新不刺鼻，不伤器具表面。",
+    "id": "prod_0109",
+    "image_url": "https://picsum.photos/seed/prod_0109/400/400",
+    "rating": 5.0,
+    "stock": 47,
+    "sales_count": 8808
+  },
+  {
+    "name": "纯棉抗菌浴巾",
+    "category": "家居用品",
+    "subcategory": "浴室用品",
+    "price": 69.0,
+    "brand": "洁丽雅",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "浅灰",
+        "淡蓝"
+      ],
+      "规格": "70x140cm",
+      "特点": "抗菌纤维，加厚吸水"
+    },
+    "description": "全棉精梳纱线，毛圈蓬松柔软，吸水性极佳。植入银离子抗菌技术，抑制细菌滋生，减少异味。包边工艺牢固耐用，适合家庭日常及运动后使用。",
+    "id": "prod_0110",
+    "image_url": "https://picsum.photos/seed/prod_0110/400/400",
+    "rating": 3.4,
+    "stock": 145,
+    "sales_count": 2170
+  },
+  {
+    "name": "创意仿真花束装饰",
+    "category": "家居用品",
+    "subcategory": "装饰",
+    "price": 38.0,
+    "brand": "宜家",
+    "attributes": {
+      "颜色": [
+        "粉白",
+        "黄白"
+      ],
+      "规格": "总高约40cm",
+      "特点": "仿真度高，无需打理"
+    },
+    "description": "采用优质绢布和塑料花茎，花瓣仿真纹理逼真，几可乱真。搭配陶瓷或草编花瓶（不包含），长久保持鲜艳色彩，无需浇水换水，适合茶几、玄关等点缀。",
+    "id": "prod_0111",
+    "image_url": "https://picsum.photos/seed/prod_0111/400/400",
+    "rating": 4.9,
+    "stock": 461,
+    "sales_count": 1127
+  },
+  {
+    "name": "真空压缩收纳袋",
+    "category": "家居用品",
+    "subcategory": "收纳",
+    "price": 25.0,
+    "brand": "太力",
+    "attributes": {
+      "颜色": [
+        "透明/蓝色封条"
+      ],
+      "规格": "中号 60x80cm",
+      "特点": "手卷抽气，密封防潮"
+    },
+    "description": "无需吸尘器，手动卷压即可排出空气，压缩体积约50%。双封条防漏气设计，有效防尘防潮防霉。适合收纳换季羽绒服、棉被，节省衣柜空间。",
+    "id": "prod_0112",
+    "image_url": "https://picsum.photos/seed/prod_0112/400/400",
+    "rating": 4.8,
+    "stock": 199,
+    "sales_count": 4669
+  },
+  {
+    "name": "多功能厨房剪刀",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 39.0,
+    "brand": "双立人",
+    "attributes": {
+      "颜色": [
+        "黑色手柄"
+      ],
+      "规格": "全长22cm",
+      "特点": "磁吸刀套，可拆卸清洗"
+    },
+    "description": "不锈钢刀刃锋利耐用，可剪鸡骨、蔬菜、鱼肚等，刀背带开瓶器功能。手柄防滑设计，带磁吸保护套安全收纳，可拆解为两片便于彻底清洗。",
+    "id": "prod_0113",
+    "image_url": "https://picsum.photos/seed/prod_0113/400/400",
+    "rating": 3.3,
+    "stock": 436,
+    "sales_count": 8900
+  },
+  {
+    "name": "羽绒枕芯",
+    "category": "家居用品",
+    "subcategory": "床上用品",
+    "price": 299.0,
+    "brand": "Downia",
+    "attributes": {
+      "颜色": [
+        "白",
+        "灰"
+      ],
+      "规格": "48×74cm",
+      "特点": "95%白鹅绒，高蓬松度，柔软支撑"
+    },
+    "description": "采用95%精选白鹅绒填充，蓬松度达700+，提供柔软而有力的颈部支撑。外层防羽布面料紧密防钻绒，适合侧睡及仰睡人群，提升睡眠质量。",
+    "id": "prod_0114",
+    "image_url": "https://picsum.photos/seed/prod_0114/400/400",
+    "rating": 4.4,
+    "stock": 323,
+    "sales_count": 8666
+  },
+  {
+    "name": "不粘锅套装",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 458.0,
+    "brand": "Zwilling",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "28cm+32cm",
+      "特点": "三层复合底，耐磨不粘涂层"
+    },
+    "description": "德国工艺不粘锅套装，含28cm煎锅和32cm炒锅。采用三层复合底设计，导热均匀且油烟少。内壁为进口Teflon涂层，耐刮耐磨，轻松煎炒不粘底。",
+    "id": "prod_0115",
+    "image_url": "https://picsum.photos/seed/prod_0115/400/400",
+    "rating": 3.0,
+    "stock": 428,
+    "sales_count": 9086
+  },
+  {
+    "name": "抽屉式收纳盒",
+    "category": "家居用品",
+    "subcategory": "收纳",
+    "price": 69.0,
+    "brand": "MUJI",
+    "attributes": {
+      "颜色": [
+        "米白",
+        "浅灰"
+      ],
+      "规格": "35×25×18cm",
+      "特点": "半透明PP材质，可叠加"
+    },
+    "description": "简约抽屉式收纳盒，采用半透明PP材质，便于识别内部物品。可自由叠加组合，适合收纳衣物、文具或杂物。圆润边角设计，安全不伤手。",
+    "id": "prod_0116",
+    "image_url": "https://picsum.photos/seed/prod_0116/400/400",
+    "rating": 3.6,
+    "stock": 349,
+    "sales_count": 1697
+  },
+  {
+    "name": "实木边几",
+    "category": "家居用品",
+    "subcategory": "家具",
+    "price": 598.0,
+    "brand": "Norhor",
+    "attributes": {
+      "颜色": [
+        "胡桃木色"
+      ],
+      "规格": "45×45×55cm",
+      "特点": "北美黑胡桃木，榫卯结构"
+    },
+    "description": "小巧实木边几，采用北美黑胡桃木打造，木纹自然温润。榫卯结构牢固耐用，适合置于沙发旁或床边，放置茶杯、书籍或装饰品。环保水性漆涂装，安全无异味。",
+    "id": "prod_0117",
+    "image_url": "https://picsum.photos/seed/prod_0117/400/400",
+    "rating": 4.9,
+    "stock": 78,
+    "sales_count": 4333
+  },
+  {
+    "name": "蒸汽拖把",
+    "category": "家居用品",
+    "subcategory": "清洁工具",
+    "price": 349.0,
+    "brand": "Shark",
+    "attributes": {
+      "颜色": [
+        "紫色"
+      ],
+      "规格": "1.2L水箱",
+      "特点": "高温蒸汽除菌，即拖即干"
+    },
+    "description": "鲨客蒸汽拖把，1200W大功率快速产生高温蒸汽，有效杀灭99.9%细菌和螨虫。1.2L大水箱可持续清洁约20分钟，拖布可拆卸水洗，地板即拖即干不留水渍。",
+    "id": "prod_0118",
+    "image_url": "https://picsum.photos/seed/prod_0118/400/400",
+    "rating": 3.2,
+    "stock": 64,
+    "sales_count": 9064
+  },
+  {
+    "name": "智能马桶盖",
+    "category": "家居用品",
+    "subcategory": "浴室用品",
+    "price": 1580.0,
+    "brand": "TOTO",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "标准V型",
+      "特点": "即热式温水清洗，除臭功能"
+    },
+    "description": "TOTO智能马桶盖，采用即热式加热系统，持续供应温水清洗。配备臀部清洗、女性清洗及暖风烘干功能，内置活性炭除臭装置，保持浴室空气清新。缓降盖板静音设计。",
+    "id": "prod_0119",
+    "image_url": "https://picsum.photos/seed/prod_0119/400/400",
+    "rating": 3.3,
+    "stock": 154,
+    "sales_count": 9909
+  },
+  {
+    "name": "北欧装饰花瓶",
+    "category": "家居用品",
+    "subcategory": "装饰",
+    "price": 129.0,
+    "brand": "IKEA",
+    "attributes": {
+      "颜色": [
+        "透明",
+        "烟灰色"
+      ],
+      "规格": "高25cm，口径10cm",
+      "特点": "手工吹制玻璃，波浪纹造型"
+    },
+    "description": "手工吹制玻璃花瓶，波浪纹理充满流动感。透明与烟灰色可选，简约北欧风格，适合搭配干花或鲜切花。瓶口略收设计，稳固插花，摆放于餐桌或玄关增添艺术气息。",
+    "id": "prod_0120",
+    "image_url": "https://picsum.photos/seed/prod_0120/400/400",
+    "rating": 3.4,
+    "stock": 185,
+    "sales_count": 3335
+  },
+  {
+    "name": "多功能料理锅",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 599.0,
+    "brand": "Bruno",
+    "attributes": {
+      "颜色": [
+        "复古绿",
+        "奶白"
+      ],
+      "规格": "4L容量",
+      "特点": "煎烤涮一体，不粘涂层"
+    },
+    "description": "Bruno多功能料理锅，配备深锅、煎盘、蒸架，一机实现煎、烤、涮、蒸、焗多种烹饪方式。4L大容量适合家庭聚餐，不粘涂层易清洗，复古外观提升厨房格调。",
+    "id": "prod_0121",
+    "image_url": "https://picsum.photos/seed/prod_0121/400/400",
+    "rating": 4.4,
+    "stock": 446,
+    "sales_count": 4325
+  },
+  {
+    "name": "懒人沙发豆袋",
+    "category": "家居用品",
+    "subcategory": "家具",
+    "price": 279.0,
+    "brand": "Yogibo",
+    "attributes": {
+      "颜色": [
+        "深灰",
+        "墨绿"
+      ],
+      "规格": "80×80×70cm",
+      "特点": "EPP粒子填充，可拆洗外套"
+    },
+    "description": "懒人沙发豆袋，内填食品级EPP微粒，坐感舒适且自适应身形。外套为棉麻混纺面料，亲肤透气且可拆卸机洗。轻巧便携，可随意移动至阳台、卧室或书房，打造休闲角落。",
+    "id": "prod_0122",
+    "image_url": "https://picsum.photos/seed/prod_0122/400/400",
+    "rating": 4.0,
+    "stock": 138,
+    "sales_count": 832
+  },
+  {
+    "name": "北欧简约收纳盒套装",
+    "category": "家居用品",
+    "subcategory": "收纳",
+    "price": 89.0,
+    "brand": "宜家家居",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "米色",
+        "灰色"
+      ],
+      "规格": "3件套（大号+中号+小号）",
+      "特点": "环保PP材质，带盖防尘，可叠放"
+    },
+    "description": "采用加厚聚丙烯材料，无毒无味，边角圆润不伤手。透明盒体便于快速查找物品，适合收纳衣物、玩具、杂物等多种场景，让家居空间整洁有序。",
+    "id": "prod_0123",
+    "image_url": "https://picsum.photos/seed/prod_0123/400/400",
+    "rating": 3.2,
+    "stock": 226,
+    "sales_count": 4533
+  },
+  {
+    "name": "陶瓷不粘煎锅28cm",
+    "category": "家居用品",
+    "subcategory": "厨房用具",
+    "price": 159.0,
+    "brand": "苏泊尔",
+    "attributes": {
+      "颜色": [
+        "珊瑚红"
+      ],
+      "规格": "28cm口径，含玻璃锅盖",
+      "特点": "麦饭石不粘涂层，少油烟，手柄防烫"
+    },
+    "description": "德国工艺麦饭石颗粒涂层，耐磨不粘，导热均匀，煎蛋、煎鱼轻松翻面。加厚复合底适用燃气灶、电磁炉，硅胶手柄舒适握持，烹饪体验更轻松。",
+    "id": "prod_0124",
+    "image_url": "https://picsum.photos/seed/prod_0124/400/400",
+    "rating": 3.1,
+    "stock": 180,
+    "sales_count": 2143
+  },
+  {
+    "name": "智能护眼LED台灯",
+    "category": "家居用品",
+    "subcategory": "灯具",
+    "price": 249.0,
+    "brand": "欧普照明",
+    "attributes": {
+      "颜色": [
+        "曜石黑"
+      ],
+      "规格": "灯臂可折叠，色温三档可调",
+      "特点": "无蓝光危害，触控调光，记忆亮度"
+    },
+    "description": "国AA级照度，环形发光面减少阴影，适合读写办公。内置锂电池，充满可无线使用4小时，触摸无极调光，45分钟定时休息提醒，呵护双眼健康。",
+    "id": "prod_0125",
+    "image_url": "https://picsum.photos/seed/prod_0125/400/400",
+    "rating": 4.3,
+    "stock": 144,
+    "sales_count": 2647
+  },
+  {
+    "name": "轻氧纯棉修身T恤",
+    "category": "服饰鞋包",
+    "subcategory": "T恤",
+    "price": 89.0,
+    "brand": "Uniqlo",
+    "attributes": {
+      "颜色": [
+        "白",
+        "黑",
+        "灰"
+      ],
+      "规格": "M/L/XL",
+      "特点": "纯棉面料，透气亲肤，经典圆领设计，简约百搭。"
+    },
+    "description": "采用100%优质长绒棉，经过丝光处理，手感顺滑且不易变形。修身版型勾勒身形，适合日常通勤或休闲穿着。领口加固缝线，多次洗涤依然平整。",
+    "id": "prod_0126",
+    "image_url": "https://picsum.photos/seed/prod_0126/400/400",
+    "rating": 4.5,
+    "stock": 292,
+    "sales_count": 7007
+  },
+  {
+    "name": "法式碎花雪纺连衣裙",
+    "category": "服饰鞋包",
+    "subcategory": "连衣裙",
+    "price": 259.0,
+    "brand": "Only",
+    "attributes": {
+      "颜色": [
+        "淡蓝碎花"
+      ],
+      "规格": "S/M/L",
+      "特点": "雪纺面料，飘逸轻盈，收腰A字裙摆。"
+    },
+    "description": "复古小碎花图案搭配海军领，甜美又不失优雅。内衬亲肤，外层雪纺微透，夏日清凉透气。腰部松紧抽绳设计，可自由调节，展现纤细腰身。",
+    "id": "prod_0127",
+    "image_url": "https://picsum.photos/seed/prod_0127/400/400",
+    "rating": 4.1,
+    "stock": 67,
+    "sales_count": 1232
+  },
+  {
+    "name": "高弹力小脚牛仔裤",
+    "category": "服饰鞋包",
+    "subcategory": "牛仔裤",
+    "price": 199.0,
+    "brand": "Levi's",
+    "attributes": {
+      "颜色": [
+        "深蓝",
+        "浅蓝"
+      ],
+      "规格": "26-30码",
+      "特点": "高弹力棉混纺，小脚铅笔版型。"
+    },
+    "description": "含3%氨纶，弹性极佳，蹲坐自如无束缚感。经典五袋设计，后袋提臀剪裁。水洗工艺自然，褪色均匀，日常搭配T恤或衬衫均显时尚。",
+    "id": "prod_0128",
+    "image_url": "https://picsum.photos/seed/prod_0128/400/400",
+    "rating": 4.9,
+    "stock": 363,
+    "sales_count": 2442
+  },
+  {
+    "name": "加厚保暖毛呢外套",
+    "category": "服饰鞋包",
+    "subcategory": "外套",
+    "price": 699.0,
+    "brand": "Zara",
+    "attributes": {
+      "颜色": [
+        "驼色",
+        "黑色"
+      ],
+      "规格": "M/L/XL",
+      "特点": "双面毛呢，立体剪裁，中长款。"
+    },
+    "description": "30%羊毛+70%聚酯纤维混纺呢料，手感软糯保暖。双排扣设计，复古翻领，腰间系带可收腰。内里加棉夹层，可抵御0℃左右低温，适合秋冬通勤。",
+    "id": "prod_0129",
+    "image_url": "https://picsum.photos/seed/prod_0129/400/400",
+    "rating": 4.1,
+    "stock": 437,
+    "sales_count": 6049
+  },
+  {
+    "name": "轻量缓震跑步运动鞋",
+    "category": "服饰鞋包",
+    "subcategory": "运动鞋",
+    "price": 459.0,
+    "brand": "Nike",
+    "attributes": {
+      "颜色": [
+        "黑白",
+        "灰蓝"
+      ],
+      "规格": "39-44码",
+      "特点": "React缓震中底，透气飞织鞋面。"
+    },
+    "description": "全掌型React泡棉，回弹缓震性能出色，减轻跑步冲击。Flyknit编织鞋面包裹贴合，多孔透气。橡胶外底耐磨防滑，适合日常慢跑与健身训练。",
+    "id": "prod_0130",
+    "image_url": "https://picsum.photos/seed/prod_0130/400/400",
+    "rating": 4.2,
+    "stock": 85,
+    "sales_count": 7041
+  },
+  {
+    "name": "大容量防泼水双肩包",
+    "category": "服饰鞋包",
+    "subcategory": "双肩包",
+    "price": 329.0,
+    "brand": "The North Face",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "深绿"
+      ],
+      "规格": "30L",
+      "特点": "防泼水面料，多隔层，减压肩带。"
+    },
+    "description": "采用210D尼龙防撕裂面料，表面防泼水处理，小雨无忧。主仓可装15.6英寸笔记本，前仓多功能收纳。S型加厚肩带配合胸扣，分散压力，适合通勤与短途旅行。",
+    "id": "prod_0131",
+    "image_url": "https://picsum.photos/seed/prod_0131/400/400",
+    "rating": 3.3,
+    "stock": 167,
+    "sales_count": 5974
+  },
+  {
+    "name": "经典马鞍斜挎手提包",
+    "category": "服饰鞋包",
+    "subcategory": "手提包",
+    "price": 1280.0,
+    "brand": "Coach",
+    "attributes": {
+      "颜色": [
+        "棕色",
+        "白色"
+      ],
+      "规格": "中号",
+      "特点": "牛皮材质，马鞍包造型，可拆卸肩带。"
+    },
+    "description": "头层牛皮手工打磨，纹理自然耐磨。经典旋扣开合，内置拉链暗袋与卡位。附赠长肩带，可手提或斜挎。尺寸约22x16x8cm，日常出街容量适中。",
+    "id": "prod_0132",
+    "image_url": "https://picsum.photos/seed/prod_0132/400/400",
+    "rating": 4.8,
+    "stock": 417,
+    "sales_count": 653
+  },
+  {
+    "name": "纯色针织贝雷帽",
+    "category": "服饰鞋包",
+    "subcategory": "帽子",
+    "price": 79.0,
+    "brand": "H&M",
+    "attributes": {
+      "颜色": [
+        "酒红",
+        "藏青",
+        "黑"
+      ],
+      "规格": "均码（56-58cm）",
+      "特点": "柔软针织，法式复古风格。"
+    },
+    "description": "采用腈纶混纺针织，弹性好不易变形。帽沿可翻折，佩戴修饰脸型。经典贝雷帽版型，搭配大衣或连衣裙增添优雅气质。适合春秋季节日常搭配。",
+    "id": "prod_0133",
+    "image_url": "https://picsum.photos/seed/prod_0133/400/400",
+    "rating": 4.8,
+    "stock": 117,
+    "sales_count": 4088
+  },
+  {
+    "name": "羊绒混纺保暖围巾",
+    "category": "服饰鞋包",
+    "subcategory": "围巾",
+    "price": 189.0,
+    "brand": "MUJI",
+    "attributes": {
+      "颜色": [
+        "米白",
+        "浅灰"
+      ],
+      "规格": "180x35cm",
+      "特点": "10%羊绒，90%羊毛，亲肤保暖。"
+    },
+    "description": "精选内蒙古山羊绒混纺细羊毛，手感细腻不扎肤。宽大长巾设计，可围脖可披肩。流苏自然垂坠，简约纯色，适合秋冬搭配外套或大衣使用。",
+    "id": "prod_0134",
+    "image_url": "https://picsum.photos/seed/prod_0134/400/400",
+    "rating": 4.3,
+    "stock": 191,
+    "sales_count": 9173
+  },
+  {
+    "name": "机能工装多口袋马甲",
+    "category": "服饰鞋包",
+    "subcategory": "外套",
+    "price": 349.0,
+    "brand": "Jack & Jones",
+    "attributes": {
+      "颜色": [
+        "军绿",
+        "卡其"
+      ],
+      "规格": "M/L/XL",
+      "特点": "棉涤面料，多口袋，可拆卸帽兜。"
+    },
+    "description": "采用棉涤混纺斜纹布，耐磨抗皱。全身共8个口袋（含拉链袋、贴袋），工具与手机轻松收纳。可拆卸连帽设计，轻薄夹棉，春秋季节穿着，户外休闲皆宜。",
+    "id": "prod_0135",
+    "image_url": "https://picsum.photos/seed/prod_0135/400/400",
+    "rating": 4.8,
+    "stock": 218,
+    "sales_count": 2532
+  },
+  {
+    "name": "经典纯棉圆领T恤",
+    "category": "服饰鞋包",
+    "subcategory": "T恤",
+    "price": 79.0,
+    "brand": "优衣库",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "黑色",
+        "灰色"
+      ],
+      "规格": "M/L/XL",
+      "特点": "柔软亲肤，不易变形，基础百搭"
+    },
+    "description": "采用100%精梳棉面料，手感细腻柔软，透气吸汗。经典圆领设计，简约大方，适合日常休闲穿着。多色可选，男女皆宜，是衣橱必备的基础款。",
+    "id": "prod_0136",
+    "image_url": "https://picsum.photos/seed/prod_0136/400/400",
+    "rating": 4.9,
+    "stock": 131,
+    "sales_count": 2662
+  },
+  {
+    "name": "法式碎花收腰连衣裙",
+    "category": "服饰鞋包",
+    "subcategory": "连衣裙",
+    "price": 299.0,
+    "brand": "ZARA",
+    "attributes": {
+      "颜色": [
+        "蓝色碎花"
+      ],
+      "规格": "S/M/L",
+      "特点": "收腰显瘦，雪纺飘逸"
+    },
+    "description": "浪漫法式碎花印花，雪纺面料轻盈飘逸，V领修饰脸型，高腰设计拉长腿部比例。裙摆自然垂坠，行走间灵动优雅，适合约会、度假或通勤穿搭。",
+    "id": "prod_0137",
+    "image_url": "https://picsum.photos/seed/prod_0137/400/400",
+    "rating": 5.0,
+    "stock": 425,
+    "sales_count": 2900
+  },
+  {
+    "name": "高腰弹力紧身牛仔裤",
+    "category": "服饰鞋包",
+    "subcategory": "牛仔裤",
+    "price": 199.0,
+    "brand": "Levi's",
+    "attributes": {
+      "颜色": [
+        "深蓝色",
+        "浅蓝色"
+      ],
+      "规格": "26-32码",
+      "特点": "弹力面料，不紧绷"
+    },
+    "description": "经典高腰版型，采用弹力牛仔布，贴合身形却不紧绷。立体剪裁修饰腿型，后袋设计提升臀部曲线。无论搭配T恤还是衬衫，都能轻松展现休闲时尚感。",
+    "id": "prod_0138",
+    "image_url": "https://picsum.photos/seed/prod_0138/400/400",
+    "rating": 4.8,
+    "stock": 22,
+    "sales_count": 2938
+  },
+  {
+    "name": "连帽防风保暖外套",
+    "category": "服饰鞋包",
+    "subcategory": "外套",
+    "price": 459.0,
+    "brand": "北面",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "军绿色"
+      ],
+      "规格": "M/L/XL",
+      "特点": "防风防水，保暖透气"
+    },
+    "description": "采用品牌自主研发的防水透气面料，有效抵御风雨。内层填充保暖纤维，轻盈不厚重。可调节防风帽，弹力袖口和下摆锁住温度，户外运动与日常出行皆宜。",
+    "id": "prod_0139",
+    "image_url": "https://picsum.photos/seed/prod_0139/400/400",
+    "rating": 4.5,
+    "stock": 180,
+    "sales_count": 6745
+  },
+  {
+    "name": "轻便缓震网面运动鞋",
+    "category": "服饰鞋包",
+    "subcategory": "运动鞋",
+    "price": 329.0,
+    "brand": "安踏",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "黑色"
+      ],
+      "规格": "39-44码",
+      "特点": "减震回弹，透气网面"
+    },
+    "description": "飞织网面鞋身，轻质透气，夏季穿着不闷脚。中底采用A-FLASHFOAM缓震科技，吸收冲击力并提供回弹反馈。橡胶外底耐磨防滑，适合慢跑、健身及日常行走。",
+    "id": "prod_0140",
+    "image_url": "https://picsum.photos/seed/prod_0140/400/400",
+    "rating": 4.6,
+    "stock": 452,
+    "sales_count": 4065
+  },
+  {
+    "name": "大容量防水双肩包",
+    "category": "服饰鞋包",
+    "subcategory": "双肩包",
+    "price": 189.0,
+    "brand": "杰斯伯",
+    "attributes": {
+      "颜色": [
+        "灰色",
+        "深蓝色"
+      ],
+      "规格": "30L",
+      "特点": "防水面料，多隔层"
+    },
+    "description": "采用高密度尼龙面料，表面防泼水处理，雨天保护物品。主仓可放置15.6英寸笔记本，前袋分层合理，侧面网袋放水杯。加厚肩带和透气背板减轻负重感，适合通勤与短途旅行。",
+    "id": "prod_0141",
+    "image_url": "https://picsum.photos/seed/prod_0141/400/400",
+    "rating": 3.5,
+    "stock": 413,
+    "sales_count": 1771
+  },
+  {
+    "name": "头层牛皮单肩手提包",
+    "category": "服饰鞋包",
+    "subcategory": "手提包",
+    "price": 899.0,
+    "brand": "蔻驰",
+    "attributes": {
+      "颜色": [
+        "棕色",
+        "黑色"
+      ],
+      "规格": "中号",
+      "特点": "头层牛皮，品牌五金"
+    },
+    "description": "精选头层牛皮，纹理自然细腻，手感柔软。经典翻盖设计搭配品牌金属扣，优雅大方。内部空间充裕，可分隔放置手机、钱包等随身物品。可手提可单肩，通勤与约会均可驾驭。",
+    "id": "prod_0142",
+    "image_url": "https://picsum.photos/seed/prod_0142/400/400",
+    "rating": 3.8,
+    "stock": 29,
+    "sales_count": 7711
+  },
+  {
+    "name": "纯色百搭棒球帽",
+    "category": "服饰鞋包",
+    "subcategory": "帽子",
+    "price": 59.0,
+    "brand": "MLB",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色",
+        "藏青色"
+      ],
+      "规格": "可调节",
+      "特点": "速干面料，遮阳透气"
+    },
+    "description": "经典六片式棒球帽型，弧形帽檐有效遮阳。面料速干透气，内里吸汗带设计，佩戴舒适。后部可调节卡扣，适应不同头围。简约logo刺绣，休闲运动风百搭单品。",
+    "id": "prod_0143",
+    "image_url": "https://picsum.photos/seed/prod_0143/400/400",
+    "rating": 3.4,
+    "stock": 428,
+    "sales_count": 7541
+  },
+  {
+    "name": "羊绒混纺流苏围巾",
+    "category": "服饰鞋包",
+    "subcategory": "围巾",
+    "price": 149.0,
+    "brand": "无印良品",
+    "attributes": {
+      "颜色": [
+        "驼色",
+        "烟灰色"
+      ],
+      "规格": "180×30cm",
+      "特点": "柔软保暖，流苏装饰"
+    },
+    "description": "采用羊绒与羊毛混纺，触感柔软亲肤，保暖性出众。简约纯色搭配两端细密流苏，增添灵动气质。宽幅设计可当披肩使用，秋冬季节为颈间和肩部带来温暖与时尚。",
+    "id": "prod_0144",
+    "image_url": "https://picsum.photos/seed/prod_0144/400/400",
+    "rating": 3.7,
+    "stock": 430,
+    "sales_count": 3728
+  },
+  {
+    "name": "复古格纹短袖衬衫",
+    "category": "服饰鞋包",
+    "subcategory": "T恤",
+    "price": 119.0,
+    "brand": "H&M",
+    "attributes": {
+      "颜色": [
+        "蓝白格纹"
+      ],
+      "规格": "M/L/XL",
+      "特点": "透气棉麻，复古风格"
+    },
+    "description": "棉麻混纺面料，透气性佳，夏季穿着清凉舒爽。经典格纹图案，翻领设计，胸前口袋点缀。宽松版型不挑身材，可内搭白T或单穿，打造休闲复古的街头造型。",
+    "id": "prod_0145",
+    "image_url": "https://picsum.photos/seed/prod_0145/400/400",
+    "rating": 3.4,
+    "stock": 347,
+    "sales_count": 3164
+  },
+  {
+    "name": "纯棉印花圆领T恤",
+    "category": "服饰鞋包",
+    "subcategory": "T恤",
+    "price": 99.0,
+    "brand": "潮牌A",
+    "attributes": {
+      "颜色": [
+        "白",
+        "黑"
+      ],
+      "规格": "M/L/XL",
+      "特点": "透气舒适"
+    },
+    "description": "采用100%纯棉面料，亲肤透气，经典圆领设计，胸前趣味印花增添活力。版型宽松不挑身材，适合日常休闲穿搭，四季皆宜的基础单品。",
+    "id": "prod_0146",
+    "image_url": "https://picsum.photos/seed/prod_0146/400/400",
+    "rating": 3.8,
+    "stock": 152,
+    "sales_count": 1137
+  },
+  {
+    "name": "碎花收腰雪纺连衣裙",
+    "category": "服饰鞋包",
+    "subcategory": "连衣裙",
+    "price": 199.0,
+    "brand": "优雅坊",
+    "attributes": {
+      "颜色": [
+        "碎花蓝"
+      ],
+      "规格": "S/M/L",
+      "特点": "收腰显瘦"
+    },
+    "description": "轻盈雪纺面料，手感顺滑飘逸，浪漫碎花图案充满夏日气息。腰部松紧收褶设计，自然勾勒曲线，A字裙摆修饰腿型，约会出游的甜美之选。",
+    "id": "prod_0147",
+    "image_url": "https://picsum.photos/seed/prod_0147/400/400",
+    "rating": 4.9,
+    "stock": 152,
+    "sales_count": 5753
+  },
+  {
+    "name": "高弹力修身小脚牛仔裤",
+    "category": "服饰鞋包",
+    "subcategory": "牛仔裤",
+    "price": 299.0,
+    "brand": "牛仔世家",
+    "attributes": {
+      "颜色": [
+        "深蓝",
+        "黑"
+      ],
+      "规格": "28-36码",
+      "特点": "高弹力"
+    },
+    "description": "优质弹力棉牛仔布，包裹性佳却不紧绷，修身小脚版型显腿长。经典五袋设计，纯铜拉链坚固耐用，适合通勤与休闲多种场合。",
+    "id": "prod_0148",
+    "image_url": "https://picsum.photos/seed/prod_0148/400/400",
+    "rating": 4.3,
+    "stock": 214,
+    "sales_count": 8785
+  },
+  {
+    "name": "连帽防风防水风衣外套",
+    "category": "服饰鞋包",
+    "subcategory": "外套",
+    "price": 599.0,
+    "brand": "风尚客",
+    "attributes": {
+      "颜色": [
+        "卡其色"
+      ],
+      "规格": "M/L/XL/XXL",
+      "特点": "防水防风"
+    },
+    "description": "采用高密度防泼水面料，接缝处压胶处理，有效抵御风雨。可拆卸连帽设计，内置收腰抽绳，既能休闲也能商务，春秋旅行必备。",
+    "id": "prod_0149",
+    "image_url": "https://picsum.photos/seed/prod_0149/400/400",
+    "rating": 3.7,
+    "stock": 24,
+    "sales_count": 1889
+  },
+  {
+    "name": "轻量缓震网面跑步鞋",
+    "category": "服饰鞋包",
+    "subcategory": "运动鞋",
+    "price": 399.0,
+    "brand": "飞步",
+    "attributes": {
+      "颜色": [
+        "白",
+        "黑红拼色"
+      ],
+      "规格": "39-44码",
+      "特点": "缓震回弹"
+    },
+    "description": "全掌EVA缓震中底，结合后跟气垫科技，有效吸收冲击力。透气飞织鞋面，轻量包裹，跑步、健身、日常步行都能提供舒适脚感。",
+    "id": "prod_0150",
+    "image_url": "https://picsum.photos/seed/prod_0150/400/400",
+    "rating": 4.8,
+    "stock": 143,
+    "sales_count": 2925
+  },
+  {
+    "name": "大容量防泼水休闲双肩包",
+    "category": "服饰鞋包",
+    "subcategory": "双肩包",
+    "price": 159.0,
+    "brand": "背包客",
+    "attributes": {
+      "颜色": [
+        "灰色",
+        "墨绿"
+      ],
+      "规格": "大号（约45L）",
+      "特点": "防泼水"
+    },
+    "description": "双层防泼水面料，主仓可装15.6英寸笔记本电脑，前幅多功能口袋方便收纳小物。加宽S型肩带减压透气，适合通勤、短途旅行或户外徒步。",
+    "id": "prod_0151",
+    "image_url": "https://picsum.photos/seed/prod_0151/400/400",
+    "rating": 4.2,
+    "stock": 145,
+    "sales_count": 626
+  },
+  {
+    "name": "头层牛皮经典手提包",
+    "category": "服饰鞋包",
+    "subcategory": "手提包",
+    "price": 899.0,
+    "brand": "皮匠",
+    "attributes": {
+      "颜色": [
+        "棕色",
+        "黑色"
+      ],
+      "规格": "中号（约28×22×12cm）",
+      "特点": "耐磨真皮"
+    },
+    "description": "精选头层牛皮，纹理自然细腻，手感温润。复古五金锁扣开合，内部分隔合理，可放手机、钱包、化妆品等。可手提可单肩，彰显优雅气质。",
+    "id": "prod_0152",
+    "image_url": "https://picsum.photos/seed/prod_0152/400/400",
+    "rating": 3.2,
+    "stock": 232,
+    "sales_count": 5663
+  },
+  {
+    "name": "可调节透气棒球帽",
+    "category": "服饰鞋包",
+    "subcategory": "帽子",
+    "price": 59.0,
+    "brand": "帽饰家",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "红色"
+      ],
+      "规格": "可调节（58-62cm）",
+      "特点": "速干透气"
+    },
+    "description": "六片拼接帽型，立体有型。前幅刺绣logo，后侧魔术贴调节松紧，内里吸汗带设计。面料速干透气，适合运动、旅行、日常遮阳。",
+    "id": "prod_0153",
+    "image_url": "https://picsum.photos/seed/prod_0153/400/400",
+    "rating": 4.5,
+    "stock": 170,
+    "sales_count": 7149
+  },
+  {
+    "name": "纯色羊毛混纺长款围巾",
+    "category": "服饰鞋包",
+    "subcategory": "围巾",
+    "price": 129.0,
+    "brand": "温暖派",
+    "attributes": {
+      "颜色": [
+        "驼色",
+        "浅灰"
+      ],
+      "规格": "180×30cm（含流苏）",
+      "特点": "柔软亲肤"
+    },
+    "description": "羊毛与腈纶混纺，手感柔软不扎肤，轻盈保暖。经典纯色百搭，流苏装饰增添灵动感。秋冬搭配大衣或羽绒服，温暖又时尚。",
+    "id": "prod_0154",
+    "image_url": "https://picsum.photos/seed/prod_0154/400/400",
+    "rating": 4.2,
+    "stock": 271,
+    "sales_count": 1894
+  },
+  {
+    "name": "雪纺碎花荷叶边衬衫裙",
+    "category": "服饰鞋包",
+    "subcategory": "连衣裙",
+    "price": 249.0,
+    "brand": "花语",
+    "attributes": {
+      "颜色": [
+        "粉色碎花"
+      ],
+      "规格": "S/M/L/XL",
+      "特点": "荷叶边装饰"
+    },
+    "description": "轻薄雪纺面料，内衬防透，浪漫碎花搭配领口荷叶边设计，温柔减龄。后腰松紧收束，裙长至膝上，单穿或外搭针织衫皆可，春日甜美首选。",
+    "id": "prod_0155",
+    "image_url": "https://picsum.photos/seed/prod_0155/400/400",
+    "rating": 3.8,
+    "stock": 305,
+    "sales_count": 3114
+  },
+  {
+    "name": "纯棉圆领短袖T恤",
+    "category": "服饰鞋包",
+    "subcategory": "T恤",
+    "price": 79.0,
+    "brand": "优衣库",
+    "attributes": {
+      "颜色": [
+        "白",
+        "黑",
+        "灰"
+      ],
+      "规格": "M/L/XL",
+      "特点": "100%精梳棉，透气亲肤，经典圆领不易变形，适合日常休闲穿搭。"
+    },
+    "description": "采用优质精梳棉面料，手感柔软细腻，透气性极佳。简约圆领设计，领口加固处理不易松垮。经典版型，黑白灰三色可选，百搭不挑人，是夏季衣橱必备单品。",
+    "id": "prod_0156",
+    "image_url": "https://picsum.photos/seed/prod_0156/400/400",
+    "rating": 4.3,
+    "stock": 22,
+    "sales_count": 4506
+  },
+  {
+    "name": "法式复古碎花连衣裙",
+    "category": "服饰鞋包",
+    "subcategory": "连衣裙",
+    "price": 229.0,
+    "brand": "江南布衣",
+    "attributes": {
+      "颜色": [
+        "蓝色碎花"
+      ],
+      "规格": "S/M/L",
+      "特点": "收腰A字版型，V领设计，雪纺面料飘逸显瘦。"
+    },
+    "description": "复古浪漫的碎花图案搭配飘逸雪纺面料，V领修饰颈部线条，高腰收褶设计巧妙遮肉显高。双层裙摆轻盈灵动，适合约会、度假等场合，展现温柔气质。",
+    "id": "prod_0157",
+    "image_url": "https://picsum.photos/seed/prod_0157/400/400",
+    "rating": 3.5,
+    "stock": 81,
+    "sales_count": 1679
+  },
+  {
+    "name": "高弹力紧身牛仔裤",
+    "category": "服饰鞋包",
+    "subcategory": "牛仔裤",
+    "price": 189.0,
+    "brand": "Levi's",
+    "attributes": {
+      "颜色": [
+        "深蓝"
+      ],
+      "规格": "26-32码",
+      "特点": "高弹力棉混纺，修身不紧绷，经典五袋设计。"
+    },
+    "description": "采用优质棉与氨纶混纺面料，弹力极佳，活动自如。中高腰设计拉长腿部比例，紧身版型完美包裹臀腿曲线。经典五袋样式，百搭耐穿，适合日常通勤与休闲。",
+    "id": "prod_0158",
+    "image_url": "https://picsum.photos/seed/prod_0158/400/400",
+    "rating": 4.4,
+    "stock": 466,
+    "sales_count": 8935
+  },
+  {
+    "name": "加厚连帽羽绒服",
+    "category": "服饰鞋包",
+    "subcategory": "外套",
+    "price": 1299.0,
+    "brand": "波司登",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "卡其色"
+      ],
+      "规格": "M/L/XL/2XL",
+      "特点": "90%白鹅绒填充，防风防泼水，可拆卸毛领。"
+    },
+    "description": "甄选高品质白鹅绒，蓬松度达700+，锁温保暖性能优异。外层采用防风防泼水面料，抵御雨雪侵袭。可拆卸貉子毛领增添时尚感，内里加绒口袋设计贴心实用。",
+    "id": "prod_0159",
+    "image_url": "https://picsum.photos/seed/prod_0159/400/400",
+    "rating": 3.2,
+    "stock": 226,
+    "sales_count": 520
+  },
+  {
+    "name": "轻便减震跑步鞋",
+    "category": "服饰鞋包",
+    "subcategory": "运动鞋",
+    "price": 569.0,
+    "brand": "Nike",
+    "attributes": {
+      "颜色": [
+        "白/黑",
+        "灰蓝"
+      ],
+      "规格": "38-44码",
+      "特点": "React缓震科技，网面透气，轻量耐磨。"
+    },
+    "description": "搭载Nike React泡沫中底，提供出色缓震回弹，跑步时脚感轻盈。工程网眼鞋面透气贴合，Flywire飞线技术增强包裹感。橡胶外底多向凹槽设计，抓地力强，适合日常训练。",
+    "id": "prod_0160",
+    "image_url": "https://picsum.photos/seed/prod_0160/400/400",
+    "rating": 3.1,
+    "stock": 121,
+    "sales_count": 3811
+  },
+  {
+    "name": "大容量休闲双肩包",
+    "category": "服饰鞋包",
+    "subcategory": "双肩包",
+    "price": 299.0,
+    "brand": "Anello",
+    "attributes": {
+      "颜色": [
+        "深蓝",
+        "军绿"
+      ],
+      "规格": "均码",
+      "特点": "可扩容主仓，加厚背带，防水面料。"
+    },
+    "description": "采用高密度防泼水尼龙材质，耐磨易打理。主仓拉链可扩展至30L，轻松收纳笔记本电脑及换洗衣物。加厚网状背带减压透气，侧边水壶袋方便取用，适合通勤与短途旅行。",
+    "id": "prod_0161",
+    "image_url": "https://picsum.photos/seed/prod_0161/400/400",
+    "rating": 4.0,
+    "stock": 23,
+    "sales_count": 9195
+  },
+  {
+    "name": "真皮复古手提斜挎包",
+    "category": "服饰鞋包",
+    "subcategory": "手提包",
+    "price": 899.0,
+    "brand": "Coach",
+    "attributes": {
+      "颜色": [
+        "棕色"
+      ],
+      "规格": "中号",
+      "特点": "头层牛皮，金属锁扣，可拆卸肩带。"
+    },
+    "description": "精选头层牛皮制作，皮质细腻有光泽，复古做旧五金彰显质感。经典翻盖锁扣设计，主仓分层合理，可容纳手机、钱包等日常物品。可手提或斜挎，优雅实用。",
+    "id": "prod_0162",
+    "image_url": "https://picsum.photos/seed/prod_0162/400/400",
+    "rating": 3.4,
+    "stock": 342,
+    "sales_count": 8928
+  },
+  {
+    "name": "纯色针织毛线帽",
+    "category": "服饰鞋包",
+    "subcategory": "帽子",
+    "price": 59.0,
+    "brand": "无印良品",
+    "attributes": {
+      "颜色": [
+        "奶白",
+        "炭灰",
+        "酒红"
+      ],
+      "规格": "均码（弹性）",
+      "特点": "柔软腈纶混纺，加厚编织，弹力收边。"
+    },
+    "description": "采用腈纶与羊毛混纺纱线，手感柔软不扎肤。加厚编织工艺保暖性好，弹力罗纹帽檐贴合头部不滑落。简约纯色设计，百搭各类冬装，男女皆可佩戴。",
+    "id": "prod_0163",
+    "image_url": "https://picsum.photos/seed/prod_0163/400/400",
+    "rating": 3.8,
+    "stock": 239,
+    "sales_count": 9654
+  },
+  {
+    "name": "仿羊绒保暖披肩围巾",
+    "category": "服饰鞋包",
+    "subcategory": "围巾",
+    "price": 129.0,
+    "brand": "ZARA",
+    "attributes": {
+      "颜色": [
+        "驼色",
+        "灰色"
+      ],
+      "规格": "180cm×70cm",
+      "特点": "仿羊绒材质，双面同色，流苏装饰。"
+    },
+    "description": "采用高克重仿羊绒面料，触感柔软蓬松，保暖性媲美真羊绒。双面同色设计，搭配简约流苏边，优雅大气。大尺寸可作披肩或围巾，秋冬搭配大衣、羽绒服均显高级。",
+    "id": "prod_0164",
+    "image_url": "https://picsum.photos/seed/prod_0164/400/400",
+    "rating": 3.6,
+    "stock": 455,
+    "sales_count": 106
+  },
+  {
+    "name": "反季清仓厚底老爹鞋",
+    "category": "服饰鞋包",
+    "subcategory": "运动鞋",
+    "price": 359.0,
+    "brand": "李宁",
+    "attributes": {
+      "颜色": [
+        "白/绿",
+        "白/红"
+      ],
+      "规格": "36-43码",
+      "特点": "镂空设计，EVA+橡胶大底，增高5cm。"
+    },
+    "description": "复古跑鞋造型结合现代镂空结构，视觉轻盈。EVA中底搭配橡胶外底，缓震耐磨，有效增高约5cm。鞋面多材质拼接，透气性好。经典白绿/白红配色，潮流百搭。",
+    "id": "prod_0165",
+    "image_url": "https://picsum.photos/seed/prod_0165/400/400",
+    "rating": 4.5,
+    "stock": 91,
+    "sales_count": 6924
+  },
+  {
+    "name": "高弹力修身牛仔裤",
+    "category": "服饰鞋包",
+    "subcategory": "牛仔裤",
+    "price": 459.0,
+    "brand": "Levi's",
+    "attributes": {
+      "颜色": [
+        "深蓝"
+      ],
+      "规格": "26-32码",
+      "特点": "高弹力面料，修身版型，耐磨耐洗"
+    },
+    "description": "优质丹宁面料混纺弹力纤维，穿着舒适不紧绷。经典五袋设计，修身直筒版型修饰腿型。适合日常休闲、通勤或户外活动，百搭耐穿。",
+    "id": "prod_0166",
+    "image_url": "https://picsum.photos/seed/prod_0166/400/400",
+    "rating": 3.7,
+    "stock": 89,
+    "sales_count": 3527
+  },
+  {
+    "name": "连帽防风冲锋外套",
+    "category": "服饰鞋包",
+    "subcategory": "外套",
+    "price": 899.0,
+    "brand": "The North Face",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "军绿色"
+      ],
+      "规格": "M/L/XL/XXL",
+      "特点": "防风防水，耐磨透气，可拆卸帽子"
+    },
+    "description": "采用DryVent™科技面料，有效抵御风雨。内层透气网眼设计，保持干爽。可调节帽檐和下摆，适合户外登山、徒步或城市通勤，实用与时尚兼具。",
+    "id": "prod_0167",
+    "image_url": "https://picsum.photos/seed/prod_0167/400/400",
+    "rating": 4.9,
+    "stock": 182,
+    "sales_count": 1674
+  },
+  {
+    "name": "轻便缓震跑步运动鞋",
+    "category": "服饰鞋包",
+    "subcategory": "运动鞋",
+    "price": 1299.0,
+    "brand": "Nike",
+    "attributes": {
+      "颜色": [
+        "黑白",
+        "灰蓝"
+      ],
+      "规格": "39-44码",
+      "特点": "超轻缓震，回弹出色，防滑耐磨"
+    },
+    "description": "搭载React泡沫中底，提供出色缓震与能量反馈。Flyknit编织鞋面贴合脚面，透气轻盈。橡胶外底抓地力强，适合日常慢跑、健身或休闲穿搭。",
+    "id": "prod_0168",
+    "image_url": "https://picsum.photos/seed/prod_0168/400/400",
+    "rating": 3.2,
+    "stock": 59,
+    "sales_count": 5881
+  },
+  {
+    "name": "休闲大容量双肩包",
+    "category": "服饰鞋包",
+    "subcategory": "双肩包",
+    "price": 349.0,
+    "brand": "Herschel Supply Co.",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "深蓝"
+      ],
+      "规格": "均码",
+      "特点": "大容量主仓，加厚肩带，防泼水"
+    },
+    "description": "经典休闲款式，主仓可容纳15寸笔记本电脑及日常物品。前部拉链口袋方便快速取物，加厚透气肩带减轻背负压力。适合通勤、旅行或学生使用。",
+    "id": "prod_0169",
+    "image_url": "https://picsum.photos/seed/prod_0169/400/400",
+    "rating": 4.7,
+    "stock": 319,
+    "sales_count": 4333
+  },
+  {
+    "name": "真皮菱格纹手提包",
+    "category": "服饰鞋包",
+    "subcategory": "手提包",
+    "price": 1880.0,
+    "brand": "Coach",
+    "attributes": {
+      "颜色": [
+        "棕色",
+        "黑色"
+      ],
+      "规格": "中号",
+      "特点": "头层牛皮，金属锁扣，优雅菱格"
+    },
+    "description": "精选头层牛皮，手感细腻柔韧。经典菱格绗缝设计搭配金属锁扣，时尚大气。内部多隔层有序收纳，可手提可肩背，适合职场或约会场合。",
+    "id": "prod_0170",
+    "image_url": "https://picsum.photos/seed/prod_0170/400/400",
+    "rating": 4.6,
+    "stock": 383,
+    "sales_count": 7527
+  },
+  {
+    "name": "羊绒混纺针织围巾",
+    "category": "服饰鞋包",
+    "subcategory": "围巾",
+    "price": 259.0,
+    "brand": "无印良品",
+    "attributes": {
+      "颜色": [
+        "驼色",
+        "灰色",
+        "米白"
+      ],
+      "规格": "180×30cm",
+      "特点": "羊毛混纺，柔软保暖，流苏设计"
+    },
+    "description": "羊绒与羊毛混纺，触感柔软亲肤，保暖性出色。简约双色编织纹理，两端流苏点缀。适合秋冬季节搭配大衣、羽绒服，优雅又温暖。",
+    "id": "prod_0171",
+    "image_url": "https://picsum.photos/seed/prod_0171/400/400",
+    "rating": 4.1,
+    "stock": 482,
+    "sales_count": 6201
+  },
+  {
+    "name": "复古印花短袖T恤",
+    "category": "服饰鞋包",
+    "subcategory": "T恤",
+    "price": 129.0,
+    "brand": "李宁",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "红色"
+      ],
+      "规格": "M/L/XL/XXL",
+      "特点": "国潮印花，宽松版型，纯棉面料"
+    },
+    "description": "采用新疆长绒棉，手感柔软透气。胸前复古“中国李宁”印花，彰显国潮态度。宽松落肩版型，舒适自在。适合潮流街头搭配，展现年轻活力。",
+    "id": "prod_0172",
+    "image_url": "https://picsum.photos/seed/prod_0172/400/400",
+    "rating": 3.2,
+    "stock": 160,
+    "sales_count": 5925
+  },
+  {
+    "name": "轻暖连帽短款羽绒外套",
+    "category": "服饰鞋包",
+    "subcategory": "外套",
+    "price": 699.0,
+    "brand": "波司登",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "卡其"
+      ],
+      "规格": "M/L/XL",
+      "特点": "90%白鹅绒，轻便保暖"
+    },
+    "description": "采用高蓬松度白鹅绒填充，锁温性能优异。短款设计利落不拖沓，防风连帽与弹力袖口有效阻隔寒风。面料防泼水，适合冬季日常及轻户外。",
+    "id": "prod_0173",
+    "image_url": "https://picsum.photos/seed/prod_0173/400/400",
+    "rating": 4.2,
+    "stock": 370,
+    "sales_count": 1139
+  },
+  {
+    "name": "网面透气缓震跑步鞋",
+    "category": "服饰鞋包",
+    "subcategory": "运动鞋",
+    "price": 459.0,
+    "brand": "亚瑟士",
+    "attributes": {
+      "颜色": [
+        "黑蓝",
+        "灰橙"
+      ],
+      "规格": "39-44码",
+      "特点": "GEL缓震胶，透气网面"
+    },
+    "description": "鞋面采用大面积工程网布，兼顾透气与支撑。中底搭载后跟GEL缓震胶，有效吸收冲击力。AHAR耐磨橡胶外底提供出色抓地力，适合日常慢跑与健身。",
+    "id": "prod_0174",
+    "image_url": "https://picsum.photos/seed/prod_0174/400/400",
+    "rating": 3.1,
+    "stock": 126,
+    "sales_count": 4741
+  },
+  {
+    "name": "轻盈防水尼龙双肩包",
+    "category": "服饰鞋包",
+    "subcategory": "双肩包",
+    "price": 189.0,
+    "brand": "北极狐",
+    "attributes": {
+      "颜色": [
+        "军绿",
+        "深蓝"
+      ],
+      "规格": "20L",
+      "特点": "防水面料，超轻便携"
+    },
+    "description": "采用耐磨防泼水尼龙材质，自重仅约300克。主仓可容纳15.6英寸笔记本，前袋分区收纳小物。加厚肩带与透气背板，适合通勤、短途旅行及户外徒步。",
+    "id": "prod_0175",
+    "image_url": "https://picsum.photos/seed/prod_0175/400/400",
+    "rating": 5.0,
+    "stock": 447,
+    "sales_count": 3814
+  },
+  {
+    "name": "复古真皮手提斜挎包",
+    "category": "服饰鞋包",
+    "subcategory": "手提包",
+    "price": 1280.0,
+    "brand": "COACH",
+    "attributes": {
+      "颜色": [
+        "棕色",
+        "黑色"
+      ],
+      "规格": "中号",
+      "特点": "头层牛皮，五金质感"
+    },
+    "description": "选用进口头层牛皮，手工打磨呈现复古光泽。经典马鞍包造型，翻盖磁扣开合，内设拉链暗格与卡位。可手提亦可拆卸肩带斜挎，通勤与约会皆显品味。",
+    "id": "prod_0176",
+    "image_url": "https://picsum.photos/seed/prod_0176/400/400",
+    "rating": 4.7,
+    "stock": 204,
+    "sales_count": 4554
+  },
+  {
+    "name": "纯色羊毛混纺贝雷帽",
+    "category": "服饰鞋包",
+    "subcategory": "帽子",
+    "price": 89.0,
+    "brand": "无印良品",
+    "attributes": {
+      "颜色": [
+        "驼色",
+        "灰色",
+        "黑色"
+      ],
+      "规格": "均码（可调节）",
+      "特点": "羊毛混纺，软糯有型"
+    },
+    "description": "含50%羊毛与腈纶混纺，手感柔软保暖不扎人。经典贝雷帽版型，内置松紧带可调节头围。修饰脸型，搭配大衣、毛衣展现文艺法式风格。",
+    "id": "prod_0177",
+    "image_url": "https://picsum.photos/seed/prod_0177/400/400",
+    "rating": 3.9,
+    "stock": 437,
+    "sales_count": 5977
+  },
+  {
+    "name": "Air Zoom Pegasus 40 跑鞋",
+    "category": "服饰鞋包",
+    "subcategory": "运动鞋",
+    "price": 899.0,
+    "brand": "Nike",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "白色",
+        "蓝色"
+      ],
+      "规格": "42码",
+      "特点": "React缓震泡棉，透气网面鞋面，适合日常跑步与健身"
+    },
+    "description": "采用Nike React技术，提供轻盈回弹的脚感。网眼鞋面透气舒适，搭配加厚鞋舌和鞋领，包裹性出色。适合5-10公里慢跑及健身房训练，兼顾潮流外观与运动性能。",
+    "id": "prod_0178",
+    "image_url": "https://picsum.photos/seed/prod_0178/400/400",
+    "rating": 3.3,
+    "stock": 191,
+    "sales_count": 3432
+  },
+  {
+    "name": "经典帆布双肩书包",
+    "category": "服饰鞋包",
+    "subcategory": "双肩包",
+    "price": 198.0,
+    "brand": "JanSport",
+    "attributes": {
+      "颜色": [
+        "藏青色",
+        "灰色",
+        "绿色"
+      ],
+      "规格": "30L",
+      "特点": "大容量主仓，加厚肩带，前袋收纳设计"
+    },
+    "description": "经典简洁款式，容量约30升，可容纳15.6英寸笔记本及日常用品。主仓双向拉链开合，前袋设有文具插位。加厚S形肩带配合透气背板，长时间背负不累。",
+    "id": "prod_0179",
+    "image_url": "https://picsum.photos/seed/prod_0179/400/400",
+    "rating": 4.3,
+    "stock": 369,
+    "sales_count": 1169
+  },
+  {
+    "name": "雪纺碎花连衣裙",
+    "category": "服饰鞋包",
+    "subcategory": "连衣裙",
+    "price": 359.0,
+    "brand": "ZARA",
+    "attributes": {
+      "颜色": [
+        "碎花蓝"
+      ],
+      "规格": "M码",
+      "特点": "V领收腰，飘逸雪纺，长袖设计"
+    },
+    "description": "轻盈雪纺面料，柔和碎花印花，V领修饰脸型。腰间系带可调节松紧，打造优雅腰线。长袖款式适合春秋季，搭配高跟鞋或小白裙都气质出众。",
+    "id": "prod_0180",
+    "image_url": "https://picsum.photos/seed/prod_0180/400/400",
+    "rating": 4.2,
+    "stock": 97,
+    "sales_count": 8751
+  },
+  {
+    "name": "香脆原味薯片大礼包",
+    "category": "食品饮料",
+    "subcategory": "零食",
+    "price": 29.9,
+    "brand": "乐事",
+    "attributes": {
+      "颜色": [
+        "金黄"
+      ],
+      "规格": "200g/袋",
+      "特点": "薄脆口感,非油炸,精选土豆"
+    },
+    "description": "精选优质土豆，采用独特烘烤工艺制成，保留土豆原香。薄脆不油腻，每一片都酥脆可口。大包装适合家庭分享或聚会，独立内袋防潮保鲜。",
+    "id": "prod_0181",
+    "image_url": "https://picsum.photos/seed/prod_0181/400/400",
+    "rating": 4.5,
+    "stock": 93,
+    "sales_count": 7573
+  },
+  {
+    "name": "每日坚果混合装",
+    "category": "食品饮料",
+    "subcategory": "坚果",
+    "price": 89.9,
+    "brand": "三只松鼠",
+    "attributes": {
+      "颜色": [
+        "浅褐"
+      ],
+      "规格": "750g/箱",
+      "特点": "每日一包,科学配比,无添加"
+    },
+    "description": "精选6种坚果与果干科学配比，每日一包补充营养。采用低温慢焙工艺，保留坚果原香与脆度。独立包装便携卫生，适合办公室、旅行场景。",
+    "id": "prod_0182",
+    "image_url": "https://picsum.photos/seed/prod_0182/400/400",
+    "rating": 3.8,
+    "stock": 483,
+    "sales_count": 9125
+  },
+  {
+    "name": "明前龙井绿茶礼盒",
+    "category": "食品饮料",
+    "subcategory": "茶叶",
+    "price": 268.0,
+    "brand": "西湖牌",
+    "attributes": {
+      "颜色": [
+        "翠绿"
+      ],
+      "规格": "250g/盒",
+      "特点": "明前采摘,手工炒制,扁平光滑"
+    },
+    "description": "源自西湖核心产区，清明前采摘一芽一叶。传统手工炒制，茶叶扁平光滑，色泽翠绿。冲泡后豆香清雅，滋味鲜醇回甘。精美礼盒包装，送礼自用皆宜。",
+    "id": "prod_0183",
+    "image_url": "https://picsum.photos/seed/prod_0183/400/400",
+    "rating": 3.4,
+    "stock": 176,
+    "sales_count": 916
+  },
+  {
+    "name": "意式浓缩咖啡豆",
+    "category": "食品饮料",
+    "subcategory": "咖啡",
+    "price": 128.0,
+    "brand": "星巴克",
+    "attributes": {
+      "颜色": [
+        "深褐"
+      ],
+      "规格": "500g/袋",
+      "特点": "深度烘焙,油脂丰富,意式拼配"
+    },
+    "description": "精选拉丁美洲与亚洲优质阿拉比卡豆，深度烘焙至深褐色。油脂丰厚，口感醇厚带有黑巧克力与焦糖甜感。适合意式机、摩卡壶制作浓缩或拿铁。",
+    "id": "prod_0184",
+    "image_url": "https://picsum.photos/seed/prod_0184/400/400",
+    "rating": 3.5,
+    "stock": 26,
+    "sales_count": 5168
+  },
+  {
+    "name": "酸辣粉速食桶装",
+    "category": "食品饮料",
+    "subcategory": "方便食品",
+    "price": 12.5,
+    "brand": "白象",
+    "attributes": {
+      "颜色": [
+        "红棕"
+      ],
+      "规格": "150g/桶",
+      "特点": "地道川味,非油炸面饼,配料丰富"
+    },
+    "description": "正宗四川风味酸辣粉，红薯粉条爽滑劲道，非油炸更健康。料包内含陈醋、辣椒油、花生、豆皮等，酸辣浓香。桶装设计，冲泡6分钟即食。",
+    "id": "prod_0185",
+    "image_url": "https://picsum.photos/seed/prod_0185/400/400",
+    "rating": 3.8,
+    "stock": 43,
+    "sales_count": 3456
+  },
+  {
+    "name": "海天鲜味生抽酱油",
+    "category": "食品饮料",
+    "subcategory": "调味品",
+    "price": 16.8,
+    "brand": "海天",
+    "attributes": {
+      "颜色": [
+        "深褐"
+      ],
+      "规格": "500ml/瓶",
+      "特点": "头道原汁,零添加防腐剂,炒菜凉拌"
+    },
+    "description": "采用传统高盐稀态发酵工艺，取头道原汁精制。氨基酸态氮含量≥1.0g/100ml，鲜味突出。适合炒菜、凉拌、蘸食，提鲜不抢味。玻璃瓶包装方便储存。",
+    "id": "prod_0186",
+    "image_url": "https://picsum.photos/seed/prod_0186/400/400",
+    "rating": 4.8,
+    "stock": 300,
+    "sales_count": 5155
+  },
+  {
+    "name": "元气森林白桃味苏打气泡水",
+    "category": "食品饮料",
+    "subcategory": "饮料",
+    "price": 5.5,
+    "brand": "元气森林",
+    "attributes": {
+      "颜色": [
+        "透明"
+      ],
+      "规格": "480ml/瓶",
+      "特点": "0糖0脂0卡,含真实果汁,细腻气泡"
+    },
+    "description": "采用赤藓糖醇代糖，0糖0脂0卡，清爽无负担。添加真实白桃汁，果香自然清甜。细密气泡口感强烈，冰镇后饮用更佳。每瓶不到6元，健康解渴。",
+    "id": "prod_0187",
+    "image_url": "https://picsum.photos/seed/prod_0187/400/400",
+    "rating": 3.4,
+    "stock": 265,
+    "sales_count": 6482
+  },
+  {
+    "name": "稻香村枣泥酥糕点礼盒",
+    "category": "食品饮料",
+    "subcategory": "糕点",
+    "price": 68.0,
+    "brand": "稻香村",
+    "attributes": {
+      "颜色": [
+        "金黄"
+      ],
+      "规格": "400g/盒",
+      "特点": "传统京味,多层酥皮,枣泥细腻"
+    },
+    "description": "中华老字号稻香村经典枣泥酥，多层酥皮包裹细腻枣泥馅。传统配方手工制作，枣香浓郁，甜而不腻。礼盒装含10枚独立包装，适合早餐或茶点。",
+    "id": "prod_0188",
+    "image_url": "https://picsum.photos/seed/prod_0188/400/400",
+    "rating": 4.8,
+    "stock": 339,
+    "sales_count": 7517
+  },
+  {
+    "name": "德芙丝滑牛奶巧克力礼盒",
+    "category": "食品饮料",
+    "subcategory": "糖果",
+    "price": 49.9,
+    "brand": "德芙",
+    "attributes": {
+      "颜色": [
+        "棕"
+      ],
+      "规格": "252g/盒",
+      "特点": "丝滑口感,牛奶巧克力,礼盒装"
+    },
+    "description": "精选优质可可豆与新鲜牛奶，经精磨与调温工艺制成。入口即化，丝滑细腻，牛奶与巧克力的经典搭配。精致礼盒含12颗独立包装，送女友、闺蜜的理想选择。",
+    "id": "prod_0189",
+    "image_url": "https://picsum.photos/seed/prod_0189/400/400",
+    "rating": 3.3,
+    "stock": 81,
+    "sales_count": 4040
+  },
+  {
+    "name": "良品铺子麻辣牛肉干",
+    "category": "食品饮料",
+    "subcategory": "零食",
+    "price": 35.9,
+    "brand": "良品铺子",
+    "attributes": {
+      "颜色": [
+        "深红"
+      ],
+      "规格": "150g/袋",
+      "特点": "精选牛后腿肉,传统卤制,麻辣鲜香"
+    },
+    "description": "选用牛后腿精肉，剔除筋膜后经老卤慢炖入味，再以天然香料炒制。肉质紧实有嚼劲，麻辣味层次分明，不添加淀粉与防腐剂。开袋即食，追剧佐餐佳品。",
+    "id": "prod_0190",
+    "image_url": "https://picsum.photos/seed/prod_0190/400/400",
+    "rating": 4.5,
+    "stock": 285,
+    "sales_count": 4304
+  },
+  {
+    "name": "安溪铁观音浓香型茶叶",
+    "category": "食品饮料",
+    "subcategory": "茶叶",
+    "price": 158.0,
+    "brand": "八马",
+    "attributes": {
+      "颜色": [
+        "乌润"
+      ],
+      "规格": "250g/罐",
+      "特点": "传统烘焙、兰花香、耐泡"
+    },
+    "description": "精选安溪高山铁观音，传统炭焙工艺，干茶色泽乌润，冲泡后兰花香浓郁，汤色金黄明亮，口感醇厚回甘。密封罐装保鲜，适合自饮或送礼。",
+    "id": "prod_0191",
+    "image_url": "https://picsum.photos/seed/prod_0191/400/400",
+    "rating": 4.5,
+    "stock": 229,
+    "sales_count": 9560
+  },
+  {
+    "name": "哥伦比亚中度烘焙咖啡豆",
+    "category": "食品饮料",
+    "subcategory": "咖啡",
+    "price": 88.0,
+    "brand": "隅田川",
+    "attributes": {
+      "颜色": [
+        "深褐"
+      ],
+      "规格": "500g/袋",
+      "特点": "阿拉比卡、酸苦平衡、新鲜烘焙"
+    },
+    "description": "100%阿拉比卡咖啡豆，产自哥伦比亚慧兰产区，中度烘焙保留坚果与焦糖风味，口感均衡柔和，适合手冲、法压壶或意式机使用，带来醇正咖啡体验。",
+    "id": "prod_0192",
+    "image_url": "https://picsum.photos/seed/prod_0192/400/400",
+    "rating": 3.8,
+    "stock": 122,
+    "sales_count": 2266
+  },
+  {
+    "name": "自嗨锅广式腊味煲仔饭",
+    "category": "食品饮料",
+    "subcategory": "方便食品",
+    "price": 25.8,
+    "brand": "自嗨锅",
+    "attributes": {
+      "颜色": [
+        "白"
+      ],
+      "规格": "280g/盒",
+      "特点": "免煮自热、15分钟即食、真材实料"
+    },
+    "description": "采用自热技术，无需火电，加水等待15分钟即可享用广式腊味煲仔饭。精选腊肠、腊肉搭配秘制酱汁，锅底形成金黄锅巴，香脆可口，户外旅行必备。",
+    "id": "prod_0193",
+    "image_url": "https://picsum.photos/seed/prod_0193/400/400",
+    "rating": 4.0,
+    "stock": 56,
+    "sales_count": 771
+  },
+  {
+    "name": "千禾零添加生抽酱油",
+    "category": "食品饮料",
+    "subcategory": "调味品",
+    "price": 18.9,
+    "brand": "千禾",
+    "attributes": {
+      "颜色": [
+        "红褐"
+      ],
+      "规格": "500ml/瓶",
+      "特点": "零添加、高盐稀态、180天酿造"
+    },
+    "description": "采用非转基因大豆，180天足期酿造，不添加任何防腐剂、色素、味精。酱香浓郁，咸鲜适中，适合凉拌、清炒、红烧等各种烹饪，健康安心。",
+    "id": "prod_0194",
+    "image_url": "https://picsum.photos/seed/prod_0194/400/400",
+    "rating": 4.7,
+    "stock": 88,
+    "sales_count": 2621
+  },
+  {
+    "name": "稻香村蛋黄酥礼盒装",
+    "category": "食品饮料",
+    "subcategory": "糕点",
+    "price": 69.9,
+    "brand": "稻香村",
+    "attributes": {
+      "颜色": [
+        "金黄"
+      ],
+      "规格": "360g/盒（6枚）",
+      "特点": "层层起酥、咸蛋黄流心、经典口味"
+    },
+    "description": "传统手工苏式糕点，外皮层层起酥，内含整颗咸蛋黄搭配红豆沙，甜咸交融，流心软糯。独立包装，精美礼盒适合中秋送礼或日常茶点，老少皆宜。",
+    "id": "prod_0195",
+    "image_url": "https://picsum.photos/seed/prod_0195/400/400",
+    "rating": 4.6,
+    "stock": 226,
+    "sales_count": 9771
+  },
+  {
+    "name": "徐福记酥心糖什锦装",
+    "category": "食品饮料",
+    "subcategory": "糖果",
+    "price": 22.5,
+    "brand": "徐福记",
+    "attributes": {
+      "颜色": [
+        "五彩"
+      ],
+      "规格": "500g/袋",
+      "特点": "酥脆多层、花生芝麻口味、颗粒分明"
+    },
+    "description": "经典酥心糖工艺，层层酥皮包裹花生与芝麻馅，入口酥脆即化，甜而不腻。什锦混合装包含花生、芝麻、椰蓉等多种口味，适合婚庆喜宴或年货分享。",
+    "id": "prod_0196",
+    "image_url": "https://picsum.photos/seed/prod_0196/400/400",
+    "rating": 3.1,
+    "stock": 205,
+    "sales_count": 9763
+  },
+  {
+    "name": "海底捞番茄牛腩自热火锅",
+    "category": "食品饮料",
+    "subcategory": "方便食品",
+    "price": 39.9,
+    "brand": "海底捞",
+    "attributes": {
+      "颜色": [
+        "红"
+      ],
+      "规格": "365g/盒",
+      "特点": "15分钟自热、浓郁番茄汤底、大块牛腩"
+    },
+    "description": "海底捞同款番茄汤底，酸甜浓郁，大块牛腩软烂入味，搭配土豆、莲藕、木耳等蔬菜，粉条吸满汤汁。自热包操作简单，宿舍、旅行随时随地吃火锅。",
+    "id": "prod_0197",
+    "image_url": "https://picsum.photos/seed/prod_0197/400/400",
+    "rating": 5.0,
+    "stock": 280,
+    "sales_count": 4119
+  },
+  {
+    "name": "三只松鼠 夏威夷果奶油味",
+    "category": "食品饮料",
+    "subcategory": "坚果",
+    "price": 29.9,
+    "brand": "三只松鼠",
+    "attributes": {
+      "颜色": [
+        "原色"
+      ],
+      "规格": "500g/袋",
+      "特点": "奶香浓郁，颗粒饱满，开口易剥"
+    },
+    "description": "精选优质夏威夷果，裹上细腻奶油涂层，口感酥脆香甜。大袋装适合家庭分享，独立包装锁鲜设计，随时随地享受坚果醇香。",
+    "id": "prod_0198",
+    "image_url": "https://picsum.photos/seed/prod_0198/400/400",
+    "rating": 4.9,
+    "stock": 450,
+    "sales_count": 188
+  },
+  {
+    "name": "奥利奥 夹心饼干原味",
+    "category": "食品饮料",
+    "subcategory": "零食",
+    "price": 9.9,
+    "brand": "奥利奥",
+    "attributes": {
+      "颜色": [
+        "黑"
+      ],
+      "规格": "97g/盒",
+      "特点": "经典黑白配，扭一扭舔一舔"
+    },
+    "description": "经典原味奥利奥饼干，可可味酥脆饼体搭配香甜奶油夹心，独立小包装方便携带。适合下午茶、追剧零食，老少皆宜的美味享受。",
+    "id": "prod_0199",
+    "image_url": "https://picsum.photos/seed/prod_0199/400/400",
+    "rating": 4.4,
+    "stock": 68,
+    "sales_count": 8797
+  },
+  {
+    "name": "西湖龙井 明前特级绿茶",
+    "category": "食品饮料",
+    "subcategory": "茶叶",
+    "price": 268.0,
+    "brand": "贡牌",
+    "attributes": {
+      "颜色": [
+        "翠绿"
+      ],
+      "规格": "100g/罐",
+      "特点": "明前采摘，一芽一叶，豆香清雅"
+    },
+    "description": "产自杭州西湖核心产区，明前手工采摘特级龙井。茶汤嫩绿明亮，口感鲜爽甘醇，回甘持久。铁罐密封包装，送礼自饮皆宜。",
+    "id": "prod_0200",
+    "image_url": "https://picsum.photos/seed/prod_0200/400/400",
+    "rating": 4.5,
+    "stock": 403,
+    "sales_count": 5573
+  },
+  {
+    "name": "星巴克 中度烘焙咖啡豆",
+    "category": "食品饮料",
+    "subcategory": "咖啡",
+    "price": 89.0,
+    "brand": "星巴克",
+    "attributes": {
+      "颜色": [
+        "深褐"
+      ],
+      "规格": "200g/袋",
+      "特点": "阿拉比卡豆，均衡醇厚"
+    },
+    "description": "星巴克经典中度烘焙咖啡豆，选用拉丁美洲阿拉比卡豆，坚果与可可风味平衡。适合手冲、法压壶，可研磨后冲泡，享受咖啡馆级醇香。",
+    "id": "prod_0201",
+    "image_url": "https://picsum.photos/seed/prod_0201/400/400",
+    "rating": 3.2,
+    "stock": 232,
+    "sales_count": 2591
+  },
+  {
+    "name": "康师傅 红烧牛肉面桶装",
+    "category": "食品饮料",
+    "subcategory": "方便食品",
+    "price": 5.5,
+    "brand": "康师傅",
+    "attributes": {
+      "颜色": [
+        "无"
+      ],
+      "规格": "125g/桶",
+      "特点": "经典口味，面饼劲道"
+    },
+    "description": "康师傅红烧牛肉面，浓郁牛骨高汤搭配劲道面条，配料含大块牛肉粒、蔬菜包。桶装设计即冲即食，加班、旅行必备快速饱腹选择。",
+    "id": "prod_0202",
+    "image_url": "https://picsum.photos/seed/prod_0202/400/400",
+    "rating": 3.9,
+    "stock": 498,
+    "sales_count": 4315
+  },
+  {
+    "name": "海天 金标生抽酱油 1.9L",
+    "category": "食品饮料",
+    "subcategory": "调味品",
+    "price": 19.8,
+    "brand": "海天",
+    "attributes": {
+      "颜色": [
+        "红褐"
+      ],
+      "规格": "1.9L/桶",
+      "特点": "酱香浓郁，鲜咸适口"
+    },
+    "description": "海天金标生抽，选用非转基因大豆酿造，色泽红亮，酱香醇厚。适合红烧、炒菜、凉拌提鲜，大容量实惠装，家庭厨房常备调味品。",
+    "id": "prod_0203",
+    "image_url": "https://picsum.photos/seed/prod_0203/400/400",
+    "rating": 4.9,
+    "stock": 400,
+    "sales_count": 2927
+  },
+  {
+    "name": "农夫山泉 东方树叶茉莉花茶",
+    "category": "食品饮料",
+    "subcategory": "饮料",
+    "price": 5,
+    "brand": "农夫山泉",
+    "attributes": {
+      "颜色": [
+        "淡黄"
+      ],
+      "规格": "500ml/瓶",
+      "特点": "0糖0卡，茶香自然"
+    },
+    "description": "东方树叶茉莉花茶饮料，精选茉莉花茶原叶萃取，茶汤清澈花香怡人。无添加糖分与防腐剂，清爽解渴，适合控糖人群日常饮用。",
+    "id": "prod_0204",
+    "image_url": "https://picsum.photos/seed/prod_0204/400/400",
+    "rating": 4.0,
+    "stock": 64,
+    "sales_count": 4889
+  },
+  {
+    "name": "好利来 半熟芝士蛋糕",
+    "category": "食品饮料",
+    "subcategory": "糕点",
+    "price": 49.0,
+    "brand": "好利来",
+    "attributes": {
+      "颜色": [
+        "金黄"
+      ],
+      "规格": "240g/盒（6枚）",
+      "特点": "绵密湿润，芝香浓郁"
+    },
+    "description": "好利来经典半熟芝士蛋糕，采用轻芝士工艺，外层戚风柔软，内馅半熟流心。奶香与芝士味融合，冷藏后口感更佳，下午茶精致甜点。",
+    "id": "prod_0205",
+    "image_url": "https://picsum.photos/seed/prod_0205/400/400",
+    "rating": 4.7,
+    "stock": 269,
+    "sales_count": 9977
+  },
+  {
+    "name": "德芙 丝滑牛奶巧克力",
+    "category": "食品饮料",
+    "subcategory": "糖果",
+    "price": 18.8,
+    "brand": "德芙",
+    "attributes": {
+      "颜色": [
+        "棕"
+      ],
+      "规格": "80g/条",
+      "特点": "丝滑细腻，甜而不腻"
+    },
+    "description": "德芙丝滑牛奶巧克力，可可脂含量高，入口即化。牛奶与巧克力完美融合，回味香浓。独立包装条状，方便携带，休闲零食或节日伴手礼。",
+    "id": "prod_0206",
+    "image_url": "https://picsum.photos/seed/prod_0206/400/400",
+    "rating": 3.4,
+    "stock": 201,
+    "sales_count": 2646
+  },
+  {
+    "name": "百草味 每日坚果混合装",
+    "category": "食品饮料",
+    "subcategory": "坚果",
+    "price": 69.9,
+    "brand": "百草味",
+    "attributes": {
+      "颜色": [
+        "混合色"
+      ],
+      "规格": "750g/箱（30小袋）",
+      "特点": "7种坚果果干，均衡营养"
+    },
+    "description": "百草味每日坚果混合装，包含巴旦木、腰果、核桃、蓝莓干、蔓越莓等7种食材。科学配比，独立小袋锁鲜，每日一袋补充能量，适合上班族、学生。",
+    "id": "prod_0207",
+    "image_url": "https://picsum.photos/seed/prod_0207/400/400",
+    "rating": 4.1,
+    "stock": 408,
+    "sales_count": 8689
+  },
+  {
+    "name": "三只松鼠 夏威夷果（奶油味）",
+    "category": "食品饮料",
+    "subcategory": "坚果",
+    "price": 29.9,
+    "brand": "三只松鼠",
+    "attributes": {
+      "颜色": [],
+      "规格": "265g/袋",
+      "特点": "精选大颗粒，奶香浓郁，壳薄易剥"
+    },
+    "description": "源自澳洲优质产区，颗颗饱满圆润。采用独特奶油烘焙工艺，外壳开口易剥，果仁酥脆香甜。独立包装锁鲜，适合办公室零食或追剧小食。",
+    "id": "prod_0208",
+    "image_url": "https://picsum.photos/seed/prod_0208/400/400",
+    "rating": 4.8,
+    "stock": 316,
+    "sales_count": 5310
+  },
+  {
+    "name": "良品铺子 手撕牛肉干（五香味）",
+    "category": "食品饮料",
+    "subcategory": "零食",
+    "price": 49.9,
+    "brand": "良品铺子",
+    "attributes": {
+      "颜色": [],
+      "规格": "200g/包",
+      "特点": "精选牛后腿肉，传统腌制，嚼劲十足"
+    },
+    "description": "选用整块牛后腿肉，剔除筋膜后切条，经秘制香料腌制12小时，再低温烘烤至七成干。肉质紧实有嚼劲，咸香回甘，开袋即食。",
+    "id": "prod_0209",
+    "image_url": "https://picsum.photos/seed/prod_0209/400/400",
+    "rating": 4.0,
+    "stock": 67,
+    "sales_count": 5947
+  },
+  {
+    "name": "农夫山泉 东方树叶 茉莉花茶（无糖）",
+    "category": "食品饮料",
+    "subcategory": "饮料",
+    "price": 5.5,
+    "brand": "农夫山泉",
+    "attributes": {
+      "颜色": [
+        "浅黄"
+      ],
+      "规格": "500ml/瓶",
+      "特点": "0糖0脂0卡，茉莉花窨制"
+    },
+    "description": "采用传统茉莉花窨制工艺，茶叶吸附花香后分离，茶汤清澈透亮，花香自然。无糖配方，清爽解腻，适合日常佐餐或下午茶饮用。",
+    "id": "prod_0210",
+    "image_url": "https://picsum.photos/seed/prod_0210/400/400",
+    "rating": 4.8,
+    "stock": 435,
+    "sales_count": 5038
+  },
+  {
+    "name": "星巴克 中度烘焙 咖啡豆（哥伦比亚）",
+    "category": "食品饮料",
+    "subcategory": "咖啡",
+    "price": 128.0,
+    "brand": "星巴克",
+    "attributes": {
+      "颜色": [
+        "深褐"
+      ],
+      "规格": "200g/袋",
+      "特点": "阿拉比卡豆，中度烘焙，坚果可可风味"
+    },
+    "description": "100%阿拉比卡咖啡豆，产自哥伦比亚海拔1500米以上山区。中度烘焙保留均衡酸度与醇厚度，入口带有坚果与黑可可香气，适合手冲或美式。",
+    "id": "prod_0211",
+    "image_url": "https://picsum.photos/seed/prod_0211/400/400",
+    "rating": 3.5,
+    "stock": 133,
+    "sales_count": 9295
+  },
+  {
+    "name": "海天 金标生抽（酿造酱油）",
+    "category": "食品饮料",
+    "subcategory": "调味品",
+    "price": 9.9,
+    "brand": "海天",
+    "attributes": {
+      "颜色": [
+        "红褐"
+      ],
+      "规格": "500ml/瓶",
+      "特点": "高盐稀态发酵，氨基酸态氮≥0.9g/100ml"
+    },
+    "description": "选用非转基因脱脂大豆，经6个月以上阳光晾晒发酵而成。酱香浓郁，色泽红亮，适用于红烧、焖煮、蘸点，提鲜增色效果显著。",
+    "id": "prod_0212",
+    "image_url": "https://picsum.photos/seed/prod_0212/400/400",
+    "rating": 4.9,
+    "stock": 53,
+    "sales_count": 7962
+  },
+  {
+    "name": "统一 汤达人 日式豚骨拉面（杯面）",
+    "category": "食品饮料",
+    "subcategory": "方便食品",
+    "price": 12.5,
+    "brand": "统一",
+    "attributes": {
+      "颜色": [],
+      "规格": "78g/杯",
+      "特点": "豚骨高汤，大块叉烧肉，Q弹面条"
+    },
+    "description": "特制豚骨汤底，经8小时熬煮浓缩，汤色奶白醇厚。搭配整片叉烧肉、玉米粒和枸杞，面条爽滑劲道，一杯即可享受拉面馆级美味。",
+    "id": "prod_0213",
+    "image_url": "https://picsum.photos/seed/prod_0213/400/400",
+    "rating": 4.6,
+    "stock": 399,
+    "sales_count": 8727
+  },
+  {
+    "name": "奥利奥 经典原味 夹心饼干",
+    "category": "食品饮料",
+    "subcategory": "糕点",
+    "price": 14.8,
+    "brand": "奥利奥",
+    "attributes": {
+      "颜色": [
+        "黑"
+      ],
+      "规格": "97g/盒",
+      "特点": "扭一扭，舔一舔，泡一泡"
+    },
+    "description": "经典黑巧克力曲奇饼干搭配香草奶油夹心，每块饼干独立包装。酥脆与丝滑完美结合，可搭配牛奶或冰淇淋食用，老少皆宜的休闲零食。",
+    "id": "prod_0214",
+    "image_url": "https://picsum.photos/seed/prod_0214/400/400",
+    "rating": 4.5,
+    "stock": 75,
+    "sales_count": 7787
+  },
+  {
+    "name": "德芙 丝滑牛奶巧克力（排块）",
+    "category": "食品饮料",
+    "subcategory": "糖果",
+    "price": 19.9,
+    "brand": "德芙",
+    "attributes": {
+      "颜色": [
+        "棕"
+      ],
+      "规格": "100g/盒",
+      "特点": "可可脂，丝滑口感，入口即化"
+    },
+    "description": "采用西非可可豆与优质牛奶，经精磨与调温工艺制成。口感丝滑细腻，甜而不腻，融化后如丝绸般顺滑，是日常犒劳自己的甜蜜选择。",
+    "id": "prod_0215",
+    "image_url": "https://picsum.photos/seed/prod_0215/400/400",
+    "rating": 4.9,
+    "stock": 94,
+    "sales_count": 4342
+  },
+  {
+    "name": "竹叶青 峨眉高山绿茶（特级）",
+    "category": "食品饮料",
+    "subcategory": "茶叶",
+    "price": 268.0,
+    "brand": "竹叶青",
+    "attributes": {
+      "颜色": [
+        "绿"
+      ],
+      "规格": "100g/罐",
+      "特点": "明前采摘，单芽制作，栗香浓郁"
+    },
+    "description": "源自峨眉山海拔800米以上茶园，清明前手工采摘完整嫩芽。经摊放、杀青、揉捻、烘焙等工艺制成，茶汤碧绿明亮，滋味鲜爽回甘，耐冲泡。",
+    "id": "prod_0216",
+    "image_url": "https://picsum.photos/seed/prod_0216/400/400",
+    "rating": 4.1,
+    "stock": 320,
+    "sales_count": 6932
+  },
+  {
+    "name": "好丽友 呀！土豆 薯条（蕃茄味）",
+    "category": "食品饮料",
+    "subcategory": "零食",
+    "price": 7.5,
+    "brand": "好丽友",
+    "attributes": {
+      "颜色": [],
+      "规格": "70g/袋",
+      "特点": "非油炸，脆感蓬松，酸甜番茄味"
+    },
+    "description": "以马铃薯粉为原料，采用高温烘焙非油炸技术，口感酥脆蓬松。表面裹有酸甜番茄调味粉，一口一根，适合儿童及健身人群的轻负担零食。",
+    "id": "prod_0217",
+    "image_url": "https://picsum.photos/seed/prod_0217/400/400",
+    "rating": 4.9,
+    "stock": 485,
+    "sales_count": 8835
+  },
+  {
+    "name": "香脆原味薯片",
+    "category": "食品饮料",
+    "subcategory": "零食",
+    "price": 12.0,
+    "brand": "乐事",
+    "attributes": {
+      "颜色": [
+        "金黄"
+      ],
+      "规格": "75g/袋",
+      "特点": "薄脆口感，非油炸烘烤技术"
+    },
+    "description": "精选优质马铃薯，采用烘烤工艺制成，薄脆不油腻。保留马铃薯原香，口感酥脆，适合休闲时光。每袋75克，独立包装便于携带。",
+    "id": "prod_0218",
+    "image_url": "https://picsum.photos/seed/prod_0218/400/400",
+    "rating": 4.5,
+    "stock": 363,
+    "sales_count": 3295
+  },
+  {
+    "name": "西湖龙井明前茶",
+    "category": "食品饮料",
+    "subcategory": "茶叶",
+    "price": 368.0,
+    "brand": "贡牌",
+    "attributes": {
+      "颜色": [
+        "翠绿"
+      ],
+      "规格": "250g/罐",
+      "特点": "明前采摘，手工炒制"
+    },
+    "description": "产自杭州西湖核心产区，明前一芽一叶精心采摘。传统手工炒制，色泽翠绿带毫，栗香清高，滋味鲜醇甘爽。密封铁罐保存，锁住鲜香。",
+    "id": "prod_0219",
+    "image_url": "https://picsum.photos/seed/prod_0219/400/400",
+    "rating": 4.4,
+    "stock": 214,
+    "sales_count": 6118
+  },
+  {
+    "name": "哥伦比亚精品咖啡豆",
+    "category": "食品饮料",
+    "subcategory": "咖啡",
+    "price": 128.0,
+    "brand": "星巴克",
+    "attributes": {
+      "颜色": [
+        "深棕色"
+      ],
+      "规格": "500g/袋",
+      "特点": "中度烘焙，酸苦平衡"
+    },
+    "description": "选用哥伦比亚苏普雷默级阿拉比卡豆，中度烘焙后呈现坚果与焦糖的混合香气。入口顺滑，酸度柔和，余韵干净。适合手冲、法压壶等多种冲煮方式。",
+    "id": "prod_0220",
+    "image_url": "https://picsum.photos/seed/prod_0220/400/400",
+    "rating": 3.9,
+    "stock": 274,
+    "sales_count": 7397
+  },
+  {
+    "name": "酸辣牛肉面桶装",
+    "category": "食品饮料",
+    "subcategory": "方便食品",
+    "price": 8.0,
+    "brand": "康师傅",
+    "attributes": {
+      "颜色": [
+        "红白"
+      ],
+      "规格": "117g/桶",
+      "特点": "加大面饼，酸辣浓郁"
+    },
+    "description": "宽面饼搭配特制酸辣汤汁，内含真实牛肉粒与蔬菜包。沸水冲泡3分钟即可享用，汤底由老坛酸菜和辣椒熬制，开胃过瘾。",
+    "id": "prod_0221",
+    "image_url": "https://picsum.photos/seed/prod_0221/400/400",
+    "rating": 3.2,
+    "stock": 125,
+    "sales_count": 1049
+  },
+  {
+    "name": "海天金标生抽",
+    "category": "食品饮料",
+    "subcategory": "调味品",
+    "price": 15.0,
+    "brand": "海天",
+    "attributes": {
+      "颜色": [
+        "深红褐色"
+      ],
+      "规格": "500ml/瓶",
+      "特点": "高盐稀态发酵，鲜咸适中"
+    },
+    "description": "精选非转基因大豆，经180天传统高盐稀态发酵酿造。色泽红褐光亮，酱香浓郁，鲜味突出。适合红烧、凉拌、蘸食，提鲜增色。",
+    "id": "prod_0222",
+    "image_url": "https://picsum.photos/seed/prod_0222/400/400",
+    "rating": 3.7,
+    "stock": 311,
+    "sales_count": 9075
+  },
+  {
+    "name": "元气森林白桃味苏打水",
+    "category": "食品饮料",
+    "subcategory": "饮料",
+    "price": 5,
+    "brand": "元气森林",
+    "attributes": {
+      "颜色": [
+        "无色透明"
+      ],
+      "规格": "480ml/瓶",
+      "特点": "0糖0脂0卡，含气"
+    },
+    "description": "采用赤藓糖醇代糖，清甜无负担。真实白桃果汁提取，香气自然。细腻气泡带来清爽口感，适合解腻或运动后补水。",
+    "id": "prod_0223",
+    "image_url": "https://picsum.photos/seed/prod_0223/400/400",
+    "rating": 3.5,
+    "stock": 122,
+    "sales_count": 117
+  },
+  {
+    "name": "稻香村枣花酥",
+    "category": "食品饮料",
+    "subcategory": "糕点",
+    "price": 35.0,
+    "brand": "稻香村",
+    "attributes": {
+      "颜色": [
+        "金黄酥皮"
+      ],
+      "规格": "250g/盒（约8块）",
+      "特点": "传统枣泥馅，酥皮层层分明"
+    },
+    "description": "传承经典京式糕点工艺，外皮由小麦粉与猪油反复折叠烘烤而成，酥脆掉渣。内馅选用河北大枣熬制枣泥，甜而不腻，入口即化。",
+    "id": "prod_0224",
+    "image_url": "https://picsum.photos/seed/prod_0224/400/400",
+    "rating": 3.1,
+    "stock": 333,
+    "sales_count": 964
+  },
+  {
+    "name": "阿尔卑斯混合水果味硬糖",
+    "category": "食品饮料",
+    "subcategory": "糖果",
+    "price": 18.0,
+    "brand": "阿尔卑斯",
+    "attributes": {
+      "颜色": [
+        "多种彩色"
+      ],
+      "规格": "150g/袋",
+      "特点": "果汁含量≥15%"
+    },
+    "description": "包含草莓、柠檬、橙子、葡萄等多种水果口味，每一颗都富含真实果汁。硬糖质地，持久甜蜜。独立包装，方便分享。",
+    "id": "prod_0225",
+    "image_url": "https://picsum.photos/seed/prod_0225/400/400",
+    "rating": 3.5,
+    "stock": 473,
+    "sales_count": 514
+  },
+  {
+    "name": "良品铺子手撕牛肉干",
+    "category": "食品饮料",
+    "subcategory": "零食",
+    "price": 49.0,
+    "brand": "良品铺子",
+    "attributes": {
+      "颜色": [
+        "深褐色"
+      ],
+      "规格": "200g/袋",
+      "特点": "选用牛后腿肉，自然风干"
+    },
+    "description": "精选优质黄牛后腿肉，剔除筋膜后切条，经腌制、烘烤、自然风干等多道工序。肉质紧实有嚼劲，咸香微辣，越嚼越香。",
+    "id": "prod_0226",
+    "image_url": "https://picsum.photos/seed/prod_0226/400/400",
+    "rating": 4.7,
+    "stock": 46,
+    "sales_count": 8423
+  },
+  {
+    "name": "每日坚果混合装 30包",
+    "category": "食品饮料",
+    "subcategory": "坚果",
+    "price": 89.0,
+    "brand": "三只松鼠",
+    "attributes": {
+      "颜色": [
+        "原色"
+      ],
+      "规格": "30包/盒，每包25g",
+      "特点": "6种坚果果干科学配比，独立小包装，锁鲜工艺，每日一包补充营养"
+    },
+    "description": "甄选全球优质产地坚果，包含巴旦木、腰果、核桃仁、蓝莓干、蔓越莓干、榛子，6种科学配比，每日一包补充优质脂肪酸与维生素。独立充氮锁鲜包装，开袋即食，便携卫生，适合办公室零食、户外出行或家庭分享。",
+    "id": "prod_0227",
+    "image_url": "https://picsum.photos/seed/prod_0227/400/400",
+    "rating": 3.5,
+    "stock": 352,
+    "sales_count": 7953
+  },
+  {
+    "name": "铁观音清香型 特级乌龙茶",
+    "category": "食品饮料",
+    "subcategory": "茶叶",
+    "price": 168.0,
+    "brand": "八马茶业",
+    "attributes": {
+      "颜色": [
+        "砂绿"
+      ],
+      "规格": "250g/罐",
+      "特点": "传统半发酵工艺，兰花香馥郁，七泡有余香"
+    },
+    "description": "产自福建安溪高山生态茶园，特级铁观音，传统半发酵工艺制成。干茶砂绿油润，卷曲紧结；冲泡后兰花香高扬持久，汤色金黄清澈，滋味醇厚甘鲜，回甘迅速。七泡后仍有余香，是日常品饮或待客之佳选。",
+    "id": "prod_0228",
+    "image_url": "https://picsum.photos/seed/prod_0228/400/400",
+    "rating": 3.4,
+    "stock": 77,
+    "sales_count": 9355
+  },
+  {
+    "name": "中度烘焙阿拉比卡咖啡豆 500g",
+    "category": "食品饮料",
+    "subcategory": "咖啡",
+    "price": 128.0,
+    "brand": "星巴克",
+    "attributes": {
+      "颜色": [
+        "深棕"
+      ],
+      "规格": "500g/袋",
+      "特点": "拉丁美洲产区，焦糖甜感，酸苦平衡"
+    },
+    "description": "精选拉丁美洲100%阿拉比卡咖啡豆，中度烘焙保留花果香与焦糖甜感。干香带有坚果与巧克力气息，湿香呈现橙花与蜂蜜风味。酸度明亮柔和，苦味顺滑，余韵干净。适合手冲、法压壶或美式滴滤机，每日一杯唤醒活力。",
+    "id": "prod_0229",
+    "image_url": "https://picsum.photos/seed/prod_0229/400/400",
+    "rating": 4.2,
+    "stock": 134,
+    "sales_count": 7749
+  },
+  {
+    "name": "NFC鲜榨橙汁 300ml*10瓶",
+    "category": "食品饮料",
+    "subcategory": "饮料",
+    "price": 69.0,
+    "brand": "农夫山泉",
+    "attributes": {
+      "颜色": [
+        "橙黄"
+      ],
+      "规格": "300ml/瓶，共10瓶",
+      "特点": "100%鲜榨非浓缩还原，冷链运输，零添加"
+    },
+    "description": "采用NFC非浓缩还原工艺，将新鲜橙子直接压榨并瞬时杀菌，保留果肉纤维与天然维生素C。产地直采巴西甜橙，每瓶约含5颗橙子精华，口感酸甜自然，如现榨般新鲜。全程冷链运输，0添加糖、0色素、0防腐剂，适合早餐佐餐或运动后补充能量。",
+    "id": "prod_0230",
+    "image_url": "https://picsum.photos/seed/prod_0230/400/400",
+    "rating": 4.6,
+    "stock": 107,
+    "sales_count": 1545
+  },
+  {
+    "name": "《百年孤独》精装典藏版",
+    "category": "图书文具",
+    "subcategory": "小说",
+    "price": 45.0,
+    "brand": "人民文学出版社",
+    "attributes": {
+      "颜色": [
+        "蓝色封面"
+      ],
+      "规格": "32开精装",
+      "特点": "马尔克斯代表作，诺贝尔文学奖经典"
+    },
+    "description": "加西亚·马尔克斯魔幻现实主义巅峰之作，全新精装设计，内页采用护眼轻型纸，附赠人物关系图谱。讲述布恩迪亚家族七代人的传奇故事，适合文学爱好者收藏阅读。",
+    "id": "prod_0231",
+    "image_url": "https://picsum.photos/seed/prod_0231/400/400",
+    "rating": 3.2,
+    "stock": 230,
+    "sales_count": 5804
+  },
+  {
+    "name": "高中数学必修一同步练习册",
+    "category": "图书文具",
+    "subcategory": "教材",
+    "price": 36.0,
+    "brand": "人教版教辅",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "16开平装",
+      "特点": "紧扣新课标，含章节测试"
+    },
+    "description": "依据最新人教版教材编写，每节配基础巩固与能力提升题，书末附详细答案解析。适合高一学生同步训练，巩固课堂知识，提升解题能力。",
+    "id": "prod_0232",
+    "image_url": "https://picsum.photos/seed/prod_0232/400/400",
+    "rating": 3.8,
+    "stock": 249,
+    "sales_count": 887
+  },
+  {
+    "name": "国誉Campus B5活页笔记本",
+    "category": "图书文具",
+    "subcategory": "笔记本",
+    "price": 28.0,
+    "brand": "国誉(KOKUYO)",
+    "attributes": {
+      "颜色": [
+        "蓝色"
+      ],
+      "规格": "B5/30页",
+      "特点": "可替换内芯，双螺旋装订"
+    },
+    "description": "日本经典校园系列，B5标准尺寸适合课堂笔记。双螺旋装订可180°平摊，纸张厚实不透墨。内含横线内页，附赠索引分隔页，方便学科分类管理。",
+    "id": "prod_0233",
+    "image_url": "https://picsum.photos/seed/prod_0233/400/400",
+    "rating": 4.3,
+    "stock": 340,
+    "sales_count": 1612
+  },
+  {
+    "name": "凌美LAMY safari狩猎系列钢笔",
+    "category": "图书文具",
+    "subcategory": "钢笔",
+    "price": 168.0,
+    "brand": "凌美(LAMY)",
+    "attributes": {
+      "颜色": [
+        "磨砂黑"
+      ],
+      "规格": "F尖",
+      "特点": "ABS笔杆，人体工学笔握"
+    },
+    "description": "德国经典入门钢笔，ABS高强度塑料笔杆轻便耐用。人体工学三角形笔握矫正握姿，不锈钢笔尖书写顺滑。配备一次性墨囊或吸墨器，适合学生及办公日常书写。",
+    "id": "prod_0234",
+    "image_url": "https://picsum.photos/seed/prod_0234/400/400",
+    "rating": 3.1,
+    "stock": 382,
+    "sales_count": 5559
+  },
+  {
+    "name": "斯塔STA 2160双头马克笔60色套装",
+    "category": "图书文具",
+    "subcategory": "马克笔",
+    "price": 89.0,
+    "brand": "斯塔(STA)",
+    "attributes": {
+      "颜色": [
+        "多色（60色）"
+      ],
+      "规格": "60色/套",
+      "特点": "双头设计，酒精墨水"
+    },
+    "description": "专业级双头马克笔，细头勾线、宽头铺色。酒精性墨水快干耐水，色彩鲜艳不刺鼻。附赠便携笔袋和色卡，适合动漫、手账、设计草图等多种场景。",
+    "id": "prod_0235",
+    "image_url": "https://picsum.photos/seed/prod_0235/400/400",
+    "rating": 4.6,
+    "stock": 65,
+    "sales_count": 4073
+  },
+  {
+    "name": "马利牌水溶性彩色铅笔36色铁盒装",
+    "category": "图书文具",
+    "subcategory": "绘画工具",
+    "price": 55.0,
+    "brand": "马利(Marie's)",
+    "attributes": {
+      "颜色": [
+        "36色"
+      ],
+      "规格": "36色/盒",
+      "特点": "水溶性，铁盒收纳"
+    },
+    "description": "经典国画品牌，铅笔笔芯细腻易着色，蘸水即可呈现水彩效果。铁盒包装方便收纳携带，适合儿童涂鸦、专业绘画初学者及手绘爱好者。",
+    "id": "prod_0236",
+    "image_url": "https://picsum.photos/seed/prod_0236/400/400",
+    "rating": 3.4,
+    "stock": 284,
+    "sales_count": 7350
+  },
+  {
+    "name": "华夏万卷·田英章楷书字帖",
+    "category": "图书文具",
+    "subcategory": "字帖",
+    "price": 22.0,
+    "brand": "华夏万卷",
+    "attributes": {
+      "颜色": [
+        "米黄色"
+      ],
+      "规格": "16开/64页",
+      "特点": "楷书入门，加厚纸张"
+    },
+    "description": "著名书法家田英章楷书教程，从基本笔画到偏旁结构循序渐进。采用米黄色护眼纸，双面印刷不洇墨。附赠练字笔一支，适合中小学生及成人书法入门。",
+    "id": "prod_0237",
+    "image_url": "https://picsum.photos/seed/prod_0237/400/400",
+    "rating": 3.3,
+    "stock": 103,
+    "sales_count": 4563
+  },
+  {
+    "name": "可爱立体贴纸包（100张混装）",
+    "category": "图书文具",
+    "subcategory": "贴纸",
+    "price": 12.0,
+    "brand": "乐卡(Lekka)",
+    "attributes": {
+      "颜色": [
+        "混色"
+      ],
+      "规格": "100张/包",
+      "特点": "立体浮雕，防水覆膜"
+    },
+    "description": "包含动物、美食、字母等可爱图案，立体浮雕工艺手感丰富。防水覆膜可粘贴于手账、水杯、笔记本等表面，撕下不留残胶。每张约2-5cm大小，创意装饰必备。",
+    "id": "prod_0238",
+    "image_url": "https://picsum.photos/seed/prod_0238/400/400",
+    "rating": 3.9,
+    "stock": 457,
+    "sales_count": 1235
+  },
+  {
+    "name": "无印良品按动式凝胶笔0.5mm",
+    "category": "图书文具",
+    "subcategory": "钢笔",
+    "price": 15.0,
+    "brand": "无印良品(MUJI)",
+    "attributes": {
+      "颜色": [
+        "黑色"
+      ],
+      "规格": "0.5mm",
+      "特点": "按动式设计，低重心"
+    },
+    "description": "简约设计按动中性笔，低重心笔杆书写稳定。采用速干凝胶墨水，字迹清晰不晕染。笔夹可别在书本或口袋上，适合日常办公、考试及笔记书写。",
+    "id": "prod_0239",
+    "image_url": "https://picsum.photos/seed/prod_0239/400/400",
+    "rating": 3.9,
+    "stock": 451,
+    "sales_count": 9016
+  },
+  {
+    "name": "得力A4牛皮纸封面素描本",
+    "category": "图书文具",
+    "subcategory": "绘画工具",
+    "price": 18.0,
+    "brand": "得力(deli)",
+    "attributes": {
+      "颜色": [
+        "牛皮纸色"
+      ],
+      "规格": "A4/40页",
+      "特点": "螺旋装订，可撕取"
+    },
+    "description": "牛皮纸封面质感复古，内页为120g厚素描纸，适合铅笔、炭笔、彩铅等多种工具。螺旋装订可360°平摊，每页易撕取，方便作品整理与展示。",
+    "id": "prod_0240",
+    "image_url": "https://picsum.photos/seed/prod_0240/400/400",
+    "rating": 3.2,
+    "stock": 343,
+    "sales_count": 8856
+  },
+  {
+    "name": "《百年孤独》精装版",
+    "category": "图书文具",
+    "subcategory": "小说",
+    "price": 45.0,
+    "brand": "人民文学出版社",
+    "attributes": {
+      "颜色": [
+        "蓝"
+      ],
+      "规格": "精装",
+      "特点": "马尔克斯代表作，魔幻现实主义经典，值得收藏"
+    },
+    "description": "世界文学名著《百年孤独》精装版，马尔克斯代表作。魔幻现实主义巅峰之作，布恩迪亚家族七代传奇。精致硬壳装帧，收藏阅读皆宜。",
+    "id": "prod_0241",
+    "image_url": "https://picsum.photos/seed/prod_0241/400/400",
+    "rating": 4.7,
+    "stock": 57,
+    "sales_count": 3872
+  },
+  {
+    "name": "《高等数学》第七版（上册）",
+    "category": "图书文具",
+    "subcategory": "教材",
+    "price": 89.0,
+    "brand": "高等教育出版社",
+    "attributes": {
+      "颜色": [
+        "白"
+      ],
+      "规格": "第七版",
+      "特点": "考研数学指定教材"
+    },
+    "description": "同济大学数学系编《高等数学》第七版上册，全国高校理工科经典教材。内容系统严谨，配有大量例题与习题，是考研数学必备书目。",
+    "id": "prod_0242",
+    "image_url": "https://picsum.photos/seed/prod_0242/400/400",
+    "rating": 3.3,
+    "stock": 258,
+    "sales_count": 7886
+  },
+  {
+    "name": "晨光A5活页笔记本",
+    "category": "图书文具",
+    "subcategory": "笔记本",
+    "price": 25.0,
+    "brand": "晨光",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "红",
+        "蓝"
+      ],
+      "规格": "A5",
+      "特点": "可替换内芯"
+    },
+    "description": "晨光A5活页笔记本，多种颜色可选。采用优质纸张，书写顺滑不渗墨。可自由替换内芯，灵活收纳，适合学生与办公使用。",
+    "id": "prod_0243",
+    "image_url": "https://picsum.photos/seed/prod_0243/400/400",
+    "rating": 3.4,
+    "stock": 215,
+    "sales_count": 960
+  },
+  {
+    "name": "英雄616钢笔（经典款）",
+    "category": "图书文具",
+    "subcategory": "钢笔",
+    "price": 35.0,
+    "brand": "英雄",
+    "attributes": {
+      "颜色": [
+        "黑"
+      ],
+      "规格": "中细尖",
+      "特点": "经典款，性价比高"
+    },
+    "description": "英雄616经典钢笔，黑色笔身，暗尖设计。书写顺滑流畅，出墨均匀，适合日常练字与签字。价格亲民，是众多钢笔爱好者的入门之选。",
+    "id": "prod_0244",
+    "image_url": "https://picsum.photos/seed/prod_0244/400/400",
+    "rating": 3.3,
+    "stock": 11,
+    "sales_count": 6396
+  },
+  {
+    "name": "TouchMark双头马克笔24色套装",
+    "category": "图书文具",
+    "subcategory": "马克笔",
+    "price": 58.0,
+    "brand": "TouchMark",
+    "attributes": {
+      "颜色": [
+        "多色"
+      ],
+      "规格": "24色套装",
+      "特点": "双头设计，水性墨水"
+    },
+    "description": "TouchMark双头马克笔24色套装，一头细头勾线，一头宽头涂色。水性墨水环保无异味，色彩鲜艳饱和，适合手绘、漫画、手账涂鸦。",
+    "id": "prod_0245",
+    "image_url": "https://picsum.photos/seed/prod_0245/400/400",
+    "rating": 3.5,
+    "stock": 411,
+    "sales_count": 7454
+  },
+  {
+    "name": "辉柏嘉水溶性彩色铅笔48色",
+    "category": "图书文具",
+    "subcategory": "绘画工具",
+    "price": 95.0,
+    "brand": "辉柏嘉",
+    "attributes": {
+      "颜色": [
+        "多色"
+      ],
+      "规格": "48色",
+      "特点": "水溶效果，绘画细腻"
+    },
+    "description": "辉柏嘉水溶性彩铅48色，笔芯软硬适中，色彩明亮。可用水晕染出水彩效果，也可干画表现细腻层次。铁盒包装，专业绘画入门首选。",
+    "id": "prod_0246",
+    "image_url": "https://picsum.photos/seed/prod_0246/400/400",
+    "rating": 3.6,
+    "stock": 366,
+    "sales_count": 9105
+  },
+  {
+    "name": "田英章楷书字帖（凹槽版）",
+    "category": "图书文具",
+    "subcategory": "字帖",
+    "price": 18.0,
+    "brand": "华夏万卷",
+    "attributes": {
+      "颜色": [
+        "白"
+      ],
+      "规格": "基础篇",
+      "特点": "凹槽设计，反复书写"
+    },
+    "description": "田英章楷书凹槽字帖，知名书法家田英章书写范本。凹槽设计引导运笔，配套消字笔芯可反复练习，适合中小学生及成人练字入门。",
+    "id": "prod_0247",
+    "image_url": "https://picsum.photos/seed/prod_0247/400/400",
+    "rating": 4.3,
+    "stock": 259,
+    "sales_count": 2536
+  },
+  {
+    "name": "陌墨ins风手账贴纸包（100张）",
+    "category": "图书文具",
+    "subcategory": "贴纸",
+    "price": 12.0,
+    "brand": "陌墨",
+    "attributes": {
+      "颜色": [
+        "多色"
+      ],
+      "规格": "100张",
+      "特点": "和纸材质，半透明"
+    },
+    "description": "陌墨ins风手账贴纸包，含100张精选图案。和纸材质半透明可叠加，不伤纸张。风格清新可爱，适合装饰手账、日记、卡片等。",
+    "id": "prod_0248",
+    "image_url": "https://picsum.photos/seed/prod_0248/400/400",
+    "rating": 3.4,
+    "stock": 121,
+    "sales_count": 958
+  },
+  {
+    "name": "《三体》全集（全三册）",
+    "category": "图书文具",
+    "subcategory": "小说",
+    "price": 88.0,
+    "brand": "重庆出版社",
+    "attributes": {
+      "颜色": [
+        "蓝"
+      ],
+      "规格": "套装",
+      "特点": "科幻巨作，雨果奖获奖"
+    },
+    "description": "刘慈欣科幻巨著《三体》全集，含《三体》《黑暗森林》《死神永生》三部。雨果奖获奖作品，讲述人类文明与三体文明的星际战争，硬核科幻必读。",
+    "id": "prod_0249",
+    "image_url": "https://picsum.photos/seed/prod_0249/400/400",
+    "rating": 4.2,
+    "stock": 287,
+    "sales_count": 998
+  },
+  {
+    "name": "国誉B5活页本（柔滑纸张）",
+    "category": "图书文具",
+    "subcategory": "笔记本",
+    "price": 32.0,
+    "brand": "国誉",
+    "attributes": {
+      "颜色": [
+        "绿"
+      ],
+      "规格": "B5",
+      "特点": "柔滑纸张，不洇墨"
+    },
+    "description": "国誉B5活页本，日本知名文具品牌。选用柔滑纸张，书写顺滑不洇墨，可180度平摊。搭配20孔活页夹，方便增补笔记，适合学生与职场人士。",
+    "id": "prod_0250",
+    "image_url": "https://picsum.photos/seed/prod_0250/400/400",
+    "rating": 4.5,
+    "stock": 39,
+    "sales_count": 821
+  },
+  {
+    "name": "《活着》精装版",
+    "category": "图书文具",
+    "subcategory": "小说",
+    "price": 35.0,
+    "brand": "人民文学出版社",
+    "attributes": {
+      "颜色": [
+        "经典白"
+      ],
+      "规格": "32开精装",
+      "特点": "余华代表作，深度剖析生命与苦难，豆瓣9.4分"
+    },
+    "description": "余华经典小说《活着》精装版，32开本，封面采用特种纸张，内页环保微黄护眼。讲述大时代背景下普通人的命运沉浮，以朴素笔触展现生命的坚韧与温情，适合文学爱好者收藏或馈赠。",
+    "id": "prod_0251",
+    "image_url": "https://picsum.photos/seed/prod_0251/400/400",
+    "rating": 4.2,
+    "stock": 267,
+    "sales_count": 8701
+  },
+  {
+    "name": "高中英语必修一教材同步讲解",
+    "category": "图书文具",
+    "subcategory": "教材",
+    "price": 48.0,
+    "brand": "人教版",
+    "attributes": {
+      "颜色": [
+        "蓝白"
+      ],
+      "规格": "16开",
+      "特点": "附赠配套习题册与语法卡片"
+    },
+    "description": "人教版高中英语必修一同步讲解教材，16开本，知识点分模块梳理，搭配典型例题与真题解析。附赠便携语法速记卡，帮助高一学生快速构建知识体系，打好英语基础。",
+    "id": "prod_0252",
+    "image_url": "https://picsum.photos/seed/prod_0252/400/400",
+    "rating": 3.3,
+    "stock": 270,
+    "sales_count": 1312
+  },
+  {
+    "name": "复古牛皮笔记本 A5",
+    "category": "图书文具",
+    "subcategory": "笔记本",
+    "price": 28.0,
+    "brand": "无印良品",
+    "attributes": {
+      "颜色": [
+        "棕色",
+        "黑色"
+      ],
+      "规格": "A5/192页",
+      "特点": "仿皮封面，锁线装订可平摊"
+    },
+    "description": "无印良品风格复古牛皮笔记本，A5尺寸，192页80g米黄道林纸。仿皮封面触感温润，锁线胶装可180度平摊书写，圆角保护不硌手，适合日常速记、手账或学习笔记。",
+    "id": "prod_0253",
+    "image_url": "https://picsum.photos/seed/prod_0253/400/400",
+    "rating": 4.7,
+    "stock": 45,
+    "sales_count": 9749
+  },
+  {
+    "name": "活页螺旋笔记本 B5",
+    "category": "图书文具",
+    "subcategory": "笔记本",
+    "price": 19.0,
+    "brand": "得力",
+    "attributes": {
+      "颜色": [
+        "薄荷绿",
+        "樱花粉"
+      ],
+      "规格": "B5/80页",
+      "特点": "强力活页夹可换替芯"
+    },
+    "description": "得力B5活页螺旋笔记本，80页双面横线内页，70g优质木浆纸。金属强力活页夹开合顺畅，可随意添加或更换替芯，封面磨砂PP硬质封面防水耐磨，学生党复习整理神器。",
+    "id": "prod_0254",
+    "image_url": "https://picsum.photos/seed/prod_0254/400/400",
+    "rating": 3.1,
+    "stock": 451,
+    "sales_count": 3853
+  },
+  {
+    "name": "英雄359A 学生钢笔",
+    "category": "图书文具",
+    "subcategory": "钢笔",
+    "price": 35.0,
+    "brand": "英雄",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "红色"
+      ],
+      "规格": "0.5mm F尖",
+      "特点": "透明笔杆可观察墨量，人体工学握位"
+    },
+    "description": "英雄经典359A透明示范钢笔，EF/F双尖可选（本款F尖0.5mm），透明笔杆可视墨量，正姿三角握位，搭配旋转吸墨器与墨囊两用，书写顺滑不断墨，适合学生日常练字或考试使用。",
+    "id": "prod_0255",
+    "image_url": "https://picsum.photos/seed/prod_0255/400/400",
+    "rating": 3.8,
+    "stock": 492,
+    "sales_count": 9333
+  },
+  {
+    "name": "慕娜美双头马克笔 12色套装",
+    "category": "图书文具",
+    "subcategory": "马克笔",
+    "price": 22.0,
+    "brand": "慕娜美 (Monami)",
+    "attributes": {
+      "颜色": [
+        "12色套装"
+      ],
+      "规格": "双头（细头+斜头）",
+      "特点": "水性墨水，速干不洇纸"
+    },
+    "description": "韩国慕娜美双头马克笔12色套装，细头0.4mm用于勾线，斜头3-6mm用于大面积涂色。水性颜料安全无毒，速干且不易渗透纸张，色彩鲜艳均匀，适合手账涂鸦、笔记标注或儿童绘画。",
+    "id": "prod_0256",
+    "image_url": "https://picsum.photos/seed/prod_0256/400/400",
+    "rating": 3.5,
+    "stock": 314,
+    "sales_count": 651
+  },
+  {
+    "name": "辉柏嘉水溶性彩色铅笔 48色",
+    "category": "图书文具",
+    "subcategory": "绘画工具",
+    "price": 168.0,
+    "brand": "辉柏嘉 (Faber-Castell)",
+    "attributes": {
+      "颜色": [
+        "48色铁盒装"
+      ],
+      "规格": "水溶性3.3mm笔芯",
+      "特点": "沾水可画出水彩效果，SV粘合防断芯"
+    },
+    "description": "德国辉柏嘉Red系列水溶性彩铅48色铁盒装，3.3mm软硬适中笔芯，沾水刷开可呈现水彩晕染效果。SV粘合技术使笔芯不易断裂，色彩饱和度高，适合专业插画、手账绘画及儿童美育启蒙。",
+    "id": "prod_0257",
+    "image_url": "https://picsum.photos/seed/prod_0257/400/400",
+    "rating": 4.2,
+    "stock": 224,
+    "sales_count": 9562
+  },
+  {
+    "name": "田英章楷书入门字帖",
+    "category": "图书文具",
+    "subcategory": "字帖",
+    "price": 26.0,
+    "brand": "华夏万卷",
+    "attributes": {
+      "颜色": [
+        "白底黑字"
+      ],
+      "规格": "16开/64页",
+      "特点": "凹槽设计，配消字笔芯可反复练"
+    },
+    "description": "华夏万卷出品田英章楷书入门字帖，16开本64页，凹槽立体引导，配套魔力消失笔芯可重复书写300次以上。从基本笔画到偏旁部首，循序渐进，纠正握笔姿势，成人儿童都适用。",
+    "id": "prod_0258",
+    "image_url": "https://picsum.photos/seed/prod_0258/400/400",
+    "rating": 4.1,
+    "stock": 171,
+    "sales_count": 4272
+  },
+  {
+    "name": "ins风复古贴纸包 100张",
+    "category": "图书文具",
+    "subcategory": "贴纸",
+    "price": 12.0,
+    "brand": "墨语",
+    "attributes": {
+      "颜色": [
+        "混色随机"
+      ],
+      "规格": "100张/包，尺寸2-5cm",
+      "特点": "和纸材质，半透明可撕不残胶"
+    },
+    "description": "墨语Ins风复古贴纸包，内含100张不同图案，涵盖植物、美食、文字、复古邮票等元素。和纸材质半透明，撕下后不留残胶，可粘贴于手账、卡片、笔记本等表面，为记录增添趣味与文艺感。",
+    "id": "prod_0259",
+    "image_url": "https://picsum.photos/seed/prod_0259/400/400",
+    "rating": 3.4,
+    "stock": 376,
+    "sales_count": 5147
+  },
+  {
+    "name": "晨光按动中性笔 0.5mm 5支装",
+    "category": "图书文具",
+    "subcategory": "钢笔",
+    "price": 15.0,
+    "brand": "晨光",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "蓝色",
+        "红色"
+      ],
+      "规格": "0.5mm子弹头",
+      "特点": "按动式不断墨，软胶握套"
+    },
+    "description": "晨光优品按动中性笔5支装，0.5mm子弹头笔尖，采用速干墨水，书写顺滑不断墨。人体工学软胶握套防手汗，按动式出芯防丢帽，适合学生日常作业、考试及办公签字，性价比之选。",
+    "id": "prod_0260",
+    "image_url": "https://picsum.photos/seed/prod_0260/400/400",
+    "rating": 3.5,
+    "stock": 212,
+    "sales_count": 2144
+  },
+  {
+    "name": "百年孤独",
+    "category": "图书文具",
+    "subcategory": "小说",
+    "price": 45.0,
+    "brand": "上海译文出版社",
+    "attributes": {
+      "颜色": [
+        "经典红"
+      ],
+      "规格": "32开精装",
+      "特点": "马尔克斯代表作，魔幻现实主义经典"
+    },
+    "description": "马尔克斯经典魔幻现实主义巨著，讲述布恩迪亚家族七代人的传奇故事。精装硬壳封面，护眼轻型纸印刷，附赠独家书签，文学爱好者必藏。",
+    "id": "prod_0261",
+    "image_url": "https://picsum.photos/seed/prod_0261/400/400",
+    "rating": 4.3,
+    "stock": 163,
+    "sales_count": 7491
+  },
+  {
+    "name": "高中数学必修一教材同步练习",
+    "category": "图书文具",
+    "subcategory": "教材",
+    "price": 29.0,
+    "brand": "人教版",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "A4大小",
+      "特点": "含知识点解析与历年真题"
+    },
+    "description": "人教版教材配套练习册，涵盖必修一全部章节。精选典型例题与高考改编题，每节附有详细解析和易错点总结，适合高中生课后巩固提升。",
+    "id": "prod_0262",
+    "image_url": "https://picsum.photos/seed/prod_0262/400/400",
+    "rating": 3.6,
+    "stock": 394,
+    "sales_count": 1188
+  },
+  {
+    "name": "北欧极简布面笔记本A5",
+    "category": "图书文具",
+    "subcategory": "笔记本",
+    "price": 38.0,
+    "brand": "Moleskine",
+    "attributes": {
+      "颜色": [
+        "深空灰",
+        "雾霾蓝"
+      ],
+      "规格": "A5/192页",
+      "特点": "无酸纸，可平摊，弹性绑带"
+    },
+    "description": "仿皮布面硬壳笔记本，内页采用80g无酸纸，钢笔书写不洇墨。经典圆形书脊可180度平摊，附赠后袋和书签带，商务学习皆宜。",
+    "id": "prod_0263",
+    "image_url": "https://picsum.photos/seed/prod_0263/400/400",
+    "rating": 3.0,
+    "stock": 328,
+    "sales_count": 9224
+  },
+  {
+    "name": "凌美狩猎者磨砂黑钢笔",
+    "category": "图书文具",
+    "subcategory": "钢笔",
+    "price": 168.0,
+    "brand": "LAMY",
+    "attributes": {
+      "颜色": [
+        "磨砂黑"
+      ],
+      "规格": "F尖",
+      "特点": "人体工学握把，吸墨器/墨胆两用"
+    },
+    "description": "德国经典设计，ABS强化塑料笔杆轻便耐用。独特的三角形笔握引导正确握姿，铱金笔尖顺滑流畅。附带z28吸墨器，可替换墨胆，适合日常书写与礼物赠送。",
+    "id": "prod_0264",
+    "image_url": "https://picsum.photos/seed/prod_0264/400/400",
+    "rating": 5.0,
+    "stock": 47,
+    "sales_count": 8808
+  },
+  {
+    "name": "Touchmark酒精性马克笔24色套装",
+    "category": "图书文具",
+    "subcategory": "马克笔",
+    "price": 89.0,
+    "brand": "Touchmark",
+    "attributes": {
+      "颜色": [
+        "24色标准套装"
+      ],
+      "规格": "3mm斜头+1mm细头",
+      "特点": "双头设计，快干无异味"
+    },
+    "description": "专业级酒精性马克笔，双笔头设计满足大面积铺色和细节勾勒。色彩饱和鲜艳，叠色自然，速干不伤纸。附带便携帆布袋，适合动漫设计、手帐涂鸦。",
+    "id": "prod_0265",
+    "image_url": "https://picsum.photos/seed/prod_0265/400/400",
+    "rating": 3.4,
+    "stock": 145,
+    "sales_count": 2170
+  },
+  {
+    "name": "辉柏嘉水溶性彩色铅笔48色铁盒装",
+    "category": "图书文具",
+    "subcategory": "绘画工具",
+    "price": 145.0,
+    "brand": "Faber-Castell",
+    "attributes": {
+      "颜色": [
+        "48色全系列"
+      ],
+      "规格": "3.3mm笔芯",
+      "特点": "水溶效果，色彩鲜艳，SV粘合技术"
+    },
+    "description": "德国原产高品质水溶性彩铅，笔芯软硬适中不易折断。干画细腻，加水晕染可呈现水彩效果。铁盒收纳便于携带，附赠一支画笔，适合专业插画与手绘爱好者。",
+    "id": "prod_0266",
+    "image_url": "https://picsum.photos/seed/prod_0266/400/400",
+    "rating": 4.9,
+    "stock": 461,
+    "sales_count": 1127
+  },
+  {
+    "name": "ins风手帐贴纸包100张混合装",
+    "category": "图书文具",
+    "subcategory": "贴纸",
+    "price": 15.0,
+    "brand": "卓大王",
+    "attributes": {
+      "颜色": [
+        "混合色"
+      ],
+      "规格": "每张约3×4cm",
+      "特点": "可书写，不透明，覆哑膜"
+    },
+    "description": "韩国ins风格贴纸包，含食物、植物、小动物等100张不同图案。PET材质防水耐撕，覆哑膜不反光，可随意粘贴在笔记本、手帐、礼物盒上，少女心满分。",
+    "id": "prod_0267",
+    "image_url": "https://picsum.photos/seed/prod_0267/400/400",
+    "rating": 4.8,
+    "stock": 199,
+    "sales_count": 4669
+  },
+  {
+    "name": "国誉无针订书机",
+    "category": "图书文具",
+    "subcategory": "笔记本",
+    "price": 32.0,
+    "brand": "KOKUYO",
+    "attributes": {
+      "颜色": [
+        "白色",
+        "粉色"
+      ],
+      "规格": "可订5张纸",
+      "特点": "无针环保，打孔压合"
+    },
+    "description": "日本国誉创新无针订书机，无需订书钉即可装订纸张。通过打孔并压合纸片固定文件，环保安全。可订约5张普通纸，适合办公室、学生整理零星资料。",
+    "id": "prod_0268",
+    "image_url": "https://picsum.photos/seed/prod_0268/400/400",
+    "rating": 3.3,
+    "stock": 436,
+    "sales_count": 8900
+  },
+  {
+    "name": "三菱uni-ball one小浓芯中性笔0.5mm",
+    "category": "图书文具",
+    "subcategory": "钢笔",
+    "price": 48.0,
+    "brand": "UNI三菱",
+    "attributes": {
+      "颜色": [
+        "黑色",
+        "蓝色"
+      ],
+      "规格": "0.5mm子弹头",
+      "特点": "墨水浓黑防水，速干不脏手"
+    },
+    "description": "日本三菱经典小浓芯系列，采用专研颜料墨水，字迹浓黑饱满且防水耐光。笔杆磨砂质感，握胶舒适，0.5mm子弹头书写流畅不断墨，适合考试和日常签字。",
+    "id": "prod_0269",
+    "image_url": "https://picsum.photos/seed/prod_0269/400/400",
+    "rating": 4.4,
+    "stock": 323,
+    "sales_count": 8666
+  },
+  {
+    "name": "英雄经典铱金钢笔",
+    "category": "图书文具",
+    "subcategory": "钢笔",
+    "price": 89.0,
+    "brand": "英雄",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "银",
+        "红"
+      ],
+      "规格": "0.5mm",
+      "特点": "铱金笔尖，顺滑书写"
+    },
+    "description": "英雄经典铱金钢笔，采用优质铱金笔尖，书写顺滑不易断墨。人体工学笔握设计，长时间书写不疲劳。经典商务外观，适合日常办公、学生练字或赠礼。墨囊与吸墨器两用，方便快捷。",
+    "id": "prod_0270",
+    "image_url": "https://picsum.photos/seed/prod_0270/400/400",
+    "rating": 3.0,
+    "stock": 428,
+    "sales_count": 9086
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 40 跑步鞋",
+    "category": "运动户外",
+    "subcategory": "跑步鞋",
+    "price": 599.0,
+    "brand": "Nike",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白"
+      ],
+      "规格": "42码",
+      "特点": "轻便缓震，全掌Zoom Air气垫，适合日常训练"
+    },
+    "description": "经典缓震跑鞋，采用全掌Zoom Air气垫与Flywire飞线技术，提供出色回弹与包裹性。透气网面鞋身，适合5-10公里慢跑或日常健步，脚感舒适，耐磨橡胶大底抓地力强。",
+    "id": "prod_0271",
+    "image_url": "https://picsum.photos/seed/prod_0271/400/400",
+    "rating": 3.6,
+    "stock": 349,
+    "sales_count": 1697
+  },
+  {
+    "name": "Manduka PRO 瑜伽垫",
+    "category": "运动户外",
+    "subcategory": "瑜伽垫",
+    "price": 299.0,
+    "brand": "Manduka",
+    "attributes": {
+      "颜色": [
+        "紫"
+      ],
+      "规格": "6mm厚",
+      "特点": "防滑，高密度PVC"
+    },
+    "description": "专业级瑜伽垫，6mm厚度提供完美缓冲与支撑。高密度PVC材质表面微粘防滑，即使出汗也能保持稳定。闭孔结构易清洁，耐用不褪色，适合各类瑜伽练习。",
+    "id": "prod_0272",
+    "image_url": "https://picsum.photos/seed/prod_0272/400/400",
+    "rating": 4.9,
+    "stock": 78,
+    "sales_count": 4333
+  },
+  {
+    "name": "Spalding 7号标准篮球",
+    "category": "运动户外",
+    "subcategory": "篮球",
+    "price": 299.0,
+    "brand": "Spalding",
+    "attributes": {
+      "颜色": [
+        "棕"
+      ],
+      "规格": "7号标准",
+      "特点": "耐磨PU表皮，室内外通用"
+    },
+    "description": "NBA比赛用球同款工艺，优质PU表皮手感柔软耐磨，室内外场地均可使用。丁基橡胶内胆气密性好，保持圆度稳定。深浅颗粒纹路增强控球摩擦力，适合进阶训练。",
+    "id": "prod_0273",
+    "image_url": "https://picsum.photos/seed/prod_0273/400/400",
+    "rating": 3.2,
+    "stock": 64,
+    "sales_count": 9064
+  },
+  {
+    "name": "Yonex Nanoflare 800 羽毛球拍",
+    "category": "运动户外",
+    "subcategory": "羽毛球拍",
+    "price": 899.0,
+    "brand": "Yonex",
+    "attributes": {
+      "颜色": [
+        "红",
+        "黑"
+      ],
+      "规格": "4U (80-84g)",
+      "特点": "高弹性碳素，快速挥拍"
+    },
+    "description": "超轻纳米碳素拍框，提升挥速与反弹力。4U重量平衡进攻与防守，适合双打快速平抽。内置T形接头抗扭稳定，搭配高弹性拍杆，击球清脆有力，业余进阶首选。",
+    "id": "prod_0274",
+    "image_url": "https://picsum.photos/seed/prod_0274/400/400",
+    "rating": 3.3,
+    "stock": 154,
+    "sales_count": 9909
+  },
+  {
+    "name": "The North Face Stormbreak 2 帐篷",
+    "category": "运动户外",
+    "subcategory": "帐篷",
+    "price": 1999.0,
+    "brand": "The North Face",
+    "attributes": {
+      "颜色": [
+        "蓝",
+        "绿"
+      ],
+      "规格": "双人（2人）",
+      "特点": "防风防水，轻量易搭建"
+    },
+    "description": "三季双人帐篷，采用防撕裂尼龙面料与防水涂层，可抵御风雨。铝杆结构轻量稳固，搭建简便。双层门厅设计增加存储空间，通风窗防闷热，适合徒步露营或公园野营。",
+    "id": "prod_0275",
+    "image_url": "https://picsum.photos/seed/prod_0275/400/400",
+    "rating": 3.4,
+    "stock": 185,
+    "sales_count": 3335
+  },
+  {
+    "name": "Giro Aether MIPS 骑行头盔",
+    "category": "运动户外",
+    "subcategory": "骑行装备",
+    "price": 599.0,
+    "brand": "Giro",
+    "attributes": {
+      "颜色": [
+        "白"
+      ],
+      "规格": "M/L（适合头围55-61cm）",
+      "特点": "MIPS防护，轻量透气"
+    },
+    "description": "配备MIPS多向冲击防护系统，有效减少旋转冲击对大脑的伤害。内部风道设计通风散热，14个透气孔保持清爽。一体成型外壳，重量仅270克，适合公路骑行或山地车运动。",
+    "id": "prod_0276",
+    "image_url": "https://picsum.photos/seed/prod_0276/400/400",
+    "rating": 4.4,
+    "stock": 446,
+    "sales_count": 4325
+  },
+  {
+    "name": "Speedo Vanquisher 2.0 泳镜",
+    "category": "运动户外",
+    "subcategory": "泳镜",
+    "price": 199.0,
+    "brand": "Speedo",
+    "attributes": {
+      "颜色": [
+        "透明蓝"
+      ],
+      "规格": "标准尺寸（含鼻梁可换）",
+      "特点": "防雾，防紫外线，舒适贴合"
+    },
+    "description": "竞赛级光学镜片，100%防紫外线，内层防雾涂层持久清晰。硅胶密封圈贴合眼部不渗水，可更换鼻梁适应不同脸型。流线型设计减少水阻，适合游泳训练及比赛使用。",
+    "id": "prod_0277",
+    "image_url": "https://picsum.photos/seed/prod_0277/400/400",
+    "rating": 4.0,
+    "stock": 138,
+    "sales_count": 832
+  },
+  {
+    "name": "Under Armour HeatGear 运动短袖",
+    "category": "运动户外",
+    "subcategory": "运动服",
+    "price": 399.0,
+    "brand": "Under Armour",
+    "attributes": {
+      "颜色": [
+        "灰"
+      ],
+      "规格": "L（适合胸围96-101cm）",
+      "特点": "速干透气，四向弹力"
+    },
+    "description": "HeatGear科技面料，快速排汗保持身体干爽。四向弹力面料提供无束缚运动体验。平滑接缝设计减少摩擦，反光细节提升夜间安全。适合健身跑步、篮球等高强度运动。",
+    "id": "prod_0278",
+    "image_url": "https://picsum.photos/seed/prod_0278/400/400",
+    "rating": 3.2,
+    "stock": 226,
+    "sales_count": 4533
+  },
+  {
+    "name": "Liforme Travel Yoga Mat",
+    "category": "运动户外",
+    "subcategory": "瑜伽垫",
+    "price": 899.0,
+    "brand": "Liforme",
+    "attributes": {
+      "颜色": [
+        "绿"
+      ],
+      "规格": "5mm厚",
+      "特点": "环保天然橡胶，精准对齐标记"
+    },
+    "description": "采用天然橡胶与聚氨酯环保材质，表面吸汗防滑，底部橡胶抓地稳定。垫面印有独特的对齐引导线，帮助纠正体式姿势。5mm厚度便于携带，适合旅行及流瑜伽练习。",
+    "id": "prod_0279",
+    "image_url": "https://picsum.photos/seed/prod_0279/400/400",
+    "rating": 3.1,
+    "stock": 180,
+    "sales_count": 2143
+  },
+  {
+    "name": "Adidas Ultraboost Light 跑步鞋",
+    "category": "运动户外",
+    "subcategory": "跑步鞋",
+    "price": 1299.0,
+    "brand": "Adidas",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白",
+        "红"
+      ],
+      "规格": "43码",
+      "特点": "Boost中底，轻量回弹"
+    },
+    "description": "搭载全新Light Boost中底科技，比传统Boost更轻更弹，回馈能量充沛。Primeknit编织鞋面包裹贴合，防扭转系统提供稳定支撑。Continental™橡胶外底抓地出色，适合长距离慢跑或半马训练。",
+    "id": "prod_0280",
+    "image_url": "https://picsum.photos/seed/prod_0280/400/400",
+    "rating": 4.3,
+    "stock": 144,
+    "sales_count": 2647
+  },
+  {
+    "name": "Lululemon The Reversible Mat 瑜伽垫",
+    "category": "运动户外",
+    "subcategory": "瑜伽垫",
+    "price": 380.0,
+    "brand": "Lululemon",
+    "attributes": {
+      "颜色": [
+        "紫",
+        "灰"
+      ],
+      "规格": "5mm厚",
+      "特点": "双面可用、防滑纹理、环保橡胶"
+    },
+    "description": "双面设计瑜伽垫，一面高抓力适合热汗瑜伽，一面光滑适合冥想。5mm厚度提供缓冲与支撑，天然橡胶材质环保无异味，附赠背带方便携带。",
+    "id": "prod_0281",
+    "image_url": "https://picsum.photos/seed/prod_0281/400/400",
+    "rating": 4.5,
+    "stock": 292,
+    "sales_count": 7007
+  },
+  {
+    "name": "Spalding TF-1000 Legacy 篮球",
+    "category": "运动户外",
+    "subcategory": "篮球",
+    "price": 299.0,
+    "brand": "Spalding",
+    "attributes": {
+      "颜色": [
+        "棕"
+      ],
+      "规格": "7号标准球",
+      "特点": "复合皮革、深筋沟、室内外两用"
+    },
+    "description": "经典室内外两用篮球，复合皮革手感细腻，深筋沟设计增强控球稳定性。充气保持持久，适合半场对抗及日常投篮训练，耐用性出色。",
+    "id": "prod_0282",
+    "image_url": "https://picsum.photos/seed/prod_0282/400/400",
+    "rating": 4.1,
+    "stock": 67,
+    "sales_count": 1232
+  },
+  {
+    "name": "Yonex Nanoray Light 180 羽毛球拍",
+    "category": "运动户外",
+    "subcategory": "羽毛球拍",
+    "price": 1200.0,
+    "brand": "Yonex",
+    "attributes": {
+      "颜色": [
+        "红",
+        "黑"
+      ],
+      "规格": "4U (约83g)",
+      "特点": "高弹性碳素、轻量化、破风框"
+    },
+    "description": "轻量进攻型羽毛球拍，采用高弹性碳素拍框，挥拍迅速。破风框设计降低风阻，提升击球速度。适合业余进阶选手，扣杀与平抽表现均衡。",
+    "id": "prod_0283",
+    "image_url": "https://picsum.photos/seed/prod_0283/400/400",
+    "rating": 4.9,
+    "stock": 363,
+    "sales_count": 2442
+  },
+  {
+    "name": "The North Face Wawona 4 帐篷",
+    "category": "运动户外",
+    "subcategory": "帐篷",
+    "price": 2500.0,
+    "brand": "The North Face",
+    "attributes": {
+      "颜色": [
+        "绿",
+        "黄"
+      ],
+      "规格": "4人帐",
+      "特点": "防雨、易搭建、双门厅"
+    },
+    "description": "四人家庭露营帐篷，采用防水涂层面料，防雨指数3000mm。快速搭建系统配合双门厅设计，空间宽敞。通风窗可调节，适合周末户外野营。",
+    "id": "prod_0284",
+    "image_url": "https://picsum.photos/seed/prod_0284/400/400",
+    "rating": 4.1,
+    "stock": 437,
+    "sales_count": 6049
+  },
+  {
+    "name": "Giant Relay MIPS 骑行头盔",
+    "category": "运动户外",
+    "subcategory": "骑行装备",
+    "price": 450.0,
+    "brand": "Giant",
+    "attributes": {
+      "颜色": [
+        "白",
+        "黑",
+        "红"
+      ],
+      "规格": "M/L码",
+      "特点": "MIPS防护、轻量、通风"
+    },
+    "description": "入门级公路骑行头盔，内置MIPS多向冲击防护系统，降低旋转碰撞风险。重量仅290g，14个通风孔保持头部干爽，旋钮调节贴合舒适。",
+    "id": "prod_0285",
+    "image_url": "https://picsum.photos/seed/prod_0285/400/400",
+    "rating": 4.2,
+    "stock": 85,
+    "sales_count": 7041
+  },
+  {
+    "name": "Adidas Own the Run 运动短袖",
+    "category": "运动户外",
+    "subcategory": "运动服",
+    "price": 299.0,
+    "brand": "Adidas",
+    "attributes": {
+      "颜色": [
+        "灰",
+        "黑",
+        "蓝"
+      ],
+      "规格": "L码",
+      "特点": "AEROREADY速干、反光细节"
+    },
+    "description": "男士跑步短袖，AEROREADY科技快速排汗保持干爽。修身剪裁贴合身体，背部反光条提升夜间可见性。面料柔软透气，适合春夏日常训练。",
+    "id": "prod_0286",
+    "image_url": "https://picsum.photos/seed/prod_0286/400/400",
+    "rating": 3.3,
+    "stock": 167,
+    "sales_count": 5974
+  },
+  {
+    "name": "Li-Ning 超轻19 跑步鞋",
+    "category": "运动户外",
+    "subcategory": "跑步鞋",
+    "price": 459.0,
+    "brand": "Li-Ning",
+    "attributes": {
+      "颜色": [
+        "白",
+        "绿",
+        "橙"
+      ],
+      "规格": "43码",
+      "特点": "超轻、云缓震、mono纱鞋面"
+    },
+    "description": "轻量化缓震跑鞋，鞋身仅约240g。全掌云缓震中底提供柔软脚感，mono纱鞋面轻盈透气。鞋底镂空设计减重同时增加稳定性。适合5-10公里路跑。",
+    "id": "prod_0287",
+    "image_url": "https://picsum.photos/seed/prod_0287/400/400",
+    "rating": 4.8,
+    "stock": 417,
+    "sales_count": 653
+  },
+  {
+    "name": "Decathlon Kiprun 瑜伽垫 10mm",
+    "category": "运动户外",
+    "subcategory": "瑜伽垫",
+    "price": 99.0,
+    "brand": "Decathlon",
+    "attributes": {
+      "颜色": [
+        "粉",
+        "蓝"
+      ],
+      "规格": "10mm厚",
+      "特点": "加厚、防滑、PVC材质"
+    },
+    "description": "经济型加厚瑜伽垫，10mm厚度提供良好缓冲，适合初学者及关节敏感者。双面防滑纹理确保动作稳定，PVC材质易清洁，附赠绑带方便收纳。",
+    "id": "prod_0288",
+    "image_url": "https://picsum.photos/seed/prod_0288/400/400",
+    "rating": 4.8,
+    "stock": 117,
+    "sales_count": 4088
+  },
+  {
+    "name": "轻量缓震跑步鞋",
+    "category": "运动户外",
+    "subcategory": "跑步鞋",
+    "price": 459.0,
+    "brand": "ASICS",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白"
+      ],
+      "规格": "42",
+      "特点": "GEL缓震胶，透气网面，适合日常慢跑及训练"
+    },
+    "description": "采用FlyteFoam中底技术，提供出色回弹与缓震。鞋面透气网眼搭配无缝热压，包裹舒适。适合公路及跑道场景，助力跑者提升表现。",
+    "id": "prod_0289",
+    "image_url": "https://picsum.photos/seed/prod_0289/400/400",
+    "rating": 4.3,
+    "stock": 191,
+    "sales_count": 9173
+  },
+  {
+    "name": "专业瑜伽垫",
+    "category": "运动户外",
+    "subcategory": "瑜伽垫",
+    "price": 128.0,
+    "brand": "Manduka",
+    "attributes": {
+      "颜色": [
+        "紫",
+        "蓝"
+      ],
+      "规格": "183cm×61cm×6mm",
+      "特点": "高密度PVC防滑，闭孔结构易清洁"
+    },
+    "description": "加厚6mm设计，提供优秀缓冲与支撑。表面微纹理防滑，适合热瑜伽及流瑜伽。闭孔材质不吸汗，清洁方便，经久耐用。",
+    "id": "prod_0290",
+    "image_url": "https://picsum.photos/seed/prod_0290/400/400",
+    "rating": 4.8,
+    "stock": 218,
+    "sales_count": 2532
+  },
+  {
+    "name": "标准7号篮球",
+    "category": "运动户外",
+    "subcategory": "篮球",
+    "price": 89.0,
+    "brand": "Spalding",
+    "attributes": {
+      "颜色": [
+        "橙"
+      ],
+      "规格": "7号标准球",
+      "特点": "丁基内胆，PU表皮，耐磨防滑"
+    },
+    "description": "官方比赛级7号篮球，PU材质手感细腻，丁基内胆气密性好。室外水泥地及室内木地板均适用，适合日常训练与对抗。",
+    "id": "prod_0291",
+    "image_url": "https://picsum.photos/seed/prod_0291/400/400",
+    "rating": 4.9,
+    "stock": 131,
+    "sales_count": 2662
+  },
+  {
+    "name": "全碳素羽毛球拍",
+    "category": "运动户外",
+    "subcategory": "羽毛球拍",
+    "price": 680.0,
+    "brand": "Yonex",
+    "attributes": {
+      "颜色": [
+        "红",
+        "银"
+      ],
+      "规格": "4U (约83g)",
+      "特点": "高弹性碳素拍杆，方形拍框加大甜区"
+    },
+    "description": "采用高弹性碳素材料，击球手感清脆。方形拍框设计有效扩大甜区，容错率更高。适合业余进阶及俱乐部选手使用。",
+    "id": "prod_0292",
+    "image_url": "https://picsum.photos/seed/prod_0292/400/400",
+    "rating": 5.0,
+    "stock": 425,
+    "sales_count": 2900
+  },
+  {
+    "name": "双层自动速开帐篷",
+    "category": "运动户外",
+    "subcategory": "帐篷",
+    "price": 598.0,
+    "brand": "The North Face",
+    "attributes": {
+      "颜色": [
+        "绿",
+        "灰"
+      ],
+      "规格": "2人/外帐+内帐",
+      "特点": "防风防雨，自动弹开设计，收纳便捷"
+    },
+    "description": "双层结构，外帐防水涂层，内帐透气网纱。液压自动速开支架，3秒搭建。适合露营、公园休闲及短途徒步。",
+    "id": "prod_0293",
+    "image_url": "https://picsum.photos/seed/prod_0293/400/400",
+    "rating": 4.8,
+    "stock": 22,
+    "sales_count": 2938
+  },
+  {
+    "name": "公路骑行头盔",
+    "category": "运动户外",
+    "subcategory": "骑行装备",
+    "price": 399.0,
+    "brand": "Giro",
+    "attributes": {
+      "颜色": [
+        "白",
+        "黑"
+      ],
+      "规格": "M/L (55-62cm)",
+      "特点": "EPS缓冲层，炫彩透气孔，可调节旋钮"
+    },
+    "description": "一体成型EPS内壳，抗冲击性强。19个通风孔设计，骑行时清爽不闷热。后部旋钮式调节系统，贴合各种头型。",
+    "id": "prod_0294",
+    "image_url": "https://picsum.photos/seed/prod_0294/400/400",
+    "rating": 4.5,
+    "stock": 180,
+    "sales_count": 6745
+  },
+  {
+    "name": "高清防雾泳镜",
+    "category": "运动户外",
+    "subcategory": "泳镜",
+    "price": 68.0,
+    "brand": "Speedo",
+    "attributes": {
+      "颜色": [
+        "透明蓝",
+        "黑"
+      ],
+      "规格": "均码/可调节鼻桥",
+      "特点": "防雾涂层，UV防护，硅胶密封圈"
+    },
+    "description": "高清聚碳酸酯镜片，视野清晰。防雾涂层持久不模糊。柔软硅胶垫圈贴合眼部，防水不漏。适合游泳训练及休闲戏水。",
+    "id": "prod_0295",
+    "image_url": "https://picsum.photos/seed/prod_0295/400/400",
+    "rating": 4.6,
+    "stock": 452,
+    "sales_count": 4065
+  },
+  {
+    "name": "长袖速干运动T恤",
+    "category": "运动户外",
+    "subcategory": "运动服",
+    "price": 159.0,
+    "brand": "Under Armour",
+    "attributes": {
+      "颜色": [
+        "深灰",
+        "蓝"
+      ],
+      "规格": "L",
+      "特点": "HeatGear面料，四向弹力，排汗速干"
+    },
+    "description": "轻质HeatGear面料，紧身贴合不束缚。四向弹力可随身体动作拉伸。排汗速干技术保持干爽，适合跑步、健身等多种运动。",
+    "id": "prod_0296",
+    "image_url": "https://picsum.photos/seed/prod_0296/400/400",
+    "rating": 3.5,
+    "stock": 413,
+    "sales_count": 1771
+  },
+  {
+    "name": "越野跑鞋",
+    "category": "运动户外",
+    "subcategory": "跑步鞋",
+    "price": 899.0,
+    "brand": "Salomon",
+    "attributes": {
+      "颜色": [
+        "红",
+        "黑"
+      ],
+      "规格": "43",
+      "特点": "Contagrip防滑大底，Quicklace快速系带"
+    },
+    "description": "专为越野赛道设计，深齿Contagrip大底提供泥地、碎石路面优异抓地力。SensiFit包裹系统稳定脚踝，快速系带系统一拉即紧。",
+    "id": "prod_0297",
+    "image_url": "https://picsum.photos/seed/prod_0297/400/400",
+    "rating": 3.8,
+    "stock": 29,
+    "sales_count": 7711
+  },
+  {
+    "name": "专业羽毛球训练服套装",
+    "category": "运动户外",
+    "subcategory": "运动服",
+    "price": 228.0,
+    "brand": "李宁",
+    "attributes": {
+      "颜色": [
+        "白",
+        "绿"
+      ],
+      "规格": "M/L/XL",
+      "特点": "速干面料，高弹宽松，反光条设计"
+    },
+    "description": "上衣与短裤套装，采用AT Dry速干科技，吸湿排汗。宽松剪裁活动自如，腋下拼接透气网眼。侧缝反光条提升夜间安全性。",
+    "id": "prod_0298",
+    "image_url": "https://picsum.photos/seed/prod_0298/400/400",
+    "rating": 3.4,
+    "stock": 428,
+    "sales_count": 7541
+  },
+  {
+    "name": "极风轻量竞速跑步鞋",
+    "category": "运动户外",
+    "subcategory": "跑步鞋",
+    "price": 799.0,
+    "brand": "ASICS",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白"
+      ],
+      "规格": "42码",
+      "特点": "透气网面，GEL缓震胶，轻质鞋底，适合日常慢跑及马拉松训练"
+    },
+    "description": "采用FlyteFoam中底科技，回弹出色；AHAR耐磨橡胶大底，抓地力强；鞋身流线设计减少风阻，为长距离跑者提供稳定支撑。",
+    "id": "prod_0299",
+    "image_url": "https://picsum.photos/seed/prod_0299/400/400",
+    "rating": 3.7,
+    "stock": 430,
+    "sales_count": 3728
+  },
+  {
+    "name": "天然橡胶防滑瑜伽垫",
+    "category": "运动户外",
+    "subcategory": "瑜伽垫",
+    "price": 198.0,
+    "brand": "Manduka",
+    "attributes": {
+      "颜色": [
+        "紫",
+        "蓝"
+      ],
+      "规格": "183cm×68cm×6mm",
+      "特点": "天然橡胶材质，双面防滑，闭孔结构易清洁"
+    },
+    "description": "高密度天然橡胶提供卓越缓冲与支撑，表面微纹理防滑设计，适合热瑜伽与流瑜伽；不含PVC、 latex，环保无异味。",
+    "id": "prod_0300",
+    "image_url": "https://picsum.photos/seed/prod_0300/400/400",
+    "rating": 3.4,
+    "stock": 347,
+    "sales_count": 3164
+  },
+  {
+    "name": "专业比赛7号篮球",
+    "category": "运动户外",
+    "subcategory": "篮球",
+    "price": 349.0,
+    "brand": "Spalding",
+    "attributes": {
+      "颜色": [
+        "棕"
+      ],
+      "规格": "7号标准",
+      "特点": "PU合成革，筋沟加深，丁基内胆气密性好"
+    },
+    "description": "采用Cross-Tex超细纤维皮革，触感柔软且耐磨；尼龙缠纱层结构保持球体圆度，适合室内外场地，职业比赛级手感。",
+    "id": "prod_0301",
+    "image_url": "https://picsum.photos/seed/prod_0301/400/400",
+    "rating": 3.8,
+    "stock": 152,
+    "sales_count": 1137
+  },
+  {
+    "name": "钛合金超轻羽毛球拍",
+    "category": "运动户外",
+    "subcategory": "羽毛球拍",
+    "price": 1299.0,
+    "brand": "YONEX",
+    "attributes": {
+      "颜色": [
+        "红",
+        "银"
+      ],
+      "规格": "4U（约80g）",
+      "特点": "高弹性碳素+钛网，方形拍框增大甜区"
+    },
+    "description": "NANOMETRIC碳纤维科技提升拍面硬度和反弹力；ISOMETRIC方形拍头扩大有效击球面积；适合进攻型选手快速扣杀。",
+    "id": "prod_0302",
+    "image_url": "https://picsum.photos/seed/prod_0302/400/400",
+    "rating": 4.9,
+    "stock": 152,
+    "sales_count": 5753
+  },
+  {
+    "name": "三人双层防风帐篷",
+    "category": "运动户外",
+    "subcategory": "帐篷",
+    "price": 2380.0,
+    "brand": "The North Face",
+    "attributes": {
+      "颜色": [
+        "绿",
+        "灰"
+      ],
+      "规格": "210cm×150cm×110cm",
+      "特点": "防风防水，双层设计，铝杆支撑，速干面料"
+    },
+    "description": "外帐采用15D尼龙防撕裂布，防水指数2000mm；内帐透气网纱防虫； DAC铝制帐杆轻量坚固，搭建便捷，适合三季露营。",
+    "id": "prod_0303",
+    "image_url": "https://picsum.photos/seed/prod_0303/400/400",
+    "rating": 4.3,
+    "stock": 214,
+    "sales_count": 8785
+  },
+  {
+    "name": "公路自行车骑行头盔",
+    "category": "运动户外",
+    "subcategory": "骑行装备",
+    "price": 568.0,
+    "brand": "Giro",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白",
+        "红"
+      ],
+      "规格": "M/L（54-61cm）",
+      "特点": "EPS缓冲层，多通风孔，旋紧调节系统"
+    },
+    "description": "模内成型聚碳酸酯外壳与EPS泡沫一体结构，通过CPSC安全认证；14个风道有效散热；后部Roc Loc 5旋钮快速贴合头型。",
+    "id": "prod_0304",
+    "image_url": "https://picsum.photos/seed/prod_0304/400/400",
+    "rating": 3.7,
+    "stock": 24,
+    "sales_count": 1889
+  },
+  {
+    "name": "防雾高清泳镜",
+    "category": "运动户外",
+    "subcategory": "泳镜",
+    "price": 129.0,
+    "brand": "Speedo",
+    "attributes": {
+      "颜色": [
+        "蓝",
+        "透明"
+      ],
+      "规格": "均码，带可调节鼻桥",
+      "特点": "防雾涂层，UV防护，硅胶密封圈"
+    },
+    "description": "智能防雾镜片持久清晰，聚碳酸酯镜面抗冲击；3D硅胶垫圈贴合眼眶不渗水；分体式鼻桥适配不同脸型，泳池与开放水域通用。",
+    "id": "prod_0305",
+    "image_url": "https://picsum.photos/seed/prod_0305/400/400",
+    "rating": 4.8,
+    "stock": 143,
+    "sales_count": 2925
+  },
+  {
+    "name": "速干透气运动T恤",
+    "category": "运动户外",
+    "subcategory": "运动服",
+    "price": 159.0,
+    "brand": "Under Armour",
+    "attributes": {
+      "颜色": [
+        "灰",
+        "蓝",
+        "黑"
+      ],
+      "规格": "L码",
+      "特点": "HeatGear面料，四向弹力，防臭技术"
+    },
+    "description": "UA轻质速干面料排汗迅速，保持身体干爽；平缝结构减少摩擦；反光Logo提高夜间可见度，适合健身、跑步等中等强度运动。",
+    "id": "prod_0306",
+    "image_url": "https://picsum.photos/seed/prod_0306/400/400",
+    "rating": 4.2,
+    "stock": 145,
+    "sales_count": 626
+  },
+  {
+    "name": "缓震支撑慢跑鞋",
+    "category": "运动户外",
+    "subcategory": "跑步鞋",
+    "price": 459.0,
+    "brand": "New Balance",
+    "attributes": {
+      "颜色": [
+        "灰",
+        "绿"
+      ],
+      "规格": "43码",
+      "特点": "Fresh Foam中底，Ortholite鞋垫，足弓支撑"
+    },
+    "description": "Fresh Foam X缓震泡棉带来柔软脚感；Hypoknit鞋面贴合包裹；外底弯曲沟槽增强灵活性，适合日常通勤与中短距离跑步。",
+    "id": "prod_0307",
+    "image_url": "https://picsum.photos/seed/prod_0307/400/400",
+    "rating": 3.2,
+    "stock": 232,
+    "sales_count": 5663
+  },
+  {
+    "name": "双人充气防潮垫",
+    "category": "运动户外",
+    "subcategory": "帐篷",
+    "price": 429.0,
+    "brand": "Decathlon",
+    "attributes": {
+      "颜色": [
+        "橙",
+        "蓝"
+      ],
+      "规格": "190cm×130cm×6cm",
+      "特点": "自充气海绵，R值4.5，菱形防滑纹路"
+    },
+    "description": "高回弹海绵填充，打开阀门自动膨胀；双面TPU涂层耐穿刺；底部蜂窝防滑设计，搭配帐篷使用提升露营睡眠舒适度。",
+    "id": "prod_0308",
+    "image_url": "https://picsum.photos/seed/prod_0308/400/400",
+    "rating": 4.5,
+    "stock": 170,
+    "sales_count": 7149
+  },
+  {
+    "name": "牧高笛 冷山3 双人帐篷",
+    "category": "运动户外",
+    "subcategory": "帐篷",
+    "price": 499.0,
+    "brand": "牧高笛（Mobi Garden）",
+    "attributes": {
+      "颜色": [
+        "蓝"
+      ],
+      "规格": "2人",
+      "特点": "双层防风防雨，快速搭建，轻量化"
+    },
+    "description": "经典双人三季帐，外帐210T防撕裂面料，PU2000mm防水，内帐透气纱网防蚊虫。铝合金杆架，重量仅2.3kg，收纳小巧。适合公园露营、徒步过夜，性价比之选。",
+    "id": "prod_0309",
+    "image_url": "https://picsum.photos/seed/prod_0309/400/400",
+    "rating": 4.2,
+    "stock": 271,
+    "sales_count": 1894
+  },
+  {
+    "name": "轻盈疾风跑步鞋",
+    "category": "运动户外",
+    "subcategory": "跑步鞋",
+    "price": 799.0,
+    "brand": "Nike",
+    "attributes": {
+      "颜色": [
+        "黑",
+        "白"
+      ],
+      "规格": "42码",
+      "特点": "透气网面、缓震鞋底、轻量化设计"
+    },
+    "description": "采用Flyknit编织技术鞋面，包裹性极佳且透气清爽。中底搭载Air Zoom气垫与泡棉组合，回弹缓震效果出色，适合公路与跑道多种场景。橡胶外底耐磨防滑，助力日常慢跑及健身训练。",
+    "id": "prod_0310",
+    "image_url": "https://picsum.photos/seed/prod_0310/400/400",
+    "rating": 3.8,
+    "stock": 305,
+    "sales_count": 3114
+  },
+  {
+    "name": "氨基酸温和洁面乳",
+    "category": "美妆个护",
+    "subcategory": "洗面奶",
+    "price": 68.0,
+    "brand": "芙丽芳丝",
+    "attributes": {
+      "颜色": [],
+      "规格": "120g",
+      "特点": "氨基酸配方，温和不刺激，泡沫细腻丰富，洗完不紧绷"
+    },
+    "description": "采用氨基酸表面活性剂，pH值接近肌肤弱酸性，适合敏感肌日常使用。搭配多种植物精华，在清洁的同时保湿舒缓，洗后肤感水润不假滑。",
+    "id": "prod_0311",
+    "image_url": "https://picsum.photos/seed/prod_0311/400/400",
+    "rating": 3.5,
+    "stock": 372,
+    "sales_count": 7144
+  },
+  {
+    "name": "玻尿酸深层补水面膜",
+    "category": "美妆个护",
+    "subcategory": "面膜",
+    "price": 89.0,
+    "brand": "美即",
+    "attributes": {
+      "颜色": [],
+      "规格": "20ml*5片",
+      "特点": "三重玻尿酸，深层补水，服帖透气"
+    },
+    "description": "蕴含大、中、小分子玻尿酸，层层渗透补水。天丝膜布轻薄服帖，承载丰富精华液，敷15分钟肌肤水润饱满，适合干燥缺水肌肤日常护理。",
+    "id": "prod_0312",
+    "image_url": "https://picsum.photos/seed/prod_0312/400/400",
+    "rating": 3.0,
+    "stock": 483,
+    "sales_count": 8821
+  },
+  {
+    "name": "哑光丝绒雾面口红",
+    "category": "美妆个护",
+    "subcategory": "口红",
+    "price": 129.0,
+    "brand": "MAC",
+    "attributes": {
+      "颜色": [
+        "#316# 奶茶裸粉"
+      ],
+      "规格": "3g",
+      "特点": "丝绒哑光，高显色，持久不脱色"
+    },
+    "description": "经典子弹头设计，柔滑质地一抹显色，雾面妆效高级不拔干。添加维生素E保湿成分，长效持妆不易沾杯，适合日常通勤或约会场合。",
+    "id": "prod_0313",
+    "image_url": "https://picsum.photos/seed/prod_0313/400/400",
+    "rating": 4.4,
+    "stock": 491,
+    "sales_count": 3228
+  },
+  {
+    "name": "持妆控油粉底液",
+    "category": "美妆个护",
+    "subcategory": "粉底液",
+    "price": 299.0,
+    "brand": "雅诗兰黛",
+    "attributes": {
+      "颜色": [
+        "#1W1# 象牙白"
+      ],
+      "规格": "30ml",
+      "特点": "24小时持妆，控油防汗，自然遮瑕"
+    },
+    "description": "Double Wear经典粉底液，超长待妆不暗沉。微网科技打造轻薄透气妆效，中高遮瑕力可叠加，油皮亲妈，适合夏日户外或重要场合。",
+    "id": "prod_0314",
+    "image_url": "https://picsum.photos/seed/prod_0314/400/400",
+    "rating": 3.7,
+    "stock": 45,
+    "sales_count": 5409
+  },
+  {
+    "name": "无硅油控油蓬松洗发水",
+    "category": "美妆个护",
+    "subcategory": "洗发水",
+    "price": 55.0,
+    "brand": "清扬",
+    "attributes": {
+      "颜色": [],
+      "规格": "500ml",
+      "特点": "无硅油配方，控油蓬松，清爽去屑"
+    },
+    "description": "专为油性头皮设计，采用氨基酸清洁因子，温和去除多余油脂。添加薄荷醇与锌离子，有效抑制头屑，洗后发根清爽立挺，保持48小时蓬松感。",
+    "id": "prod_0315",
+    "image_url": "https://picsum.photos/seed/prod_0315/400/400",
+    "rating": 4.2,
+    "stock": 349,
+    "sales_count": 2041
+  },
+  {
+    "name": "牛奶丝滑沐浴露",
+    "category": "美妆个护",
+    "subcategory": "沐浴露",
+    "price": 39.0,
+    "brand": "多芬",
+    "attributes": {
+      "颜色": [],
+      "规格": "720g",
+      "特点": "含1/4牛奶精华，滋润保湿，温和不刺激"
+    },
+    "description": "经典大白瓶，蕴含真实牛奶蛋白与植物精油，泡沫绵密如云朵。酸碱平衡配方，洗后肌肤水润柔滑不假滑，适合全家日常沐浴使用。",
+    "id": "prod_0316",
+    "image_url": "https://picsum.photos/seed/prod_0316/400/400",
+    "rating": 4.4,
+    "stock": 163,
+    "sales_count": 8308
+  },
+  {
+    "name": "乳木果深层滋养护手霜",
+    "category": "美妆个护",
+    "subcategory": "护手霜",
+    "price": 45.0,
+    "brand": "欧舒丹",
+    "attributes": {
+      "颜色": [],
+      "规格": "30ml",
+      "特点": "高浓度乳木果油，深层修护，留香持久"
+    },
+    "description": "甄选非洲乳木果油，含丰富维生素A、E，能快速渗透修复干裂手部肌肤。质地丰润易吸收，淡淡花香，四季适用，尤其适合秋冬或经常洗手人群。",
+    "id": "prod_0317",
+    "image_url": "https://picsum.photos/seed/prod_0317/400/400",
+    "rating": 3.6,
+    "stock": 219,
+    "sales_count": 5344
+  },
+  {
+    "name": "清爽水感防晒霜 SPF50+",
+    "category": "美妆个护",
+    "subcategory": "防晒霜",
+    "price": 139.0,
+    "brand": "安热沙",
+    "attributes": {
+      "颜色": [],
+      "规格": "60ml",
+      "特点": "高倍防晒，水感清爽，防水防汗"
+    },
+    "description": "小金瓶升级版，采用Aqua Booster水能防晒技术，遇水更强。乳液质地轻薄不黏腻，成膜迅速无泛白，适合户外运动及日常通勤防晒。",
+    "id": "prod_0318",
+    "image_url": "https://picsum.photos/seed/prod_0318/400/400",
+    "rating": 3.8,
+    "stock": 161,
+    "sales_count": 9083
+  },
+  {
+    "name": "清新海洋淡香水 EDT",
+    "category": "美妆个护",
+    "subcategory": "香水",
+    "price": 499.0,
+    "brand": "大卫杜夫",
+    "attributes": {
+      "颜色": [],
+      "规格": "30ml",
+      "特点": "海洋调，清新持久，男女通用"
+    },
+    "description": "冷水系列经典香型，前调以薄荷、海洋水香开场，中调茉莉、橡苔过渡，尾调雪松、麝香收尾。干净清爽的皂感香气，留香约4-6小时，适合日常或运动后。",
+    "id": "prod_0319",
+    "image_url": "https://picsum.photos/seed/prod_0319/400/400",
+    "rating": 3.3,
+    "stock": 225,
+    "sales_count": 6211
+  },
+  {
+    "name": "贵妇级奢华修复面膜",
+    "category": "美妆个护",
+    "subcategory": "面膜",
+    "price": 899.0,
+    "brand": "海蓝之谜",
+    "attributes": {
+      "颜色": [],
+      "规格": "50ml",
+      "特点": "核心神奇活性精萃，急救修复，抗老紧致"
+    },
+    "description": "蕴含品牌灵魂成分Miracle Broth™，深层修护受损肌肤屏障，焕活胶原新生。丝绒般丰润质地，密集滋养，敷后肌肤如丝缎般平滑透亮，适合熟龄肌或特殊护理。",
+    "id": "prod_0320",
+    "image_url": "https://picsum.photos/seed/prod_0320/400/400",
+    "rating": 4.4,
+    "stock": 472,
+    "sales_count": 2851
+  },
+  {
+    "name": "玻尿酸补水保湿面膜",
+    "category": "美妆个护",
+    "subcategory": "面膜",
+    "price": 129.0,
+    "brand": "Dr.Jart+",
+    "attributes": {
+      "颜色": [],
+      "规格": "5片/盒",
+      "特点": "三重玻尿酸，深层补水，急救舒缓"
+    },
+    "description": "富含低、中、高三种分子量的玻尿酸，层层渗透保湿。面膜纸采用超细纤维材质，贴合度高。特别添加积雪草提取物，舒缓泛红肌肤，适合干燥缺水和敏感时期使用。",
+    "id": "prod_0321",
+    "image_url": "https://picsum.photos/seed/prod_0321/400/400",
+    "rating": 4.2,
+    "stock": 164,
+    "sales_count": 6653
+  },
+  {
+    "name": "哑光丝绒口红",
+    "category": "美妆个护",
+    "subcategory": "口红",
+    "price": 280.0,
+    "brand": "MAC",
+    "attributes": {
+      "颜色": [
+        "#Devoted to Chili",
+        "#Marrakesh",
+        "#Ruby Woo"
+      ],
+      "规格": "3g",
+      "特点": "哑光质地，持久显色，不拔干"
+    },
+    "description": "经典子弹头设计，丝绒哑光妆效。富含维生素E与可可脂，上唇顺滑，遮盖力强，持色长达8小时。三款热门色号涵盖红棕、砖红与正红，满足不同场合需求。",
+    "id": "prod_0322",
+    "image_url": "https://picsum.photos/seed/prod_0322/400/400",
+    "rating": 4.1,
+    "stock": 10,
+    "sales_count": 4978
+  },
+  {
+    "name": "控油去屑洗发水",
+    "category": "美妆个护",
+    "subcategory": "洗发水",
+    "price": 69.0,
+    "brand": "Head & Shoulders",
+    "attributes": {
+      "颜色": [],
+      "规格": "400ml",
+      "特点": "去屑控油，清凉薄荷，持久清爽"
+    },
+    "description": "含1%吡硫翁锌活性成分，有效抑制马拉色菌，减少头屑产生。搭配薄荷醇与柠檬精华，洗后头皮清凉舒爽，控油效果显著，适合油性头皮和头屑困扰人群。",
+    "id": "prod_0323",
+    "image_url": "https://picsum.photos/seed/prod_0323/400/400",
+    "rating": 3.6,
+    "stock": 230,
+    "sales_count": 9502
+  },
+  {
+    "name": "燕麦牛奶润肤沐浴露",
+    "category": "美妆个护",
+    "subcategory": "沐浴露",
+    "price": 45.0,
+    "brand": "Aveeno",
+    "attributes": {
+      "颜色": [],
+      "规格": "532ml",
+      "特点": "天然燕麦，舒缓保湿，低敏无皂"
+    },
+    "description": "富含天然胶体燕麦粉，能有效舒缓干燥、瘙痒肌肤。无皂基配方，pH平衡，冲洗后肌肤柔滑不紧绷。温和低敏，适合全家使用，包括敏感肌和湿疹倾向肌肤。",
+    "id": "prod_0324",
+    "image_url": "https://picsum.photos/seed/prod_0324/400/400",
+    "rating": 4.2,
+    "stock": 174,
+    "sales_count": 7618
+  },
+  {
+    "name": "高保湿护手霜",
+    "category": "美妆个护",
+    "subcategory": "护手霜",
+    "price": 55.0,
+    "brand": "L'Occitane",
+    "attributes": {
+      "颜色": [],
+      "规格": "75ml",
+      "特点": "20%乳木果油，深层滋养，持久保湿"
+    },
+    "description": "经典乳木果配方，质地丰润易吸收，能快速修护干燥、粗糙的手部肌肤。含蜂蜜、杏仁油及椰子精华，强化肌肤屏障，长效锁水。适合日常频繁洗手或冬季防裂。",
+    "id": "prod_0325",
+    "image_url": "https://picsum.photos/seed/prod_0325/400/400",
+    "rating": 3.9,
+    "stock": 355,
+    "sales_count": 3501
+  },
+  {
+    "name": "清爽防晒乳SPF50+ PA++++",
+    "category": "美妆个护",
+    "subcategory": "防晒霜",
+    "price": 189.0,
+    "brand": "Shiseido",
+    "attributes": {
+      "颜色": [],
+      "规格": "60ml",
+      "特点": "物化结合，防水耐汗，清爽不油腻"
+    },
+    "description": "独家WetForce技术，遇水后防护力更强。氧化锌+化学防晒剂复配，广谱防护UVA/UVB。乳液质地轻薄，成膜迅速，不泛白不搓泥，适合日常通勤及户外活动。",
+    "id": "prod_0326",
+    "image_url": "https://picsum.photos/seed/prod_0326/400/400",
+    "rating": 4.0,
+    "stock": 416,
+    "sales_count": 2780
+  },
+  {
+    "name": "花悦绽放淡香水",
+    "category": "美妆个护",
+    "subcategory": "香水",
+    "price": 780.0,
+    "brand": "Gucci",
+    "attributes": {
+      "颜色": [],
+      "规格": "50ml",
+      "特点": "花香调，持久留香，优雅高级"
+    },
+    "description": "以晚香玉、茉莉花与使君子为主调，交织馥郁白花香气。基底为檀木与麝香，增添温暖质感。喷上后仿佛置身花园，留香可达6-8小时，适合约会及正式场合。",
+    "id": "prod_0327",
+    "image_url": "https://picsum.photos/seed/prod_0327/400/400",
+    "rating": 4.3,
+    "stock": 155,
+    "sales_count": 8445
+  },
+  {
+    "name": "积雪草修护舒缓面膜",
+    "category": "美妆个护",
+    "subcategory": "面膜",
+    "price": 99.0,
+    "brand": "Mediheal",
+    "attributes": {
+      "颜色": [],
+      "规格": "10片/盒",
+      "特点": "茶树叶+积雪草，舒缓镇定，淡化痘印"
+    },
+    "description": "富含积雪草提取物与茶树精油，能快速缓解泛红、痘痘肌。天丝面膜纸轻薄透气，精华液充足。长期使用可改善痘印和肌肤屏障，适合油痘肌及敏感时期急救。",
+    "id": "prod_0328",
+    "image_url": "https://picsum.photos/seed/prod_0328/400/400",
+    "rating": 4.3,
+    "stock": 327,
+    "sales_count": 5491
+  },
+  {
+    "name": "丝绒哑光口红",
+    "category": "美妆个护",
+    "subcategory": "口红",
+    "price": 168.0,
+    "brand": "MAC",
+    "attributes": {
+      "颜色": [
+        "#646砖红"
+      ],
+      "规格": "3g",
+      "特点": "哑光质地，持久不沾杯"
+    },
+    "description": "经典砖红色，黄皮显白利器。丝绒哑光质感，上嘴顺滑不拔干，持久度优秀，日常通勤或重要场合都能轻松驾驭。",
+    "id": "prod_0329",
+    "image_url": "https://picsum.photos/seed/prod_0329/400/400",
+    "rating": 3.2,
+    "stock": 497,
+    "sales_count": 3848
+  },
+  {
+    "name": "氨基酸修护洗发水",
+    "category": "美妆个护",
+    "subcategory": "洗发水",
+    "price": 128.0,
+    "brand": "科颜氏",
+    "attributes": {
+      "颜色": [
+        "透明"
+      ],
+      "规格": "500ml",
+      "特点": "氨基酸配方，温和清洁"
+    },
+    "description": "氨基酸表面活性剂，pH值接近头皮环境，温和清除多余油脂，搭配椰子油精华，修护受损毛鳞片，洗后头发蓬松柔顺不假滑。",
+    "id": "prod_0330",
+    "image_url": "https://picsum.photos/seed/prod_0330/400/400",
+    "rating": 4.3,
+    "stock": 125,
+    "sales_count": 3262
+  },
+  {
+    "name": "樱花香氛沐浴露",
+    "category": "美妆个护",
+    "subcategory": "沐浴露",
+    "price": 59.0,
+    "brand": "力士",
+    "attributes": {
+      "颜色": [
+        "粉色"
+      ],
+      "规格": "400ml",
+      "特点": "留香持久，泡沫丰富"
+    },
+    "description": "蕴含樱花精萃与蜂蜜滋润因子，泡沫如云朵般绵密，洁净肌肤的同时散发甜美花香，洗完肤感嫩滑，余香萦绕一整天。",
+    "id": "prod_0331",
+    "image_url": "https://picsum.photos/seed/prod_0331/400/400",
+    "rating": 3.3,
+    "stock": 33,
+    "sales_count": 4011
+  },
+  {
+    "name": "烟酰胺美白护手霜",
+    "category": "美妆个护",
+    "subcategory": "护手霜",
+    "price": 39.0,
+    "brand": "欧舒丹",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "75ml",
+      "特点": "清爽不油腻，提亮肤色"
+    },
+    "description": "添加烟酰胺与乳木果油，改善手部暗沉粗糙，质地轻盈易吸收，指尖瞬间柔滑。滋润度恰到好处，敲键盘、玩手机后使用无粘腻感。",
+    "id": "prod_0332",
+    "image_url": "https://picsum.photos/seed/prod_0332/400/400",
+    "rating": 5.0,
+    "stock": 322,
+    "sales_count": 1193
+  },
+  {
+    "name": "清爽防水防晒霜",
+    "category": "美妆个护",
+    "subcategory": "防晒霜",
+    "price": 199.0,
+    "brand": "安热沙",
+    "attributes": {
+      "颜色": [
+        "白色"
+      ],
+      "规格": "60ml",
+      "特点": "SPF50+ PA++++，遇水更强"
+    },
+    "description": "经典小金瓶升级版，采用水能防晒技术，遇水汗后防晒膜更均匀。乳液质地清爽不泛白，户外暴晒、海边度假必备，有效防黑防老。",
+    "id": "prod_0333",
+    "image_url": "https://picsum.photos/seed/prod_0333/400/400",
+    "rating": 3.9,
+    "stock": 463,
+    "sales_count": 9431
+  },
+  {
+    "name": "清新海洋淡香水",
+    "category": "美妆个护",
+    "subcategory": "香水",
+    "price": 520.0,
+    "brand": "Kenzo",
+    "attributes": {
+      "颜色": [
+        "蓝色"
+      ],
+      "规格": "50ml",
+      "特点": "水生调，清新持久"
+    },
+    "description": "前调是清爽的柑橘与海盐，中调茉莉与睡莲交织，尾调雪松与琥珀温暖收尾。宛如漫步海边，男女皆宜，日常约会或办公室使用倍添格调。",
+    "id": "prod_0334",
+    "image_url": "https://picsum.photos/seed/prod_0334/400/400",
+    "rating": 3.4,
+    "stock": 366,
+    "sales_count": 6291
+  },
+  {
+    "name": "玻尿酸高保湿面霜",
+    "category": "美妆个护",
+    "subcategory": "面膜",
+    "price": 269.0,
+    "brand": "倩碧",
+    "attributes": {
+      "颜色": [
+        "无色"
+      ],
+      "规格": "50ml",
+      "特点": "72小时长效保湿，水磁场"
+    },
+    "description": "啫喱质地一抹化水，蕴含玻尿酸与芦荟精华，深层锁水舒缓泛红。可作为睡眠面膜厚敷，次日肌肤饱满透亮，适合所有肤质尤其是干性肌肤。",
+    "id": "prod_0335",
+    "image_url": "https://picsum.photos/seed/prod_0335/400/400",
+    "rating": 4.0,
+    "stock": 134,
+    "sales_count": 2417
+  },
+  {
+    "name": "温和净润氨基酸洗面奶",
+    "category": "美妆个护",
+    "subcategory": "洗面奶",
+    "price": 89.0,
+    "brand": "芙丽芳丝",
+    "attributes": {
+      "颜色": [
+        "无"
+      ],
+      "规格": "120g",
+      "特点": "氨基酸配方，温和清洁，适合敏感肌"
+    },
+    "description": "采用氨基酸表面活性剂，温和带走面部油脂与污垢，不伤皮脂膜。泡沫绵密细腻，洗后不紧绷不假滑，敏感肌与痘痘肌均可安心使用，打造水润清透的洁面体验。",
+    "id": "prod_0336",
+    "image_url": "https://picsum.photos/seed/prod_0336/400/400",
+    "rating": 4.3,
+    "stock": 12,
+    "sales_count": 1746
+  },
+  {
+    "name": "玻尿酸水光补水睡眠面膜",
+    "category": "美妆个护",
+    "subcategory": "面膜",
+    "price": 128.0,
+    "brand": "兰芝",
+    "attributes": {
+      "颜色": [
+        "无"
+      ],
+      "规格": "70ml",
+      "特点": "免洗，夜间修护，深层补水"
+    },
+    "description": "富含玻尿酸与锁水成分，夜间薄涂一层即可形成保湿膜，持续释放水分。次日清晨肌肤水润饱满，改善干燥粗糙，提亮肤色。适合所有肤质，尤其推荐干皮和熬夜肌使用。",
+    "id": "prod_0337",
+    "image_url": "https://picsum.photos/seed/prod_0337/400/400",
+    "rating": 4.6,
+    "stock": 122,
+    "sales_count": 2881
+  },
+  {
+    "name": "持色丝绒哑光口红",
+    "category": "美妆个护",
+    "subcategory": "口红",
+    "price": 268.0,
+    "brand": "MAC",
+    "attributes": {
+      "颜色": [
+        "复古红棕",
+        "豆沙粉"
+      ],
+      "规格": "3g",
+      "特点": "哑光质地，高显色，不易掉色"
+    },
+    "description": "经典子弹头口红，丝绒哑光妆效，一抹上色饱和持久。复古红棕气场全开，豆沙粉温柔日常。含滋润成分，哑而不干，轻松打造高级唇妆，全天不脱妆。",
+    "id": "prod_0338",
+    "image_url": "https://picsum.photos/seed/prod_0338/400/400",
+    "rating": 4.6,
+    "stock": 366,
+    "sales_count": 8486
+  },
+  {
+    "name": "水润持妆粉底液",
+    "category": "美妆个护",
+    "subcategory": "粉底液",
+    "price": 399.0,
+    "brand": "雅诗兰黛",
+    "attributes": {
+      "颜色": [
+        "1W1象牙白",
+        "2W1自然色"
+      ],
+      "规格": "30ml",
+      "特点": "控油持妆，遮瑕自然"
+    },
+    "description": "DW粉底液升级版，微米级粉质贴合肌肤。中高遮瑕力可隐匿毛孔与瑕疵，控油不拔干，持妆一整天不暗沉。双色可选，满足不同肤色需求，打造哑光无瑕底妆。",
+    "id": "prod_0339",
+    "image_url": "https://picsum.photos/seed/prod_0339/400/400",
+    "rating": 3.9,
+    "stock": 295,
+    "sales_count": 4082
+  },
+  {
+    "name": "控油蓬松无硅油洗发水",
+    "category": "美妆个护",
+    "subcategory": "洗发水",
+    "price": 79.0,
+    "brand": "海飞丝",
+    "attributes": {
+      "颜色": [
+        "无"
+      ],
+      "规格": "500ml",
+      "特点": "无硅油，控油清爽，去屑止痒"
+    },
+    "description": "无硅油配方，减少头皮负担，从根源平衡油脂分泌。含锌去屑因子有效抑制头屑，薄荷精华带来清凉感，洗后发根蓬松轻盈，发丝顺滑不易出油，适合油性头皮。",
+    "id": "prod_0340",
+    "image_url": "https://picsum.photos/seed/prod_0340/400/400",
+    "rating": 4.8,
+    "stock": 72,
+    "sales_count": 7478
+  },
+  {
+    "name": "牛奶丝滑嫩肤沐浴露",
+    "category": "美妆个护",
+    "subcategory": "沐浴露",
+    "price": 49.0,
+    "brand": "多芬",
+    "attributes": {
+      "颜色": [
+        "无"
+      ],
+      "规格": "720g",
+      "特点": "氨基酸配方，滋润保湿"
+    },
+    "description": "添加天然牛奶蛋白与氨基酸，泡沫丰富易冲洗，洗后肌肤水润不假滑。温和pH值适合每日使用，锁住肌肤水分，改善干燥起皮，散发淡淡奶香，全家适用。",
+    "id": "prod_0341",
+    "image_url": "https://picsum.photos/seed/prod_0341/400/400",
+    "rating": 3.3,
+    "stock": 247,
+    "sales_count": 8702
+  },
+  {
+    "name": "烟酰胺亮肤护手霜",
+    "category": "美妆个护",
+    "subcategory": "护手霜",
+    "price": 35.0,
+    "brand": "欧舒丹",
+    "attributes": {
+      "颜色": [
+        "无"
+      ],
+      "规格": "30ml",
+      "特点": "烟酰胺提亮，质地清爽"
+    },
+    "description": "富含烟酰胺与乳木果油，修护手部干燥同时提亮肤色，改善关节暗沉。质地轻盈好吸收，不黏腻，自带淡雅花香。日常办公、出行随时涂抹，双手柔嫩亮泽。",
+    "id": "prod_0342",
+    "image_url": "https://picsum.photos/seed/prod_0342/400/400",
+    "rating": 5.0,
+    "stock": 314,
+    "sales_count": 5198
+  },
+  {
+    "name": "轻薄水感防晒霜SPF50+",
+    "category": "美妆个护",
+    "subcategory": "防晒霜",
+    "price": 159.0,
+    "brand": "安热沙",
+    "attributes": {
+      "颜色": [
+        "无"
+      ],
+      "规格": "60ml",
+      "特点": "水感质地，防水防汗"
+    },
+    "description": "小金瓶升级版，水润乳液质地，轻透不泛白。SPF50+ PA++++高倍防护，防水耐汗长达80分钟。含透明质酸保湿成分，防晒同时养肤，适合日常通勤及户外活动。",
+    "id": "prod_0343",
+    "image_url": "https://picsum.photos/seed/prod_0343/400/400",
+    "rating": 4.9,
+    "stock": 466,
+    "sales_count": 7251
+  },
+  {
+    "name": "晨曦清柚果香淡香水",
+    "category": "美妆个护",
+    "subcategory": "香水",
+    "price": 520.0,
+    "brand": "祖玛珑",
+    "attributes": {
+      "颜色": [
+        "无"
+      ],
+      "规格": "30ml",
+      "特点": "清新果香，留香持久"
+    },
+    "description": "前调是清新鲜柚与柑橘，中调融合茉莉与薄荷，后调以雪松和麝香收尾。清新活力，适合春夏日常。留香约4-6小时，小瓶便携，轻松享受英伦田园气息。",
+    "id": "prod_0344",
+    "image_url": "https://picsum.photos/seed/prod_0344/400/400",
+    "rating": 4.2,
+    "stock": 378,
+    "sales_count": 8270
+  },
+  {
+    "name": "哑光柔雾持妆粉底液",
+    "category": "美妆个护",
+    "subcategory": "粉底液",
+    "price": 325.0,
+    "brand": "阿玛尼",
+    "attributes": {
+      "颜色": [
+        "#02象牙白",
+        "#04自然色"
+      ],
+      "规格": "30ml",
+      "特点": "丝绒柔雾，超长持妆"
+    },
+    "description": "权力粉底液，采用超微研粉科技，如第二层肌肤般服帖。中高遮瑕力可覆盖痘印红血丝，控油同时不卡粉，带妆12小时依然细腻。微哑光妆效，打造高级丝绒底妆。",
+    "id": "prod_0345",
+    "image_url": "https://picsum.photos/seed/prod_0345/400/400",
+    "rating": 3.9,
+    "stock": 474,
+    "sales_count": 8976
+  },
+  {
+    "name": "芙丽芳丝净润洗面霜",
+    "category": "美妆个护",
+    "subcategory": "洗面奶",
+    "price": 150.0,
+    "brand": "芙丽芳丝",
+    "attributes": {
+      "颜色": [],
+      "规格": "100g",
+      "特点": "氨基酸温和洁面"
+    },
+    "description": "弱酸性氨基酸配方，温和清洁不紧绷，适合敏感肌。泡沫细腻丰富，洗后水润光滑。添加植物精华，养护皮脂膜，改善肌底状态。",
+    "id": "prod_0346",
+    "image_url": "https://picsum.photos/seed/prod_0346/400/400",
+    "rating": 3.9,
+    "stock": 91,
+    "sales_count": 7777
+  },
+  {
+    "name": "薇诺娜舒敏保湿面膜",
+    "category": "美妆个护",
+    "subcategory": "面膜",
+    "price": 128.0,
+    "brand": "薇诺娜",
+    "attributes": {
+      "颜色": [],
+      "规格": "25ml×5片",
+      "特点": "舒缓敏感"
+    },
+    "description": "专为敏感肌设计，含马齿苋提取物和青刺果精华，快速缓解泛红干痒。温和补水，修护皮肤屏障，长期使用改善肌肤耐受性，换季必备。",
+    "id": "prod_0347",
+    "image_url": "https://picsum.photos/seed/prod_0347/400/400",
+    "rating": 3.9,
+    "stock": 394,
+    "sales_count": 4050
+  },
+  {
+    "name": "兰蔻菁纯口红#196",
+    "category": "美妆个护",
+    "subcategory": "口红",
+    "price": 285.0,
+    "brand": "兰蔻",
+    "attributes": {
+      "颜色": [
+        "朱砂红"
+      ],
+      "规格": "3.4g",
+      "特点": "高定哑光"
+    },
+    "description": "经典胡萝卜色，丝绒哑光质地，上唇显白不拔干。蕴含玫瑰精油与芒果脂，顺滑易涂，持久不脱色。适合日常通勤或重要场合，气场全开。",
+    "id": "prod_0348",
+    "image_url": "https://picsum.photos/seed/prod_0348/400/400",
+    "rating": 4.7,
+    "stock": 151,
+    "sales_count": 8540
+  },
+  {
+    "name": "卡诗玻尿酸水光发膜洗发水",
+    "category": "美妆个护",
+    "subcategory": "洗发水",
+    "price": 380.0,
+    "brand": "卡诗",
+    "attributes": {
+      "颜色": [],
+      "规格": "250ml",
+      "特点": "玻尿酸补水"
+    },
+    "description": "含透明质酸与雪绒花精华，深层补水修护，改善干枯毛躁。丰富泡沫温和清洁，秀发柔顺有光泽。适合干性及受损发质，重现水光感。",
+    "id": "prod_0349",
+    "image_url": "https://picsum.photos/seed/prod_0349/400/400",
+    "rating": 4.0,
+    "stock": 132,
+    "sales_count": 4499
+  },
+  {
+    "name": "祖玛珑蓝风铃香水",
+    "category": "美妆个护",
+    "subcategory": "香水",
+    "price": 600.0,
+    "brand": "祖玛珑",
+    "attributes": {
+      "颜色": [],
+      "规格": "30ml",
+      "特点": "清新花果香"
+    },
+    "description": "经典蓝风铃香气，前调蓝风铃，中调柿子，后调白麝香。清新甜美，如置身夏日森林。淡香适合作息，留香约4-6小时，日常约会首选。",
+    "id": "prod_0350",
+    "image_url": "https://picsum.photos/seed/prod_0350/400/400",
+    "rating": 3.9,
+    "stock": 375,
+    "sales_count": 4681
+  }
+]
