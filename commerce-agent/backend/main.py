@@ -1,4 +1,4 @@
-﻿"""Commerce Agent - FastAPI Backend（含前端页面）"""
+"""Commerce Agent - FastAPI Backend（含前端页面）"""
 import traceback
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
@@ -47,11 +47,19 @@ async def chat_endpoint(req: ChatRequest):
 
 
 @app.get("/api/health")
+
+@app.get("/api/products")
+async def list_products(category: str = "", limit: int = 100):
+    """列出所有商品，支持按品类过滤"""
+    products = list(hybrid_retriever.products.values())
+    if category:
+        products = [p for p in products if p.get("category") == category]
+    return products[:limit]
 async def health():
     return {"status": "ok", "products": vector_store.count()}
 
 
-@app.get("/api/products/{product_id}")
+@app.get("/api/products/id/{product_id}")
 async def get_product(product_id: str):
     product = hybrid_retriever.get_by_id(product_id)
     if not product:
