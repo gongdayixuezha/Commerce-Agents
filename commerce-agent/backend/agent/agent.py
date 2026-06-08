@@ -47,11 +47,15 @@ async def chat(message: str, chat_history: list = None) -> str:
             role = h.get("role", "user")
             content = h.get("content", "")
             if role == "user":
-                messages.append(HumanMessage(content=content))
+                if content: messages.append(HumanMessage(content=str(content)))
             elif role == "assistant":
-                messages.append(AIMessage(content=content))
+                if content: messages.append(AIMessage(content=str(content)))
 
-    messages.append(HumanMessage(content=message))
+        # Sanitize: ensure all messages have string content (DeepSeek doesn't support image_url)
+    messages.append(HumanMessage(content=str(message)))
+    # Limit history to prevent context overflow
+    if len(messages) > 20:
+        messages = messages[-20:]
 
     try:
         result = await agent.ainvoke({"messages": messages})

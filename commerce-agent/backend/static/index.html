@@ -56,7 +56,7 @@ a{color:var(--primary);text-decoration:underline}
 .product-card{background:var(--surface);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);transition:.2s;cursor:pointer}
 .product-card:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.12)}
 
-.cat-img{width:100%;height:180px;display:flex;align-items:center;justify-content:center;font-size:56px;color:#fff}
+.cat-img{width:100%;height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;position:relative;overflow:hidden}.cat-img .emoji{font-size:42px;margin-bottom:4px}.cat-img .pname{font-size:12px;font-weight:600;text-align:center;padding:0 8px;line-height:1.3;max-height:34px;overflow:hidden;text-shadow:0 1px 2px rgba(0,0,0,.3)}.cat-img .pprice{font-size:16px;font-weight:700;margin-top:4px;text-shadow:0 1px 2px rgba(0,0,0,.3)}
 .cat-Electronics{background:linear-gradient(135deg,#3b82f6,#1d4ed8)}
 .cat-Home{background:linear-gradient(135deg,#f59e0b,#d97706)}
 .cat-Fashion{background:linear-gradient(135deg,#ec4899,#be185d)}
@@ -64,8 +64,8 @@ a{color:var(--primary);text-decoration:underline}
 .cat-Books{background:linear-gradient(135deg,#8b5cf6,#6d28d9)}
 .cat-Sports{background:linear-gradient(135deg,#06b6d4,#0891b2)}
 .cat-Beauty{background:linear-gradient(135deg,#f43f5e,#e11d48)}
-.product-card .cat-img{font-size:48px}
-.product-modal .cat-img{width:100%;height:240px;font-size:72px;border-radius:8px;margin-bottom:12px}
+.product-card .cat-img{height:160px}.product-card .cat-img .emoji{font-size:36px}.product-card .cat-img .pname{font-size:11px}
+.product-modal .cat-img{width:100%;height:240px;border-radius:8px;margin-bottom:12px}.product-modal .cat-img .emoji{font-size:64px}
 
 .product-card img{width:100%;height:180px;object-fit:cover;background:var(--bg)}
 .product-card .info{padding:12px}
