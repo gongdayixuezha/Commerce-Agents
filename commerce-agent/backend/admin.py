@@ -109,6 +109,52 @@ async def delete_product(product_id: str):
     return {"success": True}
 
 
+
+
+# ===== ???? =====
+@router.get("/stats/charts")
+async def charts_data():
+    from collections import defaultdict
+    import json as _json
+    from pathlib import Path
+    products_file = Path(__file__).parent / "data" / "products.json"
+    if not products_file.exists():
+        return {"categories": [], "price_ranges": [], "top_brands": []}
+    with open(products_file, "r", encoding="utf-8") as f:
+        products = _json.load(f)
+
+    cats = defaultdict(lambda: {"count": 0, "total_price": 0, "total_rating": 0, "total_sales": 0, "total_stock": 0})
+    for p in products:
+        c = p.get("category", "其他")
+        cats[c]["count"] += 1
+        cats[c]["total_price"] += p.get("price", 0)
+        cats[c]["total_rating"] += p.get("rating", 0)
+        cats[c]["total_sales"] += p.get("sales_count", 0)
+        cats[c]["total_stock"] += p.get("stock", 0)
+
+    categories = []
+    for c, v in sorted(cats.items()):
+        categories.append({
+            "name": c, "count": v["count"],
+            "avg_price": round(v["total_price"] / v["count"], 2),
+            "avg_rating": round(v["total_rating"] / v["count"], 2),
+            "total_sales": v["total_sales"], "total_stock": v["total_stock"],
+        })
+
+    ranges = [("0-100", 0, 100), ("100-300", 100, 300), ("300-500", 300, 500),
+              ("500-1000", 500, 1000), ("1000-3000", 1000, 3000), ("3000+", 3000, 1e9)]
+    price_ranges = []
+    for label, lo, hi in ranges:
+        count = sum(1 for p in products if lo <= p.get("price", 0) < hi)
+        price_ranges.append({"label": label, "count": count})
+
+    brands = defaultdict(int)
+    for p in products:
+        brands[p.get("brand", "未知")] += 1
+    top_brands = sorted(brands.items(), key=lambda x: -x[1])[:10]
+
+    return {"categories": categories, "price_ranges": price_ranges,
+            "top_brands": [{"name": b, "count": c} for b, c in top_brands]}
 # ===== Langfuse Observability =====
 @router.get('/observe')
 async def observe_data():

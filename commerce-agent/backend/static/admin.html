@@ -1,37 +1,53 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN" data-theme="light">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>电商智能助手 · 管理后台</title>
 <style>
-:root{--bg:#f0f2f5;--surface:#fff;--text:#1f2937;--sub:#6b7280;--border:#e5e7eb;--primary:#2563eb;--danger:#ef4444;--success:#22c55e}
-[data-theme="dark"]{--bg:#0f172a;--surface:#1e293b;--text:#e2e8f0;--sub:#94a3b8;--border:#334155}
+:root{--bg:#f0f2f5;--surface:#fff;--text:#1f2937;--sub:#6b7280;--border:#e5e7eb;--primary:#2563eb;--primary-hover:#1d4ed8;--accent:#f59e0b;--danger:#ef4444;--success:#22c55e;--shadow:0 1px 4px rgba(0,0,0,.08)}
+[data-theme="dark"]{--bg:#0f172a;--surface:#1e293b;--text:#e2e8f0;--sub:#94a3b8;--border:#334155;--primary:#3b82f6;--primary-hover:#60a5fa;--shadow:0 1px 4px rgba(0,0,0,.3)}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
-.header{background:var(--primary);color:#fff;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
-.header h1{font-size:18px}.header a{color:#fff;text-decoration:none;font-size:13px;opacity:.8}
-.tabs{display:flex;background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px}
-.tab{padding:12px 20px;cursor:pointer;font-size:14px;color:var(--sub);border-bottom:2px solid transparent}
+.header{background:linear-gradient(135deg,var(--primary),#1d4ed8);color:#fff;padding:14px 24px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 8px rgba(37,99,235,.2)}
+.header h1{font-size:18px;font-weight:600}
+.header-actions{display:flex;align-items:center;gap:12px}
+.header a{color:#fff;text-decoration:none;font-size:13px;opacity:.8;transition:opacity .2s}
+.header a:hover{opacity:1}
+.theme-btn{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:#fff;padding:6px 12px;border-radius:6px;cursor:pointer;font-size:12px;transition:.2s}
+.theme-btn:hover{background:rgba(255,255,255,.25)}
+.tabs{display:flex;background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px;position:sticky;top:0;z-index:10}
+.tab{padding:12px 20px;cursor:pointer;font-size:14px;font-weight:500;color:var(--sub);border-bottom:2px solid transparent;transition:color .2s,border-color .2s;user-select:none}
+.tab:hover{color:var(--text)}
 .tab.active{color:var(--primary);border-bottom-color:var(--primary)}
 .content{padding:24px;max-width:1200px;margin:0 auto}
-.panel{display:none}.panel.active{display:block}
-.card{background:var(--surface);border-radius:12px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.08);margin-bottom:16px}
-.card h3{font-size:15px;margin-bottom:12px;color:var(--sub)}
+.panel{display:none;animation:fadeIn .3s ease}.panel.active{display:block}
+.card{background:var(--surface);border-radius:12px;padding:20px;box-shadow:var(--shadow);margin-bottom:16px;transition:box-shadow .2s}
+.card:hover{box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.card h3{font-size:15px;margin-bottom:12px;color:var(--sub);display:flex;align-items:center;gap:6px}
 .stats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-bottom:20px}
-.stat-card{background:var(--surface);border-radius:10px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
-.stat-card .label{font-size:12px;color:var(--sub)}.stat-card .value{font-size:28px;font-weight:700;margin-top:4px}
+.stat-card{background:var(--surface);border-radius:10px;padding:16px;box-shadow:var(--shadow);transition:transform .2s}
+.stat-card:hover{transform:translateY(-2px)}
+.stat-card .label{font-size:12px;color:var(--sub)}.stat-card .value{font-size:28px;font-weight:700;margin-top:4px;color:var(--text)}
+.chart-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.chart-box{background:var(--surface);border-radius:12px;padding:16px;box-shadow:var(--shadow)}
+.chart-box h4{font-size:13px;color:var(--sub);margin-bottom:8px}
+.chart-full{grid-column:1/-1}
 table{width:100%;border-collapse:collapse;font-size:13px}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--border)}
 th{color:var(--sub);font-weight:600;font-size:12px}tr:hover{background:var(--bg)}
 .badge{padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600}
 .badge-on{background:#dcfce7;color:#166534}.badge-off{background:#fee2e2;color:#991b1b}
-.btn{padding:6px 14px;border-radius:6px;border:none;cursor:pointer;font-size:12px;font-weight:500}
+.btn{padding:6px 14px;border-radius:6px;border:none;cursor:pointer;font-size:12px;font-weight:500;transition:.2s}
+.btn:hover{filter:brightness(1.1)}
 .btn-primary{background:var(--primary);color:#fff}.btn-danger{background:var(--danger);color:#fff}.btn-success{background:var(--success);color:#fff}
-input,select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--bg);color:var(--text)}
+input,select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--bg);color:var(--text);outline:none;transition:border-color .2s}
+input:focus{border-color:var(--primary)}
 .login-box{max-width:360px;margin:100px auto;background:var(--surface);padding:32px;border-radius:16px;box-shadow:0 4px 12px rgba(0,0,0,.1);text-align:center}
 .login-box h2{margin-bottom:20px}.login-box input{width:100%;margin-bottom:12px}.login-box button{width:100%;padding:10px}
 .search-bar{display:flex;gap:10px;margin-bottom:16px}.search-bar input{flex:1}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 </style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
 <div id="loginPage">
@@ -45,8 +61,12 @@ input,select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;f
 
 <div id="adminPage" style="display:none">
   <div class="header">
-    <h1>电商智能助手 · 管理后台</h1>
-    <div><a href="#" onclick="logout()">退出登录</a></div>
+    <h1>📊 电商智能助手 · 管理后台</h1>
+    <div class="header-actions">
+      <button class="theme-btn" onclick="toggleTheme()" id="adminThemeBtn">☾ 暗色</button>
+      <a href="/chat" target="_blank">用户端</a>
+      <a href="#" onclick="logout()">退出登录</a>
+    </div>
   </div>
   <div class="tabs">
     <div class="tab active" onclick="switchTab('overview')">系统总览</div>
@@ -55,7 +75,7 @@ input,select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;f
     <div class="tab" onclick="switchTab('products')">商品管理</div>
   </div>
   <div class="content">
-    <div class="panel active" id="panel-overview"><div id="statsArea">加载中...</div></div>
+    <div class="panel active" id="panel-overview"><div id="statsArea">加载中...</div><div class="chart-row" id="chartArea"></div></div>
     <div class="panel" id="panel-observe">
       <div class="card"><h3>Langfuse 实时追踪</h3>
         <div class="stats-grid" id="observeMetrics"><p>加载中...</p></div>
@@ -96,16 +116,21 @@ input,select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;f
 
 <script>
 var token=localStorage.getItem('ca_admin_token'),page=1
-if(token){document.getElementById('loginPage').style.display='none';document.getElementById('adminPage').style.display='block';loadStats();loadEval()}
+if(token){document.getElementById('loginPage').style.display='none';document.getElementById('adminPage').style.display='block';var st=localStorage.getItem("ca_admin_theme");if(st)document.documentElement.setAttribute("data-theme",st);if(st==="dark")document.getElementById("adminThemeBtn").textContent="☀ 亮色";loadStats();loadEval()}
 
 async function login(){
   var pwd=document.getElementById('pwd').value;
   try{var r=await fetch('/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({password:pwd})});var d=await r.json();
-    if(d.success){localStorage.setItem('ca_admin_token',d.token);document.getElementById('loginPage').style.display='none';document.getElementById('adminPage').style.display='block';loadStats();loadEval()}
+    if(d.success){localStorage.setItem('ca_admin_token',d.token);document.getElementById('loginPage').style.display='none';document.getElementById('adminPage').style.display='block';var st=localStorage.getItem("ca_admin_theme");if(st)document.documentElement.setAttribute("data-theme",st);if(st==="dark")document.getElementById("adminThemeBtn").textContent="☀ 亮色";loadStats();loadEval()}
     else{alert('密码错误')}
   }catch(e){alert('登录失败，请检查后端是否运行')}
 }
 function logout(){localStorage.removeItem('ca_admin_token');localStorage.removeItem('ca_user_role');window.location.href='/'}
+function toggleTheme(){
+  var html=document.documentElement;
+  if(html.getAttribute("data-theme")==="dark"){html.setAttribute("data-theme","light");localStorage.setItem("ca_admin_theme","light");document.getElementById("adminThemeBtn").textContent="☾ 暗色"}
+  else{html.setAttribute("data-theme","dark");localStorage.setItem("ca_admin_theme","dark");document.getElementById("adminThemeBtn").textContent="☀ 亮色"}
+}
 function switchTab(t){
   document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active')});
   document.querySelectorAll('.panel').forEach(function(x){x.classList.remove('active')});
@@ -115,8 +140,11 @@ function switchTab(t){
   if(t==='products')loadProducts();
 }
 
+var chartInstances={};
 async function loadStats(){
-  try{var r=await fetch('/api/admin/stats',{headers:{Authorization:'Bearer '+token}});var d=await r.json();
+  try{
+    var r=await fetch('/api/admin/stats',{headers:{Authorization:'Bearer '+token}});var d=await r.json();
+    var r2=await fetch('/api/admin/stats/charts',{headers:{Authorization:'Bearer '+token}});var cd=await r2.json();
     document.getElementById('statsArea').innerHTML=
       '<div class="stats-grid">'+
       '<div class="stat-card"><div class="label">商品总数</div><div class="value">'+d.product_count+'</div></div>'+
@@ -126,10 +154,43 @@ async function loadStats(){
       '<div class="stat-card"><div class="label">均价</div><div class="value">'+d.avg_price.toFixed(0)+'元</div></div>'+
       '<div class="stat-card"><div class="label">平均评分</div><div class="value">'+d.avg_rating.toFixed(1)+'</div></div>'+
       '</div>'+
-      '<div class="card"><h3>品类分布</h3><div style="display:flex;gap:8px;flex-wrap:wrap">'+
+      '<div class="card"><h3>📊 品类分布</h3><div style="display:flex;gap:8px;flex-wrap:wrap">'+
       Object.entries(d.categories).map(function(e){return '<span style="background:var(--bg);padding:4px 12px;border-radius:12px;font-size:12px">'+e[0]+': '+e[1]+'</span>'}).join('')+
       '</div></div>';
+    renderCharts(cd);
   }catch(e){}
+}
+
+function renderCharts(cd){
+  if(!cd||!cd.categories)return;
+  var cats=cd.categories,names=cats.map(function(c){return c.name}),counts=cats.map(function(c){return c.count});
+  var prices=cats.map(function(c){return c.avg_price}),sales=cats.map(function(c){return c.total_sales});
+  var ratings=cats.map(function(c){return c.avg_rating});
+  var pr=cd.price_ranges||[],prLabels=pr.map(function(p){return p.label}),prCounts=pr.map(function(p){return p.count});
+  var isDark=document.documentElement.getAttribute('data-theme')==='dark';
+  var textColor=isDark?'#94a3b8':'#6b7280',gridColor=isDark?'#334155':'#e5e7eb';
+  Object.keys(chartInstances).forEach(function(k){if(chartInstances[k]){chartInstances[k].destroy()}});
+  chartInstances={};
+  document.getElementById('chartArea').innerHTML=
+    '<div class="chart-box"><h4>📊 品类商品数</h4><canvas id="chartCats"></canvas></div>'+
+    '<div class="chart-box"><h4>💵 品类均价</h4><canvas id="chartPrices"></canvas></div>'+
+    '<div class="chart-box"><h4>📈 价格段分布</h4><canvas id="chartRanges"></canvas></div>'+
+    '<div class="chart-box"><h4>🏆 品类评分</h4><canvas id="chartRatings"></canvas></div>'+
+    '<div class="chart-box chart-full"><h4>📦 销量排行</h4><canvas id="chartSales"></canvas></div>';
+  function makeChart(id,type,labels,data,label,color){
+    var ctx=document.getElementById(id).getContext('2d');
+    chartInstances[id]=new Chart(ctx,{
+      type:type,
+      data:{labels:labels,datasets:[{label:label,data:data,backgroundColor:color||'rgba(37,99,235,.6)',borderColor:color||'rgba(37,99,235,1)',borderWidth:1}]},
+      options:{responsive:true,maintainAspectRatio:true,plugins:{legend:{labels:{color:textColor,font:{size:11}}}},scales:{x:{ticks:{color:textColor,font:{size:10}},grid:{color:gridColor}},y:{beginAtZero:true,ticks:{color:textColor,font:{size:10}},grid:{color:gridColor}}}}
+    });
+  }
+  var colors=['rgba(37,99,235,.7)','rgba(245,158,11,.7)','rgba(34,197,94,.7)','rgba(239,68,68,.7)','rgba(168,85,247,.7)','rgba(236,72,153,.7)','rgba(14,165,233,.7)'];
+  makeChart('chartCats','bar',names,counts,'商品数',colors);
+  makeChart('chartPrices','bar',names,prices,'均价(元)',colors);
+  makeChart('chartRanges','doughnut',prLabels,prCounts,'商品数',['rgba(37,99,235,.7)','rgba(245,158,11,.7)','rgba(34,197,94,.7)','rgba(239,68,68,.7)','rgba(168,85,247,.7)','rgba(236,72,153,.7)']);
+  makeChart('chartRatings','bar',names,ratings,'评分',['rgba(245,158,11,.7)']);
+  makeChart('chartSales','bar',names,sales,'销量',colors);
 }
 
 async function loadObserve(){
